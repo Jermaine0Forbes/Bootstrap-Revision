@@ -1,0 +1,202 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name="name" content="content">
+	<style>
+		*{ margin:0; padding:0;}
+		#container{ width:600px; margin:auto; margin-top:40px;}
+		#tabs{ border-top:1px solid grey;   border-bottom:1px solid grey; min-height:70px;}
+		button{color:white; background:green; border-style:none; font-size:17px; padding:3px 5px;
+		}
+		ul li{ float:left; list-style:none; display:inline; width:50px; font-size:35px;
+		font-family:arial,sans-serif; font-weight:bold;}
+		
+		li:hover{ cursor:pointer;}
+		
+		ul{ position:relative; left:0; transition: left 0.4s; height:40px; width:1000px;}
+		
+		#list{max-height:40px; }
+		#hide{width:300px; overflow:hidden; }
+		#left{ display:inline-block; width:150px;}
+		#left img{ height:40px; width:40px;}
+		#right img{ height:40px; width:40px;}
+		#right{ display:inline-block; width:150px;}
+		
+		.section{ display:none;  
+			clear:both; font-family:arial;}
+		
+		.img{ background:green; height:200px; width:220px; text-align:center; display:inline-block;
+			margin-right:25px; float:left; }
+			
+		
+		
+		.section h3{text-align:center; margin:15px 0; text-transform:capitalize;}
+		
+		.section p {width:150px; display:inline-block; border:1px solid green; float:left;}
+		
+		.active{display:block; opacity:1;}
+		
+		#fade {
+		 animation: key 0.5s forwards;
+		 -webkit-animation: key 0.5s forwards;
+		 
+		}
+		
+		@keyframes key{
+			from{display:none; opacity:0;}
+			to{display:block; opacity:1;}
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="tabs">
+			<div id="left">
+				<button><img src="img/icons/svg/next-1.svg"/></button>
+			</div>
+			<div id="hide">
+				<div id="list">
+				<ul>
+					<li>1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+				</ul>	
+				</div>
+			</div>
+			
+			
+			<div id="right">
+				<button><img src="img/icons/svg/back.svg"</button>
+			</div>
+		
+		</div>
+		<div id="content">
+			<div class="section fade">
+				<h3>This is a header 1</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 2</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 3</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 4</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 5</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 6</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 7</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 8</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 9</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div><div class="section">
+				<h3>This is a header 10</h3>
+				<div class="img"></div>
+				<p >This is text</p>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+var left = document.querySelector('#left button');
+var right = document.querySelector('#right button');
+var ul = document.getElementsByTagName('ul')[0];
+var li = document.getElementsByTagName('li');
+var sec = document.getElementsByClassName('section');
+var count = 0;
+var pos = ul.style.left||0;
+console.log(sec.length);
+function darken(){
+	for(var i  = 0; i < li.length; i++){
+	
+		li[i].style.color="black";
+	}
+	
+	 count = ( count < 0)? 0 : count;
+	 count = (count > 9)? 9: count;
+}
+
+/*function appear(number){
+	for(var x = 0 ; x < sec.length; x++){
+	  sec[x].style.display = "none";
+	  sec[x].style.opacity = 0;
+	}
+	
+	sec[number].style.display = "block";
+	sec[number].style.opacity = 1;
+
+}*/
+
+function appear(number){
+	for(var x = 0 ; x < sec.length; x++){
+	  sec[x].id = ""; 
+	  
+	}
+	 console.log(number);
+	sec[number].id = "fade";
+	
+
+}
+
+left.onclick = function(){	
+	  pos -=50;	
+	if( pos > -1000){
+	   
+	   ul.style.left = pos+"px";
+	   count++;
+	   darken();
+	   li[count].style.color = "green";
+	   appear(count);
+	}else{
+	
+		console.log("You either did something wrong or the list cannot move any further");
+		pos +=50;
+	}
+
+}
+
+right.onclick = function(){
+  pos +=50;
+  
+  if( pos  <= 0){
+   ul.style.left = pos+"px"
+   count--;
+   darken();
+   li[count].style.color ="green";
+   appear(count);
+  }else{
+	
+	console.log("You either did something wrong or the list cannot move any further");
+		pos -=50;
+  }
+
+}
+</script>
+</html>
