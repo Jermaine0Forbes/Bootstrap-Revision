@@ -6,34 +6,76 @@
 	<meta name="name" content="content">
 	<style>
 	 *{margin:0; padding:0;}
-	 #container{width:500px; margin:auto; text-align:center;}
-	 body{font-family:calibri, georgia; margin:0; padding:0;}
-	 #click{ color:white; background:black; }
-	 #exit{ color:white; background:red; height:20px; width:20px; border-radius:10px; font-weight:bold; line-height:20px;
-	  font-family:arial; position:absolute; right:5px; top:5px;
+	 
+	 div:after{
+	  content:""
+	  display:table;
+	  clear:both;
 	 }
-	 #modal{border:1px solid grey; background:white; height:200px; width:300px; margin:auto; }
-	 #head{background:#5e5353; color:white; height:50px; width:100%; margin:0; padding:5px 0; position:relative; }
-	 #message{ margin-top:10px; width:80%; margin:auto;}
-	 #pop-up{background:rgba(0,0,0,0.8); position:absolute; z-index:3; display:none; width:0%; height:100%;
-	 transition:width 1s, display 1s; -webkit-transition:width 1s, display 1s;}
-	 .on{ animation:activate 1s; animation-fill-mode:forwards;}
+	 
+	 #container{
+	 width:500px; 
+	 margin:auto; 
+	 text-align:center;
+	 }
+	 
+	 body{
+	 font-family:calibri, georgia; 
+	 margin:0; 
+	 padding:0;
+	 }
+	 
+	 #click{ color:white; background:black; padding:5px; border-style:none;  border-radius:3px; }
+	 
+	 #exit{ color:white; background:red; height:20px; width:20px; border-radius:10px; font-weight:bold; line-height:20px;
+	  font-family:arial; float:right; text-align:center; margin-top:-25px;
+	 }
+	 
+	 #modal{
+	 border:1px solid grey; background:white; min-height:100px; width:300px; margin:auto;
+	 text-align:center; 
+	 }
+	 
+	 #head{
+	 background:#5e5353; color:white; height:50px; width:100%; margin:0; margin-bottom:5px; padding:5px 0;  
+	 }
+	 
+	 #message{ 
+	 margin-top:10px; width:80%; margin:auto;
+	 }
+	 
+	 .pop-up{ position:absolute; z-index:3;  display:none; width:0; height:100%;background:rgba(0,0,0,0.8);
+	 
+	 }
+	 
+	#booty{ 
+	background:white; min-height:50px; width:275px; margin:auto;
+	}
+	
+	select{
+	display:block;
+	text-align:center;
+	}
+	 
+	 #on{ animation:activate 0.5s ease-out; animation-fill-mode:forwards;  display:block; width:100%;}
 	 @keyframes activate{
-	  to {}
-	  from { width:100%; display:block;}
+	  from {width:0; display:none;}
+	  to { width:100%; display:block;}
 	 }
 	</style>
 </head>
 <body>
 
-<div id="pop-up">
+<div class="pop-up">
+	
+	
 	<div id="modal">
 	<div id="head">
 		 <div id="head-title">
 			<h2>This is a title</h2>
 		 </div>
 		 <div id="head-exit">
-			<div id="exit"> X </div>
+			<div id="exit"> <img src="img/icons/svg/cancel.svg" /> </div>
 		 </div>
 	</div>
 	<section id="message">
@@ -50,6 +92,9 @@
 
 
 <h1> This is a modal </h1>
+<select>
+<option value="horizontal">horizontal</option>
+</select>
 <button id="click">Open</button>
 
 
@@ -66,18 +111,22 @@ var pop = qs('div#pop-up');
 
 	btn.addEventListener( "click", function(){
 
-	pop.style.width ="100%";
+	/*pop.style.width ="100%";
 	pop.style.display ="block";
-	/*
-	qs('div#pop-up').className = "on";
-	 
-
-	}
-	qs('#pop-up').onclick = function(){
-		this.className = "";
-	}
 	*/
+	
+		qs('.pop-up').id = "on";
+		 
+
+		
+		
+	
 	});
+	
+	
+	qs('.pop-up').onclick = function(){
+			this.id = "";
+		}
 }
 </script>
 </body>

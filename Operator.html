@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Operator</title>
+	<meta name="name" content="content">
+	<style>
+	*{margin:0; padding:0; }
+	
+	div{ box-sizing:border-box; clear:both; }
+	
+	body{background:#b6b3aa; font-family:arial,sans-serif}
+	
+	#container{ width:1170px; margin:auto; background:white; min-height:600px;}
+	
+	#timer{width:100%; background:#162d76; text-align:center; color:white;}
+	
+	#timer h1{font-size:44px; padding:5px 0;}
+	</style>
+</head>
+<body>
+	<div id ="container">
+		<div id="timer">
+			<h1>30</h1>
+		</div>
+		
+		<div id="equation">
+			<button>click</button>
+		</div>
+		
+		<div id="operator">
+		</div>
+	</div>
+</body>
+<script>
+	window.onload = function(){
+	 var op = document.getElementById('operator');
+	 var btn = document.getElementsByTagName('button')[0];
+	 
+	 btn.onclick = function(){
+		/*
+		var countdown  = setInterval(function(){
+			var timer = document.querySelector('#container h1');
+			var count = parseInt(timer.innerHTML);
+			count--;
+			if(count < 1){
+				clearInterval(countdown);
+				timer.innerHTML = 0;
+				count = 30;
+			}else{
+				timer.innerHTML = count;
+			
+			}
+			
+			
+			
+		},1000)
+		*/
+		var param = Math.round(Math.random()*(4 - 2)+2)
+		var operand =[];
+		var num = [];
+		var equation ="";
+		var result = "";
+		for(var i = 0; i < param; i++){
+		 var randomOperator = Math.round(Math.random()*(4 - 1)+1);
+		 
+			if(i === 0){ equation +=  num[i] = Math.round(Math.random()*( 10 - 1)+1);}		 		 		 
+			
+			 if(randomOperator === 1){
+				operand[i] = "+";
+			 }else if( randomOperator === 2){
+			 
+				operand[i] = "-";
+			 }else if( randomOperator === 3){
+				operand[i] = "*";
+			 } else{
+				operand[i] = "/";
+			 }
+			
+			equation += operand[i];
+			equation += num[i+1] = Math.round(Math.random()*( 10 - 1)+1);
+		}
+		
+		 result = Function("return"+equation);
+			
+			
+		op.innerHTML = equation+" = "+ result();
+	 }
+	}
+</script>
+</html>
