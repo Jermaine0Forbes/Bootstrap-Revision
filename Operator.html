@@ -16,6 +16,22 @@
 	#timer{width:100%; background:#162d76; text-align:center; color:white;}
 	
 	#timer h1{font-size:44px; padding:5px 0;}
+	
+	.math-box{ height:50px; width:50px; border: 4px solid black; text-align:center; line-height:50px; margin:15px 5px;
+		display:inline-block; 
+	}
+	
+	.math-box img{width:100%;}
+	
+	#equation{ font-weight:bold; font-size:2em;}
+	
+	#operator{ font-weight:bold; font-size:2em; display:none; }
+	
+	#operator .math-box:hover{ cursor:pointer;}
+	
+	#true{color:green; text-transform:uppercase;}
+	
+	#false{color:red; text-transform:uppercase;}
 	</style>
 </head>
 <body>
@@ -23,17 +39,37 @@
 		<div id="timer">
 			<h1>30</h1>
 		</div>
-		
+		<button>click</button>
 		<div id="equation">
-			<button>click</button>
+			
 		</div>
 		
 		<div id="operator">
+			<div class="math-box" id="add">
+				<img src="img/operators/add.svg"/>
+			</div>
+			
+			<div class="math-box" id="sub">
+				<img src="img/operators/sub.svg"/>
+			</div>
+			
+			<div class="math-box" id="div">
+				<img src="img/operators/div.svg"/>
+			</div>
+			
+			<div class="math-box" id="mul">
+				<img src="img/operators/multi.svg"/>
+			</div>
 		</div>
+		
+		
+		<div id="answer"></div>
+		
 	</div>
 </body>
 <script>
 	window.onload = function(){
+	 var eq = document.getElementById('equation');
 	 var op = document.getElementById('operator');
 	 var btn = document.getElementsByTagName('button')[0];
 	 
@@ -56,15 +92,26 @@
 			
 		},1000)
 		*/
-		var param = Math.round(Math.random()*(4 - 2)+2)
-		var operand =[];
-		var num = [];
-		var equation ="";
-		var result = "";
+		var param = Math.round(Math.random()*(3 - 1)+1),
+		 operand =[],
+		 num = [],
+		 equation ="",
+		 result = "",
+		 mathBox ="",
+		 div ="",
+		 skip,
+		 answer,
+		 add = document.getElementById('add'),
+		 sub = document.getElementById('sub'),
+		 divi = document.getElementById('div'),
+		 multi = document.getElementById('mul'),
+		 mathAnswer = document.getElementById('answer');
+		 mathAnswer.innerHTML = "";
+		 
 		for(var i = 0; i < param; i++){
 		 var randomOperator = Math.round(Math.random()*(4 - 1)+1);
 		 
-			if(i === 0){ equation +=  num[i] = Math.round(Math.random()*( 10 - 1)+1);}		 		 		 
+			if(i === 0){ equation +=  num[i] = Math.round(Math.random()*( 5 - 1)+1);}		 		 		 
 			
 			 if(randomOperator === 1){
 				operand[i] = "+";
@@ -78,13 +125,89 @@
 			 }
 			
 			equation += operand[i];
-			equation += num[i+1] = Math.round(Math.random()*( 10 - 1)+1);
+			equation += num[i+1] = Math.round(Math.random()*( 5 - 1)+1);
 		}
 		
-		 result = Function("return"+equation);
+		
+		skip = Math.round(Math.random()*(operand.length - 1));
+		for(var i = 0; i < num.length; i++){
+		
+		div = "<div class='math-box'>" +num[i]+"</div>";
+		 
+		 if(operand[i] && i != skip){
+			div += "<div class='math-box'>" +operand[i]+"</div>";
+		 }else if ( i === skip){
+			answer = operand[skip];
+			div += "<div class='math-box'>&nbsp;</div>";
+		 
+		 }
+			mathBox += div;
+		}
+		
+		function needDecimal(){
+			var decimalDigits;
+			result = Function("return "+equation);
+			result = result();
 			
+			decimalDigits = result - Math.floor(result);
 			
-		op.innerHTML = equation+" = "+ result();
+			if(decimalDigits > 0){
+			  result = result.toFixed(1);
+			}
+			
+			return result;
+		
+		}
+		
+		result = needDecimal();
+		 
+			
+		console.log(equation+" = "+ result);	
+		eq.innerHTML = mathBox+" = "+ result;
+		op.style.display = "block";
+		
+		add.onclick = function(){
+			if(answer === "+"){
+			  mathAnswer.innerHTML = "<span id='true'> true</span>";
+			 
+			}else{
+				mathAnswer.innerHTML = "<span id='false'> false</span>";
+			}
+		
+		}
+		
+		sub.onclick = function(){
+			if(answer === "-"){
+			  mathAnswer.innerHTML = "<span id='true'> true</span>";
+			 
+			}else{
+				mathAnswer.innerHTML = "<span id='false'> false</span>";
+			}
+		
+		}
+		
+		multi.onclick = function(){
+			if(answer === "*"){
+			  mathAnswer.innerHTML = "<span id='true'> true</span>";
+			 
+			}else{
+				mathAnswer.innerHTML = "<span id='false'> false</span>";
+			}
+		
+		}
+		
+		divi.onclick = function(){
+			if(answer === "/"){
+			  mathAnswer.innerHTML = "<span id='true'> true</span>";
+			 
+			}else{
+				mathAnswer.innerHTML = "<span id='false'> false</span>";
+			}
+		
+		}
+		
+		
+		
 	 }
 	}
 </script>
