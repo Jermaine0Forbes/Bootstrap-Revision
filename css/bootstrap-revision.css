@@ -1,0 +1,26 @@
+.container{ padding:0; width:1200px; }
+
+.container-fluid{padding:0;}
+
+:root,body{ font-size:18px; transition:font-size 400ms;}
+
+.col{width:100%; display:flex;}
+
+.no-pad{ padding:0; }
+
+.pad{padding:1em;}
+
+.pad-half.pad-4th{ padding:0.75em; }
+
+.pad-half{padding:0.5em;}
+
+.pad-3rd{ padding:0.66em; }
+
+.pad-4th{padding:0.25em;}
+
+.h1,h1{ font-size:2.6rem; }
+.h2,h2{ font-size:2.2rem; }
+.h3,h3{ font-size:1.7rem; }
+.h4,h4{ font-size:1.4rem; }
+.h5,h5{ font-size:1rem; }
+.h6,h6{ font-size:0.6rem; }
