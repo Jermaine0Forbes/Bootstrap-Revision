@@ -1,0 +1,28 @@
+{
+  "name": "boot-revise",
+  "version": "1.0.0",
+  "description": "changing some of bootstraps \u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001brevising\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D\u001b[Dcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jermaine0Forbes/Bootstrap-Revision.git"
+  },
+  "keywords": [
+    "bootstrap",
+    "css",
+    "revise"
+  ],
+  "author": "Jermaine Forbes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jermaine0Forbes/Bootstrap-Revision/issues"
+  },
+  "homepage": "https://github.com/Jermaine0Forbes/Bootstrap-Revision#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
