@@ -2,40 +2,22 @@
 	version: 0.1
 	date:	2/2/17
 */
-.container {
-  padding: 0;
-  width: 1200px; }
-
-.container-fluid {
-  padding: 0; }
-
-/* Body  */
-:root, body {
+/*======Base======*/
+/*___body___ */
+:root,
+body {
   font-size: 18px;
   transition: font-size 400ms; }
 
-html, body {
+html,
+body {
   height: 100vh; }
 
-/* inherit */
+/*___inherit___*/
 .inherit {
   height: inherit; }
 
-/* list-inline */
-.list-inline {
-  margin: 0;
-  align-content: stretch; }
-  .list-inline li {
-    padding: 0; }
-    .list-inline li a {
-      display: block; }
-
-.list-inline.spaced {
-  display: flex;
-  align-items: center;
-  justify-content: space-around; }
-
-/*  headers               */
+/*___headers___*/
 .h1, h1 {
   font-size: 2.6rem; }
 
@@ -54,10 +36,7 @@ html, body {
 .h6, h6 {
   font-size: 0.6rem; }
 
-.center {
-  margin: auto; }
-
-/* Height Columns */
+/*___height columns___*/
 .hite-1 {
   height: 10%; }
 
@@ -91,7 +70,7 @@ html, body {
 .hite {
   height: 100%; }
 
-/* Width Columns */
+/*___width columns___*/
 .with-1 {
   width: 10%; }
 
@@ -122,7 +101,10 @@ html, body {
 .with-10 {
   width: 100%; }
 
-/* Columns */
+.with {
+  width: 100%; }
+
+/*___columns___*/
 .col {
   display: flex;
   width: 100%; }
@@ -271,7 +253,7 @@ html, body {
 .col-lg-12 {
   padding: 0; }
 
-/*  padding  */
+/*___padding___*/
 .no-pad {
   padding: 0; }
 
@@ -297,5 +279,43 @@ html, body {
 .padV {
   padding-left: 0;
   padding-right: 0; }
+
+/*======Class======*/
+/*___row___*/
+.row {
+  margin: 1em 0; }
+
+/*___center___*/
+.center {
+  margin: auto; }
+
+/*___list-inline___*/
+.list-inline {
+  margin: 0;
+  align-content: stretch; }
+  .list-inline li {
+    padding: 0; }
+    .list-inline li a {
+      display: block; }
+
+.list-inline.spaced {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; }
+
+/*___container___ */
+.container {
+  padding: 0;
+  max-width: 1200px;
+  width: 100%; }
+
+.container.wide {
+  max-width: 1400px; }
+
+.container.wider {
+  max-width: 1600px; }
+
+.container-fluid {
+  padding: 0; }
 
 /*  Styling */

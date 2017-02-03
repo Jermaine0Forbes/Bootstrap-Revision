@@ -1,67 +1,70 @@
-.container{ padding:0; width:1200px; }
 
-.container-fluid{padding:0;}
-/* Body  */
+/*======Base======*/
 
-:root,body{ font-size:18px; transition:font-size 400ms;}
 
-html, body{ height: 100vh;}
+/*___body___ */
 
-/* inherit */
+:root,
+body
+{ 
+	font-size:18px; 
+	transition:font-size 400ms;
+}
 
-.inherit{
+html, 
+body
+{ 
+	height: 100vh;
+}
+
+
+/*___inherit___*/
+
+.inherit
+{
 
 	height:inherit;
 }
 
-/* list-inline */
 
-.list-inline{
-	 margin:0;
-	 align-content:stretch;
-	li{
-	  padding:0;
-	  
-	  a{
-		display:block;
-	  
-	  }
-	}
+/*___headers___*/
 
-
+.h1,h1
+{ 
+	font-size:2.6rem;
 }
 
-.list-inline.spaced{
-	display:flex;
-	align-items:center;
-	justify-content:space-around;
+.h2,h2
+{ 
+	font-size:2.2rem; 
+}
 
+.h3,h3
+{ 
+	font-size:1.7rem; 
+}
+
+.h4,h4
+{ 
+	font-size:1.4rem; 
+}
+
+.h5,h5
+{ 
+	font-size:1rem; 
+}
+
+.h6,h6
+{ 
+	font-size:0.6rem; 
 }
 
 
 
-/*  headers               */
-
-.h1,h1{ font-size:2.6rem; }
-
-.h2,h2{ font-size:2.2rem; }
-
-.h3,h3{ font-size:1.7rem; }
-
-.h4,h4{ font-size:1.4rem; }
-
-.h5,h5{ font-size:1rem; }
-
-.h6,h6{ font-size:0.6rem; }
-
-
-.center{margin:auto;}
 
 
 
-
-
-/* Height Columns */
+/*___height columns___*/
 
 @each $i in $ten {
 
@@ -70,10 +73,14 @@ html, body{ height: 100vh;}
 
 }
 
-.hite{height:100%;}
+.hite
+{
+	height:100%;
+}
 
 
-/* Width Columns */
+/*___width columns___*/
+
 
 @each $i in $ten {
 
@@ -82,8 +89,13 @@ html, body{ height: 100vh;}
 
 }
 
+.with
+{
+	width:100%
+}
 
-/* Columns */
+
+/*___columns___*/
 
 
 .col{ display:flex; width:100%;}
@@ -100,7 +112,7 @@ html, body{ height: 100vh;}
 
 }
 
-/*  padding  */
+/*___padding___*/
 
 .no-pad{ padding:0; }
 

@@ -1,0 +1,66 @@
+/*======Class======*/
+
+
+/*___row___*/
+
+.row
+{
+	margin:1em 0;
+}
+
+
+/*___center___*/
+
+.center
+{
+	margin:auto;
+}
+
+
+/*___list-inline___*/
+
+.list-inline{
+	 margin:0;
+	 align-content:stretch;
+	li{
+	  padding:0;
+	  
+	  a{
+		display:block;
+	  
+	  }
+	}
+
+
+}
+
+.list-inline.spaced{
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+
+}
+
+/*___container___ */
+
+.container
+{ 
+	padding:0; 
+	max-width:1200px; 
+	width:100%;
+}
+
+.container.wide
+{
+	max-width:1400px;
+}
+
+.container.wider
+{
+	max-width:1600px;
+}
+
+.container-fluid
+{
+	padding:0;
+}
