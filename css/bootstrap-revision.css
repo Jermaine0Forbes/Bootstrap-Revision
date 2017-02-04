@@ -36,6 +36,7 @@ body {
 .h6, h6 {
   font-size: 0.6rem; }
 
+
 /*======Class======*/
 /*___row___*/
 .row {
@@ -74,6 +75,7 @@ body {
 .container-fluid {
   padding: 0; }
 
+<<<<<<< HEAD
 /*___padding___*/
 .no-pad {
   padding: 0; }
@@ -101,6 +103,8 @@ body {
   padding-left: 0;
   padding-right: 0; }
 
+=======
+>>>>>>> ca55f7817205ff52d0a25f7f89777956674e2cd4
 /*======Fractions======*/
 .half {
   display: inline-block;
