@@ -24,7 +24,7 @@ This is a simple css file that overrides a lot of bootstrap classes and properti
 **.pad**
 ```
  {
-	pad:1em;
+	padding:1em;
  }
 
 ```
@@ -32,7 +32,7 @@ This is a simple css file that overrides a lot of bootstrap classes and properti
 **.pad-half**
 ```
  {
-	pad:0.5em;
+	padding:0.5em;
  }
 
 ```
