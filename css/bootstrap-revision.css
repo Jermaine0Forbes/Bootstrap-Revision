@@ -1,6 +1,6 @@
 /*
-	version: 0.1.2
-	date:	2/3/17
+	version: 0.1.3
+	date:	2/14/17
 */
 /*======Base======*/
 /*___body___ */
@@ -291,6 +291,74 @@ body {
 
 .container-fluid {
   padding: 0; }
+
+/*___nav-search___*/
+.form-input, form input, form select, #nav-search input[type="search"] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0 1em; }
+
+#nav-search input[type="search"] {
+  min-height: 34px; }
+
+#nav-search button,
+#nav-search .btn,
+#nav-search input[type="submit"] {
+  border-radius: 2px 5px 5px 2px; }
+
+.search button,
+.search .btn,
+.search input[type="submit"] {
+  position: relative;
+  top: -1px;
+  right: 15px; }
+
+.input-block {
+  display: block; }
+
+.input-block:after {
+  display: block;
+  content: "";
+  clear: both; }
+
+.input-subject {
+  text-align: right; }
+
+.required:before {
+  content: "* ";
+  color: red; }
+
+/*___error-messages___*/
+.error-messages {
+  color: red; }
+  .error-messages li {
+    list-style: none; }
+
+/*___submenu___*/
+.submenu {
+  position: relative; }
+
+.submenu:hover > ul {
+  display: block;
+  transition: all 0.3s; }
+
+.submenu > ul {
+  display: none;
+  position: absolute;
+  z-index: 5;
+  left: 0;
+  min-width: 100px;
+  width: 100%;
+  padding: 0; }
+
+.submenu > ul li {
+  background: grey;
+  list-style: none;
+  text-align: center; }
+
+.submenu > ul li a {
+  display: block;
+  padding: 0.5em; }
 
 /*___padding___*/
 .no-pad {
