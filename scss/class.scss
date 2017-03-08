@@ -41,6 +41,20 @@
 
 }
 
+.list-inline.between{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+
+}
+
+.list-inline.evenly{
+	display:flex;
+	align-items:center;
+	justify-content:space-evenly;
+
+}
+
 /*___container___ */
 
 .container
@@ -161,8 +175,6 @@ form select
   position:absolute;
   z-index:5;
   left:0;
-  min-width:100px;
-  width:100%;
   padding:0;
 }
 

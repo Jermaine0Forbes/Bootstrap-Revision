@@ -1,0 +1,59 @@
+/*======Responsive======*/
+
+@media all and (max-width:1024px){
+
+
+
+}
+
+
+@media all and (max-width:768px){
+header nav.navbar
+   {
+     width:100%;
+
+   }
+
+   header nav .list-inline a
+   {
+     text-align:center;
+     width:100%;
+     padding:0.5em;
+   }
+
+   header nav div.navbar-collapse > ul li
+   {
+     display:block;
+   }
+
+   .submenu > ul
+   {
+     display:block;
+     position:static;
+   }
+
+   .submenu > ul > li a
+   {
+     width:100%;
+   }
+
+   .submenu > ul li,
+   .submenu > ul a
+   {
+     width:100%;
+     display:block;
+   }
+
+
+
+}
+
+
+
+@media all and (max-width:512px){
+
+
+
+}
+
+
