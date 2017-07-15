@@ -331,8 +331,16 @@ h6, .h6 {
 	Class
 
 /////////////////////////////////*/
+/*=============================
+
+	.mobile-*
+
+==============================*/
 .mobile-text-center {
   text-align: initial; }
+
+.mobile-margin-center {
+  margin: initial; }
 
 /*=============================
 
@@ -964,8 +972,6 @@ h6, .h6 {
 
 /*======Responsive======*/
 @media all and (max-width: 768px) {
-  .mobile-text-center {
-    text-align: center; }
   header nav.navbar {
     width: 100%; }
   header nav .list-inline a {
@@ -988,4 +994,8 @@ h6, .h6 {
   .flex-left-mobile {
     margin: auto; }
   .flex-right-mobile {
+    margin: auto; }
+  .mobile-text-center {
+    text-align: center; }
+  .mobile-margin-center {
     margin: auto; } }

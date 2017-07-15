@@ -9,9 +9,7 @@
 
 @media all and (max-width:768px){
 	
-	.mobile-text-center{
-		text-align:center;
-	}
+	
 
 header nav.navbar
    {
@@ -62,6 +60,14 @@ header nav.navbar
 	}
 
 	.flex-right-mobile{
+		margin:auto;
+	}
+	
+	.mobile-text-center{
+		text-align:center;
+	}
+	
+	.mobile-margin-center{
 		margin:auto;
 	}
 
