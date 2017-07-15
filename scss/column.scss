@@ -5,37 +5,46 @@
 
 @each $i in $ten {
 
-	.hite-#{$i}{height: 10% * $i;}
+	.height-#{$i}{height: 10% * $i;}
 
 
 }
 
-.hite
+.height
 {
 	height:100%;
 }
 
 
-/*___width columns___*/
 
+/*___fluid columns___*/
 
 @each $i in $ten {
 
-	.with-#{$i}{width: 10% * $i;}
+	.fluid-#{$i}{width: 10% * $i;}
 
 
 }
 
-.with
+.fluid
 {
 	width:100%
 }
 
+.fluid-flex
+{
+ width:100%;
+ display:flex;
+}
 
 /*___columns___*/
 
 
-.col{ display:flex; width:100%;}
+//.col{ display:flex; width:100%;}
+
+@each $i in $col{
+  .col-#{$i} {padding:0;}
+}
 
 @for $col from 1 through 12{
 	.col-xs-#{$col}{ padding:0;}	

@@ -8,6 +8,11 @@
 
 
 @media all and (max-width:768px){
+	
+	.mobile-text-center{
+		text-align:center;
+	}
+
 header nav.navbar
    {
      width:100%;
@@ -50,8 +55,15 @@ header nav.navbar
 
 
 
-@media all and (max-width:512px){
+@media all and (max-width:576px){
 
+	.flex-left-mobile{
+		margin:auto;
+	}
+
+	.flex-right-mobile{
+		margin:auto;
+	}
 
 
 }

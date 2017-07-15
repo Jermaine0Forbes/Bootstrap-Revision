@@ -14,7 +14,7 @@ body
 html, 
 body
 { 
-	height: 100vh;
+	min-height: 100vh;
 }
 
 
@@ -60,7 +60,18 @@ body
 }
 
 
+@each $h in $htag{
+	
+	#{$h},.#{$h}{
+	
+	 transition: all 2s; 
+	 -moz-transition: all 2s; 
+	 -webkit-transition: all 2s; 
+	 -o-transition: all 2s; 
+	}
 
+
+}
 
 
 

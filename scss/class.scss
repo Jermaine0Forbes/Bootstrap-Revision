@@ -1,23 +1,80 @@
-/*======Class======*/
+/*//////////////////////////////////
 
+	Class
 
-/*___row___*/
+/////////////////////////////////*/
 
-.row
-{
-	margin:1em 0;
+.mobile-text-center{
+	text-align:initial;
 }
 
 
-/*___center___*/
+/*=============================
+
+	.flex-*
+
+==============================*/
+
+.flex-left{
+    margin-right:auto;
+}
+
+.flex-right{
+    margin-left:auto;
+}
+
+.flex-left-mobile{
+    margin-right:auto;
+}
+
+.flex-right-mobile{
+    margin-left:auto;
+}
+
+
+/*=============================
+
+	.row
+
+==============================*/
+.row
+{
+	padding:1em 0;
+	margin:0;
+}
+
+.row.column{
+	flex-direction:column;
+}
+
+.row.column-center{
+	flex-direction:column;
+	text-align:center;
+}
+
+.row.column-center > *{
+	
+	margin:auto;
+	text-align:center
+
+}
+
+/*=============================
+
+	.center
+
+==============================*/
 
 .center
 {
 	margin:auto;
 }
 
+/*=============================
 
-/*___list-inline___*/
+	.list-inline
+
+==============================*/
 
 .list-inline{
 	 margin:0;
@@ -55,13 +112,87 @@
 
 }
 
-/*___container___ */
+/*=============================
+
+	.link-inline
+
+==============================*/
+
+.link-inline{
+	display:flex;
+	margin:0;
+	padding:0;
+	li{
+		list-style:none;
+	}
+	
+	a.active,
+	a.focus, 
+	a.hover{
+	
+		text-decoration:none;
+	}
+	
+	&.around{
+		justify-content:space-around;
+	}
+	
+	&.between{
+	 justify-content:space-between;
+	}
+	
+	
+
+}
+
+
+/*=============================
+
+	.navbar-nav
+
+==============================*/
+
+.navbar-nav{
+	-webkit-flex-direction:row;
+	-ms-flex-direction:row;
+	flex-direction:row;
+}
+
+.navbar-nav.column{
+	-webkit-flex-direction:column;
+	-ms-flex-direction:column;
+	flex-direction:column;
+}
+
+.navbar-nav.around{
+	align-items:center;
+	justify-content:space-around;
+
+}
+
+.navbar-nav.between{
+	align-items:center;
+	justify-content:space-between;
+}
+
+.navbar-nav.evenly{
+	align-items:center;
+	justify-content:space-evenly;
+}
+
+/*=============================
+
+	.container
+
+==============================*/
 
 .container
 { 
 	padding:0; 
 	max-width:1200px; 
 	width:100%;
+	
+	
 }
 
 .container.wide
@@ -74,14 +205,55 @@
 	max-width:1600px;
 }
 
+.container.widest{
+		max-width:1800px;
+	
+	}
+	
+.container.slim{
+	max-width:1000px;
+}
+
+.container.slimmer{
+	max-width:800px;
+}
+
+.container.slimmest{
+	max-width:600px;
+}
+
 .container-fluid
 {
 	padding:0;
 }
 
 
-/*___nav-search___*/
 
+/*=============================
+
+	.text-*
+
+==============================*/
+
+.text-center{
+ text-align:center;
+}
+
+.text-right{
+ text-align:right;
+
+}
+
+.text-left{
+ text-align:left;
+
+}
+
+/*=============================
+
+	.nav-search
+
+==============================*/
 .form-input{
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -143,7 +315,11 @@ form select
 
 
 
-/*___error-messages___*/
+/*=============================
+
+	.error-messages
+	
+==============================*/
 
 .error-messages
 {
@@ -155,19 +331,25 @@ form select
 
 
 
-/*___submenu___*/
+/*=============================
+
+	.submenu
+	
+==============================*/
 
 .submenu
 {
   position:relative;
 }
 
-.submenu:hover > ul
+/*.submenu:hover > ul
 {
   display:block;
-  transition:all 0.3s;
+ 
 
 }
+
+*/
 
 .submenu > ul
 {
@@ -176,6 +358,7 @@ form select
   z-index:5;
   left:0;
   padding:0;
+  //transition:all 0.3s;
 }
 
 .submenu > ul  li
@@ -192,10 +375,51 @@ form select
   padding:0.5em;
 }
 
+/*=============================
 
-/*___padding___*/
+	.fluid-max-*
+	
+==============================*/
 
-.no-pad{ padding:0; }
+
+@each $i in $col{
+
+	.fluid-max-wide-#{$i}{
+		width:100%;
+		max-width: $i*117px;
+	
+	}
+
+}
+
+
+@each $i in $col{
+
+	.fluid-max-#{$i}{
+		width:100%;
+		max-width: $i*100px;
+	
+	}
+
+}
+
+@each $i in $col{
+
+	.fluid-max-slim-#{$i}{
+		width:100%;
+		max-width: $i*84px;
+	
+	}
+
+}
+
+/*=============================
+
+	padding
+
+==============================*/
+
+
 
 .pad{padding:1em;}
 
@@ -207,6 +431,56 @@ form select
 
 .pad-4th{padding:0.25em;}
 
+.pad-all{
+	 > div, > section{
+		
+		padding:1em;
+	}
+	
+	
+}
+
+
+@each $i in $pad{
+
+	.pad-#{$i}-all{
+	
+		> div, > section{
+			
+			padding: map-get($p,$i);
+		
+		}
+	
+	}
+}
+
 .padH{ padding-top:0; padding-bottom:0;}
 
 .padV{ padding-left:0; padding-right:0;}
+
+.no-pad{ padding:0; }
+
+
+/*=============================
+
+	margin
+
+==============================*/
+
+
+
+.mar{margin:1em;}
+
+.mar-3-4th{margin: 0.75em;}
+
+.mar-half{margin:0.5em;}
+
+.mar-3rd{margin:0.33em;}
+
+.mar-4th{margin:0.25em;}
+
+.marH{margin-top:0; margin-bottom:0;}
+
+.marV{margin-left:0; margin-right:0;}
+
+.no-mar{ margin:0;}
