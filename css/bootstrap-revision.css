@@ -1,6 +1,6 @@
 /*
-	version: 0.02.7
-	date:	7/14/17
+	version: 0.02.8
+	date:	7/18/17
 */
 /*======Base======*/
 /*___body___ */
@@ -333,6 +333,16 @@ h6, .h6 {
 /////////////////////////////////*/
 /*=============================
 
+	.remove-bullets
+
+==============================*/
+ul.remove-bullets {
+  padding: 0; }
+  ul.remove-bullets li {
+    list-style: none; }
+
+/*=============================
+
 	.mobile-*
 
 ==============================*/
@@ -340,6 +350,17 @@ h6, .h6 {
   text-align: initial; }
 
 .mobile-margin-center {
+  margin: initial; }
+
+/*=============================
+
+	.md-*
+
+==============================*/
+.md-text-center {
+  text-align: initial; }
+
+.md-margin-center {
   margin: initial; }
 
 /*=============================
@@ -970,7 +991,11 @@ h6, .h6 {
   .adjust .three-fourth {
     width: 100%; } }
 
-/*======Responsive======*/
+/*//////////////////////////////////
+
+	Responsive
+
+/////////////////////////////////*/
 @media all and (max-width: 768px) {
   header nav.navbar {
     width: 100%; }
@@ -988,7 +1013,11 @@ h6, .h6 {
   .submenu > ul li,
   .submenu > ul a {
     width: 100%;
-    display: block; } }
+    display: block; }
+  .md-text-center {
+    text-align: center; }
+  .md-margin-center {
+    margin: center; } }
 
 @media all and (max-width: 576px) {
   .flex-left-mobile {

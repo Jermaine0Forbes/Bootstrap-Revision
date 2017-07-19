@@ -4,6 +4,21 @@
 
 /////////////////////////////////*/
 
+/*=============================
+
+	.remove-bullets
+
+==============================*/
+
+ul.remove-bullets{
+	padding:0;
+	li{
+		list-style:none;
+	
+	}
+
+}
+
 
 /*=============================
 
@@ -18,6 +33,24 @@
 }
 
 .mobile-margin-center{
+	margin:initial;
+}
+
+
+/*=============================
+
+	.md-*
+
+==============================*/
+
+
+.md-text-center{
+	text-align:initial;
+	
+	
+}
+
+.md-margin-center{
 	margin:initial;
 }
 
