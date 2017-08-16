@@ -1,6 +1,6 @@
 /*
-	version: 0.02.8
-	date:	7/18/17
+	version: 0.03.0
+	date:	8/16/17
 */
 /*======Base======*/
 /*___body___ */
@@ -361,6 +361,17 @@ ul.remove-bullets {
   text-align: initial; }
 
 .md-margin-center {
+  margin: initial; }
+
+/*=============================
+
+	.lg-*
+
+==============================*/
+.lg-text-center {
+  text-align: initial; }
+
+.lg-margin-center {
   margin: initial; }
 
 /*=============================
@@ -825,6 +836,24 @@ ul.remove-bullets {
 .mar-4th {
   margin: 0.25em; }
 
+.pad-all > div, .pad-all > section {
+  padding: 1em; }
+
+.mar-all > div, .mar-all > section {
+  margin: 1em; }
+
+.mar-3-4th-all > div, .mar-3-4th-all > section {
+  margin: 0.75em; }
+
+.mar-half-all > div, .mar-half-all > section {
+  margin: 0.5em; }
+
+.mar-3rd-all > div, .mar-3rd-all > section {
+  margin: 0.33em; }
+
+.mar-4th-all > div, .mar-4th-all > section {
+  margin: 0.25em; }
+
 .marH {
   margin-top: 0;
   margin-bottom: 0; }
@@ -996,6 +1025,12 @@ ul.remove-bullets {
 	Responsive
 
 /////////////////////////////////*/
+@media all and (max-width: 992px) {
+  .lg-text-center {
+    text-align: center; }
+  .lg-margin-center {
+    margin: auto; } }
+
 @media all and (max-width: 768px) {
   header nav.navbar {
     width: 100%; }
@@ -1017,7 +1052,7 @@ ul.remove-bullets {
   .md-text-center {
     text-align: center; }
   .md-margin-center {
-    margin: center; } }
+    margin: auto; } }
 
 @media all and (max-width: 576px) {
   .flex-left-mobile {

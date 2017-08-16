@@ -57,6 +57,24 @@ ul.remove-bullets{
 
 /*=============================
 
+	.lg-*
+
+==============================*/
+
+
+.lg-text-center{
+	text-align:initial;
+	
+	
+}
+
+.lg-margin-center{
+	margin:initial;
+}
+
+
+/*=============================
+
 	.flex-*
 
 ==============================*/
@@ -524,6 +542,39 @@ form select
 .mar-3rd{margin:0.33em;}
 
 .mar-4th{margin:0.25em;}
+
+.pad-all{
+	 > div, > section{
+		
+		padding:1em;
+	}
+	
+	
+}
+
+
+.mar-all{
+	 > div, > section{
+		
+		margin:1em;
+	}
+	
+	
+}
+	
+@each $i in $pad{
+
+	.mar-#{$i}-all{
+	
+		> div, > section{
+			
+			margin: map-get($p,$i);
+		
+		}
+	
+	}
+}
+
 
 .marH{margin-top:0; margin-bottom:0;}
 
