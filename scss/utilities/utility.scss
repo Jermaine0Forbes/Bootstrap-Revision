@@ -1,9 +1,18 @@
 /*
-  version: 0.0.1
-  date:8/15/18
+  version: 0.0.2
+  date:8/16/18
 
 */
+$blue:#162D5A;
+$blue2:#687792;
+$blue3:#377ef9;
+$blue4:#2569e3;
 
+$header-col:$blue;
+$bg-col:$blue;
+$text-col: $blue2;
+$link-col:$blue3;
+$hover-col:$blue4;
 
 $d:("t","b", "l","r");
 $direction:( "top","bottom","left","right");
@@ -32,6 +41,54 @@ $direction:( "top","bottom","left","right");
 
 }
 
+.phone-link{
+  font-size:1.4em;
+  color:$blue;
+}
+
+.email-link{
+  font-size:1.3em;
+  color:$blue;
+}
+
+/*****************
+  BORDER
+*****************/
+.border-{
+  &top{
+    border-top:1px solid #7F8BA4;
+  }
+
+  &bottom{
+    border-bottom:1px solid #7F8BA4;
+  }
+
+
+  &left{
+    border-left:1px solid #7F8BA4;
+  }
+
+
+  &right{
+    border-left:1px solid #7F8BA4;
+  }
+
+  &color-{
+
+    &1{
+      border-color:#377ef9 ;
+    }
+    &2{
+      border-color:#2569e3 ;
+    }
+    &3{
+      border-color:#162d5a ;
+    }
+    &4{
+      border-color:rgba(255, 255, 255, 0.05);
+    }
+  }
+}
 
 /*****************
   BUTTON
@@ -98,6 +155,42 @@ a.apply-btn:hover{
   FONT
 *****************/
 
+
+.case-{
+  &capital{
+    text-transform:capitalize;
+  }
+
+  &lower{
+    text-transform:lowercase;
+  }
+
+  &upper{
+    text-transform:uppercase;
+
+  }
+}
+
+
+.color-{
+
+    &white{
+      color:white;
+    }
+
+    &blue{
+      color: #162D5A;
+    }
+
+    &blue-2{
+      color:#377ef9
+    }
+
+    &blue-3{
+      color:#2569e3
+    }
+}
+
   .text-{
     &center{
       text-align:center
@@ -113,20 +206,7 @@ a.apply-btn:hover{
   }
 
 
-  .case-{
-    &capital{
-      text-transform:capitalize;
-    }
 
-    &lower{
-      text-transform:lowercase;
-    }
-
-    &upper{
-      text-transform:uppercase;
-
-    }
-}
 
 /*****************
   HEADER
@@ -136,10 +216,25 @@ a.apply-btn:hover{
   font-size: 3.5em;
     font-weight: 600;
     letter-spacing: -1px;
+    text-transform:capitalize;
 }
 
 .contact-header{
   letter-spacing:0;
+  text-transform:capitalize;
+}
+
+
+.secondary-header{
+  letter-spacing:0;
+  font-weight:bold;
+  font-size:2em;
+  text-transform:capitalize;
+}
+
+.sub-header{
+  font-weight:bold;
+  font-size:1.5em;
 }
 
 
@@ -151,7 +246,7 @@ a.apply-btn:hover{
   PADDING
 *****************/
 
-@for $i from 1 through 10{
+@for $i from 0 through 10{
 
 
     .pad-v-#{$i}{
@@ -190,7 +285,7 @@ a.apply-btn:hover{
   margin:auto;
 }
 
-@for $x from 1 through 10{
+@for $x from 0 through 10{
   .mar-v-#{$x}{
     margin-top:(1em*$x);
     margin-bottom:(1em*$x);
@@ -217,6 +312,18 @@ a.apply-btn:hover{
     margin-right:(1em*$x);
   }
 
+}
+
+/*****************
+  MAX
+*****************/
+
+@for $max from 1 through 3{
+
+  .max-#{$max*400}{
+    max-width:$max*400px;
+    margin:auto;
+  }
 }
 
 /*****************

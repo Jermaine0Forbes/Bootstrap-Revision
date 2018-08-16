@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:8/15/18
+  version: 0.0.2
+  date:8/16/18
 
 */
 /*****************
@@ -25,6 +25,63 @@
     font-size: 1.3em; 
 
     color: #7f8ba4;
+}
+
+.phone-link
+{
+    font-size: 1.4em;
+
+    color: #162d5a;
+}
+
+.email-link
+{
+    font-size: 1.3em;
+
+    color: #162d5a;
+}
+
+/*****************
+  BORDER
+*****************/
+.border-top
+{
+    border-top: 1px solid #7f8ba4;
+}
+
+.border-bottom
+{
+    border-bottom: 1px solid #7f8ba4;
+}
+
+.border-left
+{
+    border-left: 1px solid #7f8ba4;
+}
+
+.border-right
+{
+    border-left: 1px solid #7f8ba4;
+}
+
+.border-color-1
+{
+    border-color: #377ef9;
+}
+
+.border-color-2
+{
+    border-color: #2569e3;
+}
+
+.border-color-3
+{
+    border-color: #162d5a;
+}
+
+.border-color-4
+{
+    border-color: rgba(255, 255, 255, .05);
 }
 
 /*****************
@@ -98,21 +155,6 @@ a.apply-btn:hover
 /*****************
   FONT
 *****************/
-.text-center
-{
-    text-align: center;
-}
-
-.text-right
-{
-    text-align: right;
-}
-
-.text-left
-{
-    text-align: left;
-}
-
 .case-capital
 {
     text-transform: capitalize;
@@ -128,6 +170,41 @@ a.apply-btn:hover
     text-transform: uppercase;
 }
 
+.color-white
+{
+    color: white;
+}
+
+.color-blue
+{
+    color: #162d5a;
+}
+
+.color-blue-2
+{
+    color: #377ef9;
+}
+
+.color-blue-3
+{
+    color: #2569e3;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
+}
+
 /*****************
   HEADER
 *****************/
@@ -137,16 +214,65 @@ a.apply-btn:hover
     font-weight: 600;
 
     letter-spacing: -1px;
+    text-transform: capitalize;
 }
 
 .contact-header
 {
     letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+.secondary-header
+{
+    font-size: 2em;
+    font-weight: bold;
+
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+
+.sub-header
+{
+    font-size: 1.5em; 
+    font-weight: bold;
 }
 
 /*****************
   PADDING
 *****************/
+.pad-v-0
+{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.pad-h-0
+{
+    padding-right: 0; 
+    padding-left: 0;
+}
+
+.pad-t-0
+{
+    padding-top: 0;
+}
+
+.pad-b-0
+{
+    padding-bottom: 0;
+}
+
+.pad-l-0
+{
+    padding-left: 0;
+}
+
+.pad-r-0
+{
+    padding-right: 0;
+}
+
 .pad-v-1
 {
     padding-top: 1em;
@@ -475,6 +601,38 @@ a.apply-btn:hover
     margin: auto;
 }
 
+.mar-v-0
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mar-h-0
+{
+    margin-right: 0; 
+    margin-left: 0;
+}
+
+.mar-t-0
+{
+    margin-top: 0;
+}
+
+.mar-b-0
+{
+    margin-bottom: 0;
+}
+
+.mar-l-0
+{
+    margin-left: 0;
+}
+
+.mar-r-0
+{
+    margin-right: 0;
+}
+
 .mar-v-1
 {
     margin-top: 1em;
@@ -793,6 +951,27 @@ a.apply-btn:hover
 .mar-r-10
 {
     margin-right: 10em;
+}
+
+/*****************
+  MAX
+*****************/
+.max-400
+{
+    max-width: 400px;
+    margin: auto;
+}
+
+.max-800
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+.max-1200
+{
+    max-width: 1200px;
+    margin: auto;
 }
 
 /*****************
