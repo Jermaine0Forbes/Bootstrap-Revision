@@ -1,12 +1,14 @@
 /*
-  version: 0.0.2
-  date:8/16/18
+  version: 0.0.3
+  date:8/20/18
 
 */
-$blue:#162D5A;
+
+$blue:#162850;
 $blue2:#687792;
 $blue3:#377ef9;
 $blue4:#2569e3;
+$blue5:#7F8BA4;
 
 $header-col:$blue;
 $bg-col:$blue;
@@ -34,7 +36,7 @@ $direction:( "top","bottom","left","right");
   }
 
   li{
-    color:#7F8BA4;
+    color:$blue5;
     font-size:1.3em;
   }
 
@@ -56,33 +58,33 @@ $direction:( "top","bottom","left","right");
 *****************/
 .border-{
   &top{
-    border-top:1px solid #7F8BA4;
+    border-top:1px solid $blue5;
   }
 
   &bottom{
-    border-bottom:1px solid #7F8BA4;
+    border-bottom:1px solid $blue5;
   }
 
 
   &left{
-    border-left:1px solid #7F8BA4;
+    border-left:1px solid $blue5;
   }
 
 
   &right{
-    border-left:1px solid #7F8BA4;
+    border-left:1px solid $blue5;
   }
 
   &color-{
 
     &1{
-      border-color:#377ef9 ;
+      border-color:$blue3;
     }
     &2{
-      border-color:#2569e3 ;
+      border-color:$blue4;
     }
     &3{
-      border-color:#162d5a ;
+      border-color:$blue;
     }
     &4{
       border-color:rgba(255, 255, 255, 0.05);
@@ -96,7 +98,7 @@ $direction:( "top","bottom","left","right");
 
 .apply-btn{
     color:white;
-    background:#377ef9;
+    background:$blue3;
     padding:0.75em 1.5em;
     text-transform:capitalize;
     font-size:1.5em;
@@ -106,7 +108,7 @@ $direction:( "top","bottom","left","right");
 
 a.apply-btn:hover{
     color:white !important;
-    background:#2569e3;
+    background:$blue4;
 }
 
 /*****************
@@ -179,15 +181,15 @@ a.apply-btn:hover{
     }
 
     &blue{
-      color: #162D5A;
+      color: $blue;
     }
 
     &blue-2{
-      color:#377ef9
+      color:$blue3;
     }
 
     &blue-3{
-      color:#2569e3
+      color:$blue4;
     }
 }
 

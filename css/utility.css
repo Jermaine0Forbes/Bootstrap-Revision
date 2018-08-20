@@ -1,6 +1,6 @@
 /*
-  version: 0.0.2
-  date:8/16/18
+  version: 0.0.3
+  date:8/20/18
 
 */
 /*****************
@@ -31,14 +31,14 @@
 {
     font-size: 1.4em;
 
-    color: #162d5a;
+    color: #162850;
 }
 
 .email-link
 {
     font-size: 1.3em;
 
-    color: #162d5a;
+    color: #162850;
 }
 
 /*****************
@@ -76,7 +76,7 @@
 
 .border-color-3
 {
-    border-color: #162d5a;
+    border-color: #162850;
 }
 
 .border-color-4
@@ -177,7 +177,7 @@ a.apply-btn:hover
 
 .color-blue
 {
-    color: #162d5a;
+    color: #162850;
 }
 
 .color-blue-2
