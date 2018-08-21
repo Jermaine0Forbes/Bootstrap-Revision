@@ -1,0 +1,44 @@
+/*****************
+  FLEX
+*****************/
+
+.align-{
+
+  &top{
+    align-items:flex-start;
+  }
+
+  &bottom{
+    align-items:flex-end;
+  }
+  &center{
+    align-items:center;
+  }
+}
+
+.center-all{
+  justify-content: center;
+  align-items: center;
+}
+
+.flex{
+    display:flex;
+}
+
+.justify-{
+  &between{
+    justify-content:space-between;
+  }
+  &around{
+    justify-content:space-around; 
+  }
+  &center{
+    justify-content: center;
+  }
+  &end{
+    justify-content: flex-end;
+  }
+  &start{
+    justify-content: flex-start;
+  }
+}

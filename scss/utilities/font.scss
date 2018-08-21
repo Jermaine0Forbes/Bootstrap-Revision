@@ -1,0 +1,72 @@
+/*****************
+  FONT
+*****************/
+
+
+.case-{
+  &capital{
+    text-transform:capitalize;
+  }
+
+  &lower{
+    text-transform:lowercase;
+  }
+
+  &upper{
+    text-transform:uppercase;
+
+  }
+}
+
+
+.color-{
+
+    &white{
+      color:white;
+    }
+
+    &blue{
+      color: $blue6;
+    }
+
+    &blue-2{
+      color:$blue3;
+    }
+
+    &blue-3{
+      color:$blue4;
+    }
+}
+
+  .text-{
+    &center{
+      text-align:center
+    }
+
+    &right{
+      text-align:right;
+    }
+
+    &left{
+      text-align:left;
+    }
+  }
+
+@for $s from 1 through length($size-num){
+  $width: nth($size-num, $s);
+  $size: nth($size-name,$s);
+  @media (max-width:$width){
+    .text-#{$size}-{
+       &center{
+         text-align: center;
+       }
+       &left{
+         text-align: left;
+       }
+       &right{
+         text-align: right;
+       }
+    }
+  }
+
+}

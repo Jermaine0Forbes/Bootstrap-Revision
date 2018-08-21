@@ -1,0 +1,50 @@
+/*****************
+  GENERAL
+*****************/
+
+
+h1,h2,h3,h4,h5,h6,p{
+  transition:all 0.3s;
+}
+
+
+@media (max-width:767px){
+  h{
+    &1{
+      font-size:40px !important;
+    }
+
+    &2{
+      font-size:30px !important;
+    }
+
+    &4{
+      font-size:26px !important;
+    }
+
+  }
+
+  p{
+    font-size:1.1em !important;
+  }
+}
+
+@media (max-width:568px){
+  h{
+    &1{
+      font-size:30px !important;
+    }
+
+    &2{
+      font-size:20px !important;
+    }
+
+    &4{
+      font-size:16px !important;
+    }
+  }
+
+  p{
+    font-size:1em !important
+  }
+}

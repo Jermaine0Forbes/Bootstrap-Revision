@@ -1,0 +1,38 @@
+/*****************
+  BORDER
+*****************/
+.border-{
+  &top{
+    border-top:1px solid $blue5;
+  }
+
+  &bottom{
+    border-bottom:1px solid $blue5;
+  }
+
+
+  &left{
+    border-left:1px solid $blue5;
+  }
+
+
+  &right{
+    border-left:1px solid $blue5;
+  }
+
+  &color-{
+
+    &1{
+      border-color:$blue3;
+    }
+    &2{
+      border-color:$blue4;
+    }
+    &3{
+      border-color:$blue;
+    }
+    &4{
+      border-color:rgba(255, 255, 255, 0.05);
+    }
+  }
+}

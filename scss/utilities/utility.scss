@@ -9,8 +9,9 @@ $blue2:#687792;
 $blue3:#377ef9;
 $blue4:#2569e3;
 $blue5:#7F8BA4;
+$blue6:#253b74;
 
-$header-col:$blue;
+$header-col:$blue6;
 $bg-col:$blue;
 $text-col: $blue2;
 $link-col:$blue3;
@@ -18,6 +19,20 @@ $hover-col:$blue4;
 
 $d:("t","b", "l","r");
 $direction:( "top","bottom","left","right");
+$size-name:(lg,md,sm,xs);
+$size-num:(992px,767px,567px,480px);
+
+@import "old";
+@import "border";
+@import "button";
+@import "font";
+@import "flex";
+@import "header";
+@import "general";
+@import "max";
+@import "nav";
+@import "padding";
+@import "margin"; 
 
 /*****************
   OTHER
@@ -51,289 +66,4 @@ $direction:( "top","bottom","left","right");
 .email-link{
   font-size:1.3em;
   color:$blue;
-}
-
-/*****************
-  BORDER
-*****************/
-.border-{
-  &top{
-    border-top:1px solid $blue5;
-  }
-
-  &bottom{
-    border-bottom:1px solid $blue5;
-  }
-
-
-  &left{
-    border-left:1px solid $blue5;
-  }
-
-
-  &right{
-    border-left:1px solid $blue5;
-  }
-
-  &color-{
-
-    &1{
-      border-color:$blue3;
-    }
-    &2{
-      border-color:$blue4;
-    }
-    &3{
-      border-color:$blue;
-    }
-    &4{
-      border-color:rgba(255, 255, 255, 0.05);
-    }
-  }
-}
-
-/*****************
-  BUTTON
-*****************/
-
-.apply-btn{
-    color:white;
-    background:$blue3;
-    padding:0.75em 1.5em;
-    text-transform:capitalize;
-    font-size:1.5em;
-    border-radius:25px;
-    display:inline-block;
-}
-
-a.apply-btn:hover{
-    color:white !important;
-    background:$blue4;
-}
-
-/*****************
-  FLEX
-*****************/
-
-.align-{
-
-  &top{
-    align-items:flex-start;
-  }
-
-  &bottom{
-    align-items:flex-end;
-  }
-  &center{
-    align-items:center;
-  }
-}
-
-.center-all{
-  justify-content: center;
-  align-items: center;
-}
-
-.flex{
-    display:flex;
-}
-
-.justify-{
-  &center{
-    justify-content: center;
-  }
-  &end{
-    justify-content: flex-end;
-  }
-  &start{
-    justify-content: flex-start;
-  }
-}
-
-
-
-
-/*****************
-  FONT
-*****************/
-
-
-.case-{
-  &capital{
-    text-transform:capitalize;
-  }
-
-  &lower{
-    text-transform:lowercase;
-  }
-
-  &upper{
-    text-transform:uppercase;
-
-  }
-}
-
-
-.color-{
-
-    &white{
-      color:white;
-    }
-
-    &blue{
-      color: $blue;
-    }
-
-    &blue-2{
-      color:$blue3;
-    }
-
-    &blue-3{
-      color:$blue4;
-    }
-}
-
-  .text-{
-    &center{
-      text-align:center
-    }
-
-    &right{
-      text-align:right;
-    }
-
-    &left{
-      text-align:left;
-    }
-  }
-
-
-
-
-/*****************
-  HEADER
-*****************/
-
-.primary-header{
-  font-size: 3.5em;
-    font-weight: 600;
-    letter-spacing: -1px;
-    text-transform:capitalize;
-}
-
-.contact-header{
-  letter-spacing:0;
-  text-transform:capitalize;
-}
-
-
-.secondary-header{
-  letter-spacing:0;
-  font-weight:bold;
-  font-size:2em;
-  text-transform:capitalize;
-}
-
-.sub-header{
-  font-weight:bold;
-  font-size:1.5em;
-}
-
-
-
-
-
-
-/*****************
-  PADDING
-*****************/
-
-@for $i from 0 through 10{
-
-
-    .pad-v-#{$i}{
-      padding-top:(1em*$i);
-      padding-bottom:(1em*$i);
-    }
-
-    .pad-h-#{$i}{
-      padding-left:(1em*$i);
-      padding-right:(1em*$i);
-    }
-
-    .pad-t-#{$i}{
-      padding-top:(1em*$i);
-    }
-
-    .pad-b-#{$i}{
-      padding-bottom:(1em*$i);
-    }
-
-    .pad-l-#{$i}{
-      padding-left:(1em*$i);
-    }
-
-    .pad-r-#{$i}{
-      padding-right:(1em*$i);
-    }
-}
-
-
-/*****************
-  MARGIN
-*****************/
-
-.mar-auto{
-  margin:auto;
-}
-
-@for $x from 0 through 10{
-  .mar-v-#{$x}{
-    margin-top:(1em*$x);
-    margin-bottom:(1em*$x);
-  }
-
-  .mar-h-#{$x}{
-    margin-left:(1em*$x);
-    margin-right:(1em*$x);
-  }
-
-  .mar-t-#{$x}{
-    margin-top:(1em*$x);
-  }
-
-  .mar-b-#{$x}{
-    margin-bottom:(1em*$x);
-  }
-
-  .mar-l-#{$x}{
-    margin-left:(1em*$x);
-  }
-
-  .mar-r-#{$x}{
-    margin-right:(1em*$x);
-  }
-
-}
-
-/*****************
-  MAX
-*****************/
-
-@for $max from 1 through 3{
-
-  .max-#{$max*400}{
-    max-width:$max*400px;
-    margin:auto;
-  }
-}
-
-/*****************
-  NAVIGATION
-*****************/
-
-.nav-h{
-list-style: none;
-margin:0;
-
 }

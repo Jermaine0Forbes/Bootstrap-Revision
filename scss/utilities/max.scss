@@ -1,0 +1,16 @@
+/*****************
+  MAX
+*****************/
+
+.max-960{
+  max-width:960px;
+  margin:auto; 
+}
+
+@for $max from 1 through 3{
+
+  .max-#{$max*400}{
+    max-width:$max*400px;
+    margin:auto;
+  }
+}

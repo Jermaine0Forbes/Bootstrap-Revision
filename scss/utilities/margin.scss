@@ -1,0 +1,36 @@
+/*****************
+  MARGIN
+*****************/
+
+.mar-auto{
+  margin:auto;
+}
+
+@for $x from 0 through 10{
+  .mar-v-#{$x}{
+    margin-top:(1em*$x);
+    margin-bottom:(1em*$x);
+  }
+
+  .mar-h-#{$x}{
+    margin-left:(1em*$x);
+    margin-right:(1em*$x);
+  }
+
+  .mar-t-#{$x}{
+    margin-top:(1em*$x);
+  }
+
+  .mar-b-#{$x}{
+    margin-bottom:(1em*$x);
+  }
+
+  .mar-l-#{$x}{
+    margin-left:(1em*$x);
+  }
+
+  .mar-r-#{$x}{
+    margin-right:(1em*$x);
+  }
+
+}
