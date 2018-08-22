@@ -18,7 +18,7 @@
 
   color: $blue6;
   font-size: 4em;
-  margin-top: 3em;
+  margin-top: 0em;
   font-weight: bold;
 
 }
@@ -27,7 +27,7 @@
 .secondary-header{
   letter-spacing:0;
   font-weight:bold;
-  font-size:2em;
+  font-size:3em;
   text-transform:capitalize;
 }
 
@@ -52,11 +52,18 @@
   font-weight:bold;
 }
 
-@media (max-width:568px){
+.fourth-header{
 
-  .secondary-header{
-
-    font-weight: normal;
-  }
-
+  font-size:2em;
+  letter-spacing: 0;
+  font-weight:bold;
 }
+
+// @media (max-width:568px){
+//
+//   .secondary-header{
+//
+//     font-weight: normal;
+//   }
+//
+// }

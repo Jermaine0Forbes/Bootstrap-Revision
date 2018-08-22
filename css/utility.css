@@ -1,8 +1,102 @@
 /*
-  version: 0.0.4
-  date:8/21/18
+  version: 0.0.5
+  date:8/22/18
 
 */
+/*****************
+  OTHER
+*****************/
+.alternate-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+
+.alternate-form .wpcf7 input[type='text'],
+.alternate-form .wpcf7 input[type='email'],
+.alternate-form .wpcf7 textarea,
+.alternate-form .wpcf7 select
+{
+    width: 100%; 
+    padding: 1.5em .5em;
+
+    border: 1px solid #7f8ba4;
+}
+
+.alternate-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
+.single-form-control
+{
+    width: 99%;
+}
+
+.l-main p
+{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+.email-link
+{
+    font-size: 1.3em;
+
+    color: #162850;
+}
+
+.fourth-header .w-iconbox-title
+{
+    font-size: 1em;
+    font-weight: bold; 
+
+    letter-spacing: 0;
+}
+
+.getting-started
+{
+    background: #f9fafb;
+}
+.getting-started .fa
+{
+    color: #fb6e55;
+}
+.getting-started h3,
+.getting-started h4
+{
+    font-size: 1.8em; 
+    font-weight: 600;
+}
+.getting-started li
+{
+    font-size: 1.3em; 
+
+    color: #7f8ba4;
+}
+
+.phone-link
+{
+    font-size: 1.4em;
+
+    color: #162850;
+}
+
+.solutions-heading-container
+{
+    margin-top: 15em;
+}
+
 .cf7mls_progress_bar
 {
     position: relative;
@@ -36,7 +130,7 @@
 
 .cf7mls_progress_bar li:before
 {
-    font-size: 10px;
+    font-size: 25px;
     line-height: 40px;
 
     display: block;
@@ -50,7 +144,7 @@
 
     color: #fff;
     border-radius: 3px;
-    background: #0081b1;
+    background: #377ef9;
 }
 
 .cf7mls_progress_bar li:after
@@ -68,7 +162,7 @@
        -moz-transition: .8s ease all;
             transition: .8s ease all;
 
-    background: #0081b1;
+    background: #377ef9;
 }
 
 .cf7mls_progress_bar li:first-child:after
@@ -81,7 +175,20 @@
 .cf7mls_progress_bar li.active:after
 {
     color: #fff; 
-    background: #0081b1;
+    background: #377ef9;
+}
+
+.cf7mls_next.action-button,
+.cf7mls_back.action-button,
+.fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step
+{
+    font-size: 1.2em;
+    font-weight: normal; 
+
+    margin-top: 0;
+
+    border-radius: .3em;
+    background-color: #377ef9;
 }
 
 .triangle-type-1
@@ -439,162 +546,6 @@
 }
 
 /*****************
-  BUTTON
-*****************/
-.apply-btn
-{
-    font-size: 1.5em;
-
-    display: inline-block; 
-
-    padding: .75em 1.5em;
-
-    text-transform: capitalize;
-
-    color: white;
-    border-radius: 25px;
-    background: #377ef9;
-}
-
-a.apply-btn:hover
-{
-    color: white !important;
-    background: #2569e3;
-}
-
-/*****************
-  FONT
-*****************/
-.case-capital
-{
-    text-transform: capitalize;
-}
-
-.case-lower
-{
-    text-transform: lowercase;
-}
-
-.case-upper
-{
-    text-transform: uppercase;
-}
-
-.color-white
-{
-    color: white;
-}
-
-.color-blue
-{
-    color: #253b74;
-}
-
-.color-blue-2
-{
-    color: #377ef9;
-}
-
-.color-blue-3
-{
-    color: #2569e3;
-}
-
-.text-center
-{
-    text-align: center;
-}
-
-.text-right
-{
-    text-align: right;
-}
-
-.text-left
-{
-    text-align: left;
-}
-
-.text-bold
-{
-    font-weight: bold;
-}
-
-.text-normal
-{
-    font-weight: normal;
-}
-
-.text-light
-{
-    font-weight: lighter;
-}
-
-@media (max-width: 992px)
-{
-    .text-lg-center
-    {
-        text-align: center;
-    }
-    .text-lg-left
-    {
-        text-align: left;
-    }
-    .text-lg-right
-    {
-        text-align: right;
-    }
-}
-
-@media (max-width: 767px)
-{
-    .text-md-center
-    {
-        text-align: center;
-    }
-    .text-md-left
-    {
-        text-align: left;
-    }
-    .text-md-right
-    {
-        text-align: right;
-    }
-}
-
-@media (max-width: 567px)
-{
-    .text-sm-center
-    {
-        text-align: center;
-    }
-    .text-sm-left
-    {
-        text-align: left;
-    }
-    .text-sm-right
-    {
-        text-align: right;
-    }
-}
-
-@media (max-width: 480px)
-{
-    .text-xs-center
-    {
-        text-align: center;
-    }
-    .text-xs-left
-    {
-        text-align: left;
-    }
-    .text-xs-right
-    {
-        text-align: right;
-    }
-}
-
-/*****************
   FLEX
 *****************/
 .align-top
@@ -781,6 +732,30 @@ a.apply-btn:hover
 }
 
 /*****************
+  BUTTON
+*****************/
+.apply-btn
+{
+    font-size: 1.5em;
+
+    display: inline-block; 
+
+    padding: .75em 1.5em;
+
+    text-transform: capitalize;
+
+    color: white;
+    border-radius: 30px;
+    background: #377ef9;
+}
+
+a.apply-btn:hover
+{
+    color: white !important;
+    background: #2569e3;
+}
+
+/*****************
   HEADER
 *****************/
 .primary-header
@@ -802,14 +777,14 @@ a.apply-btn:hover
     font-size: 4em;
     font-weight: bold; 
 
-    margin-top: 3em;
+    margin-top: 0;
 
     color: #253b74;
 }
 
 .secondary-header
 {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
 
     letter-spacing: 0;
@@ -843,11 +818,143 @@ a.apply-btn:hover
     color: #253b74;
 }
 
-@media (max-width: 568px)
+.fourth-header
 {
-    .secondary-header
+    font-size: 2em;
+    font-weight: bold; 
+
+    letter-spacing: 0;
+}
+
+/*****************
+  FONT
+*****************/
+.case-capital
+{
+    text-transform: capitalize;
+}
+
+.case-lower
+{
+    text-transform: lowercase;
+}
+
+.case-upper
+{
+    text-transform: uppercase;
+}
+
+.color-white
+{
+    color: white;
+}
+
+.color-blue
+{
+    color: #253b74;
+}
+
+.color-blue-2
+{
+    color: #377ef9;
+}
+
+.color-blue-3
+{
+    color: #2569e3;
+}
+
+.text-center
+{
+    text-align: center;
+}
+
+.text-right
+{
+    text-align: right;
+}
+
+.text-left
+{
+    text-align: left;
+}
+
+.text-bold
+{
+    font-weight: bold;
+}
+
+.text-normal
+{
+    font-weight: normal;
+}
+
+.text-light
+{
+    font-weight: lighter;
+}
+
+@media (max-width: 992px)
+{
+    .text-lg-center
     {
-        font-weight: normal;
+        text-align: center;
+    }
+    .text-lg-left
+    {
+        text-align: left;
+    }
+    .text-lg-right
+    {
+        text-align: right;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .text-md-center
+    {
+        text-align: center;
+    }
+    .text-md-left
+    {
+        text-align: left;
+    }
+    .text-md-right
+    {
+        text-align: right;
+    }
+}
+
+@media (max-width: 567px)
+{
+    .text-sm-center
+    {
+        text-align: center;
+    }
+    .text-sm-left
+    {
+        text-align: left;
+    }
+    .text-sm-right
+    {
+        text-align: right;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .text-xs-center
+    {
+        text-align: center;
+    }
+    .text-xs-left
+    {
+        text-align: left;
+    }
+    .text-xs-right
+    {
+        text-align: right;
     }
 }
 
@@ -1661,92 +1768,6 @@ p
 .mar-r-10
 {
     margin-right: 10em;
-}
-
-/*****************
-  OTHER
-*****************/
-.alternate-form span.wpcf7-form-control-wrap
-{
-    font-size: 1.4em;
-
-    width: 100%;
-    margin: .3em;
-}
-
-.alternate-form .wpcf7 input[type='text'],
-.alternate-form .wpcf7 input[type='email'],
-.alternate-form .wpcf7 textarea,
-.alternate-form .wpcf7 select
-{
-    width: 100%; 
-    padding: 1.5em .5em;
-
-    border: 1px solid #7f8ba4;
-}
-
-.alternate-form .wpcf7-form-control.wpcf7-submit
-{
-    font-size: 1.4em;
-
-    display: block;
-
-    margin: auto;
-    margin-top: .3em; 
-    padding: .3em 3em;
-
-    border-radius: 27px;
-}
-
-.single-form-control
-{
-    width: 99%;
-}
-
-.l-main p
-{
-    font-size: 1.3em;
-    line-height: 30px;
-}
-
-.email-link
-{
-    font-size: 1.3em;
-
-    color: #162850;
-}
-
-.getting-started
-{
-    background: #f9fafb;
-}
-.getting-started .fa
-{
-    color: #fb6e55;
-}
-.getting-started h3,
-.getting-started h4
-{
-    font-size: 1.8em; 
-    font-weight: 600;
-}
-.getting-started li
-{
-    font-size: 1.3em; 
-
-    color: #7f8ba4;
-}
-
-.phone-link
-{
-    font-size: 1.4em;
-
-    color: #162850;
-}
-
-.solutions-heading-container
-{
-    margin-top: 15em;
 }
 
 /*****************

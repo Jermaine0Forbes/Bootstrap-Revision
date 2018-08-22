@@ -1,0 +1,32 @@
+/*****************
+  DISPLAY
+*****************/
+
+
+.d-none{
+  display:none !important;
+}
+
+.d-block{
+  display:block;
+}
+
+
+@for $x from 1 through length($size-num){
+
+    $name : nth($size-name,$x);
+    $size : nth($size-num,$x);
+
+      @media (max-width:$size){
+
+          .d-#{$name}-{
+              &none{
+                display:none !important;
+              }
+              &block{
+                display:block ;
+              }
+          }
+      }
+
+}

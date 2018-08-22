@@ -1,6 +1,6 @@
 /*
-  version: 0.0.4
-  date:8/21/18
+  version: 0.0.5
+  date:8/22/18
 
 */
 
@@ -21,19 +21,6 @@ $d:("t","b", "l","r");
 $direction:( "top","bottom","left","right");
 $size-name:(lg,md,sm,xs);
 $size-num:(992px,767px,567px,480px);
-
-
-@import "old";
-@import "border";
-@import "button";
-@import "font";
-@import "flex";
-@import "header";
-@import "general";
-@import "max";
-@import "nav";
-@import "padding";
-@import "margin";
 
 /*****************
   OTHER
@@ -78,6 +65,12 @@ $size-num:(992px,767px,567px,480px);
   color:$blue;
 }
 
+.fourth-header .w-iconbox-title{
+  font-size:1em;
+  letter-spacing:0;
+  font-weight:bold;
+}
+
 .getting-started{
   background:#F9FAFB;
 
@@ -107,35 +100,17 @@ $size-num:(992px,767px,567px,480px);
   margin-top:15em;
 }
 
-/*****************
-  DISPLAY
-*****************/
 
 
-.d-none{
-  display:none !important;
-}
-
-.d-block{
-  display:block;
-}
-
-
-@for $x from 1 through length($size-num){
-
-    $name : nth($size-name,$x);
-    $size : nth($size-num,$x);
-
-      @media (max-width:$size){
-
-          .d-#{$name}-{
-              &none{
-                display:none !important;
-              }
-              &block{
-                display:block ;
-              }
-          }
-      }
-
-}
+@import "old";
+@import "border";
+@import "flex";
+@import "button";
+@import "header";
+@import "font";
+@import "general";
+@import "max";
+@import "nav";
+@import "padding";
+@import "margin";
+@import "display";
