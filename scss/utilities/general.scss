@@ -10,12 +10,14 @@ h1,h2,h3,h4,h5,h6,p{
 
 @media (max-width:767px){
   h{
-    &1{
-      font-size:40px !important;
-    }
+
 
     &2{
       font-size:30px !important;
+    }
+
+    &3{
+      font-size:22px !important;
     }
 
     &4{
@@ -32,11 +34,16 @@ h1,h2,h3,h4,h5,h6,p{
 @media (max-width:568px){
   h{
     &1{
-      font-size:30px !important;
+      font-size:24px !important;
+      text-align:center;
     }
 
     &2{
       font-size:20px !important;
+    }
+
+    &3{
+      font-size:18px !important;
     }
 
     &4{

@@ -50,6 +50,18 @@
     &left{
       text-align:left;
     }
+
+    &bold{
+      font-weight:bold;
+    }
+
+    &normal{
+      font-weight:normal;
+    }
+
+    &light{
+      font-weight:lighter;
+    }
   }
 
 @for $s from 1 through length($size-num){

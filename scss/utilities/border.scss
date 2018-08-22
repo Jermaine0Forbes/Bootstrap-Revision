@@ -17,7 +17,18 @@
 
 
   &right{
+    border-right:1px solid $blue5;
+  }
+
+  &v{
+
+    border-top:1px solid $blue5;
+    border-bottom:1px solid $blue5;
+  }
+
+  &h{
     border-left:1px solid $blue5;
+    border-right:1px solid $blue5;
   }
 
   &color-{
@@ -36,3 +47,80 @@
     }
   }
 }
+
+
+@for $x from 1 through length($size-num){
+
+    $name : nth($size-name,$x);
+    $size : nth($size-num,$x);
+
+      @media (max-width:$size){
+
+        .border-#{$name}-{
+          &top{
+            border-top:1px solid $blue5;
+          }
+
+          &bottom{
+            border-bottom:1px solid $blue5;
+          }
+
+
+          &left{
+            border-left:1px solid $blue5;
+          }
+
+
+          &right{
+            border-right:1px solid $blue5;
+          }
+
+          &v{
+
+            border-top:1px solid $blue5;
+            border-bottom:1px solid $blue5;
+          }
+
+          &h{
+            border-left:1px solid $blue5;
+            border-right:1px solid $blue5;
+
+          }
+
+          &none{
+            border-style:none;
+
+
+          }
+
+          &none-{
+
+            &top{
+              border-top-style:none;
+            }
+            &bottom{
+              border-bottom-style:none;
+            }
+            &left{
+              border-left-style:none;
+            }
+            &right{
+              border-right-style:none;
+            }
+            &v{
+              border-bottom-style:none;
+              border-top-style:none;
+            }
+            &h{
+              border-right-style:none;
+              border-left-style:none;
+            }
+          }
+
+
+        }
+
+      }
+
+
+    }
