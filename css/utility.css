@@ -14,6 +14,13 @@
     margin: .3em;
 }
 
+.alternate-form .lead-form-wrapper
+{
+    padding: 0;
+
+    background-color: transparent;
+}
+
 .alternate-form .wpcf7 input[type='text'],
 .alternate-form .wpcf7 input[type='email'],
 .alternate-form .wpcf7 textarea,
@@ -165,7 +172,7 @@
 
 .solutions-heading-container
 {
-    margin-top: 15em;
+    margin-top: 0;
 }
 
 .w-tabs-section-title
@@ -936,22 +943,27 @@ a.apply-btn:hover
 
 .color-white
 {
-    color: white;
+    color: white !important;
 }
 
 .color-blue
 {
-    color: #253b74;
+    color: #253b74 !important;
 }
 
 .color-blue-2
 {
-    color: #377ef9;
+    color: #377ef9 !important;
 }
 
 .color-blue-3
 {
-    color: #2569e3;
+    color: #2569e3 !important;
+}
+
+.color-blue-4
+{
+    color: #7f8ba4 !important;
 }
 
 .text-center
@@ -1918,5 +1930,15 @@ p
     .d-xs-block
     {
         display: block;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .img-container img
+    {
+        display: block;
+
+        margin: auto;
     }
 }

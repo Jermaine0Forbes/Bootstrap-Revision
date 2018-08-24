@@ -32,6 +32,11 @@ $size-num:(992px,767px,567px,480px);
     margin:0.3em;
 }
 
+.alternate-form .lead-form-wrapper{
+  padding:0;
+  background-color:transparent;
+}
+
 .alternate-form .wpcf7 input[type='text'],
 .alternate-form .wpcf7 input[type='email'],
 .alternate-form .wpcf7 textarea,
@@ -121,6 +126,12 @@ $size-num:(992px,767px,567px,480px);
 }
 
 
+.img-container{
+  img{
+
+  }
+}
+
 .l-main p{
   font-size:1.3em;
   line-height:30px;
@@ -161,7 +172,8 @@ $size-num:(992px,767px,567px,480px);
 
 
 .solutions-heading-container{
-  margin-top:15em;
+  // margin-top:15em;
+  margin-top:0;
 }
 
 .w-tabs-section-title{
@@ -190,3 +202,4 @@ $size-num:(992px,767px,567px,480px);
 @import "padding";
 @import "margin";
 @import "display";
+@import "breakpoint";

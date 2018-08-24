@@ -22,19 +22,23 @@
 .color-{
 
     &white{
-      color:white;
+      color:white !important;
     }
 
     &blue{
-      color: $blue6;
+      color: $blue6 !important;
     }
 
     &blue-2{
-      color:$blue3;
+      color:$blue3 !important;
     }
 
     &blue-3{
-      color:$blue4;
+      color:$blue4 !important;
+    }
+
+    &blue-4{
+      color:$blue5 !important;
     }
 }
 
