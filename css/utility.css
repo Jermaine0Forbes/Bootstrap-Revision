@@ -1,6 +1,6 @@
 /*
-  version: 0.0.5
-  date:8/22/18
+  version: 0.0.7
+  date:8/24/18
 
 */
 /*****************
@@ -38,15 +38,11 @@
     border-radius: 27px;
 }
 
-.single-form-control
+.apply-btn.signup-btn
 {
-    width: 99%;
-}
+    padding: 7px 39px;
 
-.l-main p
-{
-    font-size: 1.3em;
-    line-height: 30px;
+    border-radius: 36px;
 }
 
 .email-link
@@ -54,6 +50,45 @@
     font-size: 1.3em;
 
     color: #162850;
+}
+
+.form-2 .wpcf7-form
+{
+    padding: 1em;
+    padding-top: 3em; 
+
+    background: #162d5a;
+}
+
+.form-2 .wpcf7-form-control-wrap
+{
+    padding: .25em 0; 
+
+    text-align: center;
+}
+
+.form-2 .wpcf7-form-control-wrap input,
+.form-2 .wpcf7-form-control
+{
+    font-size: 1.2em;
+
+    height: 40px;
+}
+
+.form-2 .wpcf7-form-control.wpcf7-textarea
+{
+    height: 8em;
+    margin-bottom: 1em;
+}
+
+.form-2 .wpcf7-form-control.wpcf7-submit
+{
+    display: block;
+
+    margin: auto;
+    padding: 0 2em; 
+
+    border-radius: 17px;
 }
 
 .fourth-header .w-iconbox-title
@@ -85,6 +120,21 @@
     color: #7f8ba4;
 }
 
+.l-main p
+{
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+.l-main .day-label
+{
+    font-size: 1.4em; 
+
+    margin-bottom: 0;
+
+    color: #253b74;
+}
+
 .phone-link
 {
     font-size: 1.4em;
@@ -92,9 +142,47 @@
     color: #162850;
 }
 
+.partner-block .w-iconbox-title
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.partner-block .w-iconbox-text
+{
+    font-size: 1.3em;
+}
+
+.partner-line
+{
+    margin: 0 15em !important;
+}
+
+.single-form-control
+{
+    width: 99%;
+}
+
 .solutions-heading-container
 {
     margin-top: 15em;
+}
+
+.w-tabs-section-title
+{
+    font-size: 1.2em;
+    font-weight: bold;
+
+    word-spacing: -1px;
+
+    color: #253b74;
+}
+
+.w-tabs-sections-h p
+{
+    font-size: 1.3em;
+
+    margin-left: 2em;
 }
 
 .cf7mls_progress_bar
@@ -804,8 +892,10 @@ a.apply-btn:hover
 
 .sub-header
 {
-    font-size: 1.5em; 
+    font-size: 1.5em;
     font-weight: bold;
+
+    letter-spacing: 0;
 }
 
 .tertiary-header
