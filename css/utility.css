@@ -1,6 +1,6 @@
 /*
-  version: 0.0.7
-  date:8/24/18
+  version: 0.0.8
+  date:8/27/18
 
 */
 /*****************
@@ -106,6 +106,54 @@
     letter-spacing: 0;
 }
 
+.home-form .single-form-control
+{
+    width: 98.5%;
+}
+
+.home-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+.home-form span.wpcf7-form-control-wrap input::placeholder
+{
+    opacity: 1;
+}
+.home-form span.wpcf7-form-control-wrap select
+{
+    height: 50px;
+}
+
+.home-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
+.home-form .wpcf7 input[type='text'],
+.home-form .wpcf7 input[type='email'],
+.home-form .wpcf7-select,
+.home-form .wpcf7 textarea,
+.home-form .wpcf7 select
+{
+    /*border: 1px solid #7F8BA4;*/
+    width: 100%;
+    padding: 1.5em .5em;
+
+    color: white; 
+    background-color: rgba(255, 255, 255, .3);
+}
+
 .getting-started
 {
     background: #f9fafb;
@@ -125,12 +173,6 @@
     font-size: 1.3em; 
 
     color: #7f8ba4;
-}
-
-.l-main p
-{
-    font-size: 1.3em;
-    line-height: 30px;
 }
 
 .l-main .day-label
@@ -155,7 +197,9 @@
     font-weight: bold;
 }
 
-.partner-block .w-iconbox-text
+.partner-block .w-iconbox-text,
+.partner-block .l-main p,
+.l-main .partner-block p
 {
     font-size: 1.3em;
 }
@@ -165,14 +209,83 @@
     margin: 0 15em !important;
 }
 
+.quote-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+
+.quote-form .lead-form-wrapper
+{
+    padding: 0;
+
+    background-color: transparent;
+}
+
+.quote-form .wpcf7 input[type='text'],
+.quote-form .wpcf7 input[type='email'],
+.quote-form .wpcf7 textarea,
+.quote-form .wpcf7 select
+{
+    width: 100%; 
+    padding: 1em .5em;
+
+    border: 1px solid #7f8ba4;
+}
+
+.quote-form .wpcf7-form-control.wpcf7-select
+{
+    max-width: 98.5%; 
+    height: 36px;
+}
+
+.quote-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
 .single-form-control
 {
     width: 99%;
 }
 
+.small .w-iconbox-text,
+.small .l-main p,
+.l-main .small p
+{
+    font-size: 1.2em;
+}
+
 .solutions-heading-container
 {
     margin-top: 0;
+}
+
+.w-iconbox-text,
+.l-main p
+{
+    font-size: 1.3em;
+    line-height: 30px;
+
+    letter-spacing: 0;
+}
+
+.w-iconbox-title
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    letter-spacing: 0;
 }
 
 .w-tabs-section-title
@@ -398,6 +511,16 @@
 .border-color-4
 {
     border-color: rgba(255, 255, 255, .05);
+}
+
+.border-color-5
+{
+    border-color: white;
+}
+
+.border-color-6
+{
+    border-color: transparent;
 }
 
 @media (max-width: 992px)
@@ -860,14 +983,35 @@ a.apply-btn:hover
     letter-spacing: -1px;
     text-transform: capitalize;
 }
+.primary-header .w-iconbox-title
+{
+    font-size: 3.5em;
+
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
 
 .contact-header
 {
     letter-spacing: 0;
     text-transform: capitalize;
 }
+.contact-header .w-iconbox-title
+{
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
 
 .invoice-header
+{
+    font-size: 4em;
+    font-weight: bold; 
+
+    margin-top: 0;
+
+    color: #253b74;
+}
+.invoice-header .w-iconbox-title
 {
     font-size: 4em;
     font-weight: bold; 
@@ -903,6 +1047,11 @@ a.apply-btn:hover
     font-weight: bold;
 
     letter-spacing: 0;
+}
+
+p.sub-header
+{
+    font-size: 1.5em;
 }
 
 .tertiary-header
@@ -1940,5 +2089,26 @@ p
         display: block;
 
         margin: auto;
+    }
+    .home-header-content-section
+    {
+        max-width: 100%;
+        margin: auto;
+    }
+    .home-form .single-form-control
+    {
+        width: 100%;
+    }
+    .quote-form .wpcf7-form-control.wpcf7-select
+    {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 568px)
+{
+    .home-form .wpcf7-form-control.wpcf7-submit
+    {
+        width: 95%;
     }
 }

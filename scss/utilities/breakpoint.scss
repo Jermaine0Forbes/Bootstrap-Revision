@@ -6,4 +6,38 @@
        margin:auto;
     }
   }
-}
+
+  .home-header-content-section{
+    max-width:100%;
+    margin:auto;
+  }
+
+  .home-form {
+
+    .single-form-control{
+      width:100%;
+    }
+  }
+
+  .quote-form{
+
+    .wpcf7-form-control{
+      &.wpcf7-select{
+        max-width:100%;
+      }
+    }
+  }
+
+
+}//767px
+
+
+@media (max-width:568px){
+
+
+
+  .home-form .wpcf7-form-control.wpcf7-submit{
+    width:95%;
+  }
+
+}//568px
