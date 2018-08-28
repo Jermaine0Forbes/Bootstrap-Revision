@@ -1,50 +1,11 @@
 /*
-  version: 0.0.8
-  date:8/27/18
+  version: 0.0.9
+  date:8/28/18
 
 */
 /*****************
   OTHER
 *****************/
-.alternate-form span.wpcf7-form-control-wrap
-{
-    font-size: 1.4em;
-
-    width: 100%;
-    margin: .3em;
-}
-
-.alternate-form .lead-form-wrapper
-{
-    padding: 0;
-
-    background-color: transparent;
-}
-
-.alternate-form .wpcf7 input[type='text'],
-.alternate-form .wpcf7 input[type='email'],
-.alternate-form .wpcf7 textarea,
-.alternate-form .wpcf7 select
-{
-    width: 100%; 
-    padding: 1.5em .5em;
-
-    border: 1px solid #7f8ba4;
-}
-
-.alternate-form .wpcf7-form-control.wpcf7-submit
-{
-    font-size: 1.4em;
-
-    display: block;
-
-    margin: auto;
-    margin-top: .3em; 
-    padding: .3em 3em;
-
-    border-radius: 27px;
-}
-
 .apply-btn.signup-btn
 {
     padding: 7px 39px;
@@ -59,99 +20,12 @@
     color: #162850;
 }
 
-.form-2 .wpcf7-form
-{
-    padding: 1em;
-    padding-top: 3em; 
-
-    background: #162d5a;
-}
-
-.form-2 .wpcf7-form-control-wrap
-{
-    padding: .25em 0; 
-
-    text-align: center;
-}
-
-.form-2 .wpcf7-form-control-wrap input,
-.form-2 .wpcf7-form-control
-{
-    font-size: 1.2em;
-
-    height: 40px;
-}
-
-.form-2 .wpcf7-form-control.wpcf7-textarea
-{
-    height: 8em;
-    margin-bottom: 1em;
-}
-
-.form-2 .wpcf7-form-control.wpcf7-submit
-{
-    display: block;
-
-    margin: auto;
-    padding: 0 2em; 
-
-    border-radius: 17px;
-}
-
 .fourth-header .w-iconbox-title
 {
     font-size: 1em;
     font-weight: bold; 
 
     letter-spacing: 0;
-}
-
-.home-form .single-form-control
-{
-    width: 98.5%;
-}
-
-.home-form span.wpcf7-form-control-wrap
-{
-    font-size: 1.4em;
-
-    width: 100%;
-    margin: .3em;
-}
-.home-form span.wpcf7-form-control-wrap input::placeholder
-{
-    opacity: 1;
-}
-.home-form span.wpcf7-form-control-wrap select
-{
-    height: 50px;
-}
-
-.home-form .wpcf7-form-control.wpcf7-submit
-{
-    font-size: 1.4em;
-
-    display: block;
-
-    margin: auto;
-    margin-top: .3em; 
-    padding: .3em 3em;
-
-    border-radius: 27px;
-}
-
-.home-form .wpcf7 input[type='text'],
-.home-form .wpcf7 input[type='email'],
-.home-form .wpcf7-select,
-.home-form .wpcf7 textarea,
-.home-form .wpcf7 select
-{
-    /*border: 1px solid #7F8BA4;*/
-    width: 100%;
-    padding: 1.5em .5em;
-
-    color: white; 
-    background-color: rgba(255, 255, 255, .3);
 }
 
 .getting-started
@@ -207,51 +81,6 @@
 .partner-line
 {
     margin: 0 15em !important;
-}
-
-.quote-form span.wpcf7-form-control-wrap
-{
-    font-size: 1.4em;
-
-    width: 100%;
-    margin: .3em;
-}
-
-.quote-form .lead-form-wrapper
-{
-    padding: 0;
-
-    background-color: transparent;
-}
-
-.quote-form .wpcf7 input[type='text'],
-.quote-form .wpcf7 input[type='email'],
-.quote-form .wpcf7 textarea,
-.quote-form .wpcf7 select
-{
-    width: 100%; 
-    padding: 1em .5em;
-
-    border: 1px solid #7f8ba4;
-}
-
-.quote-form .wpcf7-form-control.wpcf7-select
-{
-    max-width: 98.5%; 
-    height: 36px;
-}
-
-.quote-form .wpcf7-form-control.wpcf7-submit
-{
-    font-size: 1.4em;
-
-    display: block;
-
-    margin: auto;
-    margin-top: .3em; 
-    padding: .3em 3em;
-
-    border-radius: 27px;
 }
 
 .single-form-control
@@ -974,6 +803,180 @@ a.apply-btn:hover
 }
 
 /*****************
+  FORMS
+*****************/
+.alternate-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+
+.alternate-form .lead-form-wrapper
+{
+    padding: 0;
+
+    background-color: transparent;
+}
+
+.alternate-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
+.alternate-form .wpcf7 input[type='text'],
+.alternate-form .wpcf7 input[type='email'],
+.alternate-form .wpcf7 textarea,
+.alternate-form .wpcf7 select
+{
+    width: 100%; 
+    padding: 1.5em .5em;
+
+    border: 1px solid #7f8ba4;
+}
+
+.form-2 .wpcf7-form
+{
+    padding: 1em;
+    padding-top: 3em; 
+
+    background: #162d5a;
+}
+
+.form-2 .wpcf7-form-control-wrap
+{
+    padding: .25em 0; 
+
+    text-align: center;
+}
+
+.form-2 .wpcf7-form-control-wrap input,
+.form-2 .wpcf7-form-control
+{
+    font-size: 1.2em;
+
+    height: 40px;
+}
+
+.form-2 .wpcf7-form-control.wpcf7-textarea
+{
+    height: 8em;
+    margin-bottom: 1em;
+}
+
+.form-2 .wpcf7-form-control.wpcf7-submit
+{
+    display: block;
+
+    margin: auto;
+    padding: 0 2em; 
+
+    border-radius: 17px;
+}
+
+.home-form .single-form-control
+{
+    width: 98.5%;
+}
+
+.home-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+.home-form span.wpcf7-form-control-wrap input::placeholder
+{
+    opacity: 1;
+}
+.home-form span.wpcf7-form-control-wrap select
+{
+    height: 50px;
+}
+
+.home-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
+.home-form .wpcf7 input[type='text'],
+.home-form .wpcf7 input[type='email'],
+.home-form .wpcf7-select,
+.home-form .wpcf7 textarea,
+.home-form .wpcf7 select
+{
+    /*border: 1px solid #7F8BA4;*/
+    width: 100%;
+    padding: 1.5em .5em;
+
+    color: white; 
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.quote-form span.wpcf7-form-control-wrap
+{
+    font-size: 1.4em;
+
+    width: 100%;
+    margin: .3em;
+}
+
+.quote-form .lead-form-wrapper
+{
+    padding: 0;
+
+    background-color: transparent;
+}
+
+.quote-form .wpcf7 input[type='text'],
+.quote-form .wpcf7 input[type='email'],
+.quote-form .wpcf7 textarea,
+.quote-form .wpcf7 select
+{
+    width: 100%; 
+    padding: 1em .5em;
+
+    border: 1px solid #7f8ba4;
+}
+
+.quote-form .wpcf7-form-control.wpcf7-select
+{
+    max-width: 98.5%; 
+    height: 36px;
+}
+
+.quote-form .wpcf7-form-control.wpcf7-submit
+{
+    font-size: 1.4em;
+
+    display: block;
+
+    margin: auto;
+    margin-top: .3em; 
+    padding: .3em 3em;
+
+    border-radius: 27px;
+}
+
+/*****************
   HEADER
 *****************/
 .primary-header
@@ -984,6 +987,18 @@ a.apply-btn:hover
     text-transform: capitalize;
 }
 .primary-header .w-iconbox-title
+{
+    font-size: 3.5em;
+
+    letter-spacing: -1px;
+    text-transform: capitalize;
+}
+.primary-header h1,
+.primary-header h2,
+.primary-header h3,
+.primary-header h4,
+.primary-header h5,
+.primary-header h6
 {
     font-size: 3.5em;
 
@@ -1020,10 +1035,37 @@ a.apply-btn:hover
 
     color: #253b74;
 }
+.invoice-header h1,
+.invoice-header h2,
+.invoice-header h3,
+.invoice-header h4,
+.invoice-header h5,
+.invoice-header h6
+{
+    font-size: 48px;
+    font-weight: bold; 
+
+    margin-top: 0;
+
+    color: #253b74;
+}
 
 .secondary-header
 {
     font-size: 3em;
+    font-weight: bold;
+
+    letter-spacing: 0;
+    text-transform: capitalize;
+}
+.secondary-header h1,
+.secondary-header h2,
+.secondary-header h3,
+.secondary-header h4,
+.secondary-header h5,
+.secondary-header h6
+{
+    font-size: 36px;
     font-weight: bold;
 
     letter-spacing: 0;
@@ -1035,6 +1077,16 @@ a.apply-btn:hover
     font-size: 3em; 
     font-weight: bold;
 }
+.solutions-heading h1,
+.solutions-heading h2,
+.solutions-heading h3,
+.solutions-heading h4,
+.solutions-heading h5,
+.solutions-heading h6
+{
+    font-size: 36px; 
+    font-weight: bold;
+}
 
 .start-header
 {
@@ -1044,6 +1096,18 @@ a.apply-btn:hover
 .sub-header
 {
     font-size: 1.5em;
+    font-weight: bold;
+
+    letter-spacing: 0;
+}
+.sub-header h1,
+.sub-header h2,
+.sub-header h3,
+.sub-header h4,
+.sub-header h5,
+.sub-header h6
+{
+    font-size: 20px;
     font-weight: bold;
 
     letter-spacing: 0;
@@ -1063,10 +1127,36 @@ p.sub-header
 
     color: #253b74;
 }
+.tertiary-header h1,
+.tertiary-header h2,
+.tertiary-header h3,
+.tertiary-header h4,
+.tertiary-header h5,
+.tertiary-header h6
+{
+    font-size: 30px;
+    font-weight: bold; 
+
+    letter-spacing: 0;
+
+    color: #253b74;
+}
 
 .fourth-header
 {
     font-size: 2em;
+    font-weight: bold; 
+
+    letter-spacing: 0;
+}
+.fourth-header h1,
+.fourth-header h2,
+.fourth-header h3,
+.fourth-header h4,
+.fourth-header h5,
+.fourth-header h6
+{
+    font-size: 24px;
     font-weight: bold; 
 
     letter-spacing: 0;
@@ -1221,6 +1311,16 @@ h6,
 p
 {
     transition: all .3s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    letter-spacing: 0;
 }
 
 @media (max-width: 767px)

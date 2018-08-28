@@ -13,6 +13,13 @@
         letter-spacing: -1px;
         text-transform:capitalize;
     }
+
+    h1,h2,h3,h4,h5,h6{
+      font-size: 3.5em;
+        // font-weight: 600;
+        letter-spacing: -1px;
+        text-transform:capitalize;
+    }
 }
 
 .contact-header{
@@ -22,6 +29,7 @@
     letter-spacing:0;
     text-transform:capitalize;
   }
+
 }
 
 .invoice-header{
@@ -37,6 +45,13 @@
     font-weight: bold;
   }
 
+  h1,h2,h3,h4,h5,h6{
+    color: $blue6;
+    font-size: 48px;
+    margin-top: 0em;
+    font-weight: bold;
+  }
+
 }
 
 
@@ -46,11 +61,23 @@
   font-size:3em;
   text-transform:capitalize;
 
+  h1,h2,h3,h4,h5,h6{
+    letter-spacing:0;
+    font-weight:bold;
+    font-size:36px;
+    text-transform:capitalize;
+  }
+
 }
 
 .solutions-heading{
   font-weight:bold;
   font-size:3em;
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    font-size:36px;
+  }
 
 }
 
@@ -62,6 +89,12 @@
   font-weight:bold;
   font-size:1.5em;
   letter-spacing: 0;
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing: 0;
+  }
 
 }
 
@@ -75,6 +108,13 @@ p.sub-header{
   letter-spacing: 0;
   font-weight:bold;
 
+  h1,h2,h3,h4,h5,h6{
+    font-size:30px;
+    color:$blue6;
+    letter-spacing: 0;
+    font-weight:bold;
+  }
+
 }
 
 .fourth-header{
@@ -82,6 +122,12 @@ p.sub-header{
   font-size:2em;
   letter-spacing: 0;
   font-weight:bold;
+
+  h1,h2,h3,h4,h5,h6{
+    font-size:24px;
+    letter-spacing: 0;
+    font-weight:bold;
+  }
 
 }
 
