@@ -1,6 +1,6 @@
 /*
-  version: 0.0.9
-  date:8/28/18
+  version: 0.1.0
+  date:8/29/18
 
 */
 
@@ -10,6 +10,8 @@ $blue3:#377ef9;
 $blue4:#2569e3;
 $blue5:#7F8BA4;
 $blue6:#253b74;
+
+$grey:#F0F0F0;
 
 $header-col:$blue6;
 $bg-col:$blue;
@@ -148,6 +150,32 @@ $size-num:(992px,767px,567px,480px);
 }
 
 
+/*****************
+  POSITION
+*****************/
+
+.pos-{
+  &absolute{
+    position:absolute;
+  }
+  &relative{
+    position:relative;
+  }
+  &fixed{
+    position:fixed;
+  }
+}
+
+/*****************
+  BACKGROUND
+*****************/
+
+.bg-{
+
+  &grey{
+    background-color:$grey;
+  }
+}
 
 @import "old";
 @import "border";

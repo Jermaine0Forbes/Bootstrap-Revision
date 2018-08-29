@@ -22,6 +22,11 @@
     }
 }
 
+p.primary-header{
+  font-size: 3.5em;
+
+}
+
 .contact-header{
   letter-spacing:0;
   text-transform:capitalize;
@@ -54,6 +59,11 @@
 
 }
 
+p.invoice-header{
+  font-size: 48px;
+
+}
+
 
 .secondary-header{
   letter-spacing:0;
@@ -70,6 +80,11 @@
 
 }
 
+p.secondary-header{
+
+  font-size:36px;
+}
+
 .solutions-heading{
   font-weight:bold;
   font-size:3em;
@@ -79,6 +94,10 @@
     font-size:36px;
   }
 
+}
+
+p.solutions-heading{
+  font-size:36px;
 }
 
 .start-header{
@@ -98,8 +117,9 @@
 
 }
 
+
 p.sub-header{
-  font-size:1.5em;
+  font-size:20px;
 }
 
 .tertiary-header{
@@ -117,6 +137,11 @@ p.sub-header{
 
 }
 
+p.tertiary-header{
+  font-size:30px;
+
+}
+
 .fourth-header{
 
   font-size:2em;
@@ -128,6 +153,11 @@ p.sub-header{
     letter-spacing: 0;
     font-weight:bold;
   }
+
+}
+
+p.fourth-header{
+  font-size:24px;
 
 }
 

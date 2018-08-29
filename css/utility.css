@@ -1,6 +1,6 @@
 /*
-  version: 0.0.9
-  date:8/28/18
+  version: 0.1.0
+  date:8/29/18
 
 */
 /*****************
@@ -132,6 +132,32 @@
     font-size: 1.3em;
 
     margin-left: 2em;
+}
+
+/*****************
+  POSITION
+*****************/
+.pos-absolute
+{
+    position: absolute;
+}
+
+.pos-relative
+{
+    position: relative;
+}
+
+.pos-fixed
+{
+    position: fixed;
+}
+
+/*****************
+  BACKGROUND
+*****************/
+.bg-grey
+{
+    background-color: #f0f0f0;
 }
 
 .cf7mls_progress_bar
@@ -1006,6 +1032,11 @@ a.apply-btn:hover
     text-transform: capitalize;
 }
 
+p.primary-header
+{
+    font-size: 3.5em;
+}
+
 .contact-header
 {
     letter-spacing: 0;
@@ -1050,6 +1081,11 @@ a.apply-btn:hover
     color: #253b74;
 }
 
+p.invoice-header
+{
+    font-size: 48px;
+}
+
 .secondary-header
 {
     font-size: 3em;
@@ -1072,6 +1108,11 @@ a.apply-btn:hover
     text-transform: capitalize;
 }
 
+p.secondary-header
+{
+    font-size: 36px;
+}
+
 .solutions-heading
 {
     font-size: 3em; 
@@ -1086,6 +1127,11 @@ a.apply-btn:hover
 {
     font-size: 36px; 
     font-weight: bold;
+}
+
+p.solutions-heading
+{
+    font-size: 36px;
 }
 
 .start-header
@@ -1115,7 +1161,7 @@ a.apply-btn:hover
 
 p.sub-header
 {
-    font-size: 1.5em;
+    font-size: 20px;
 }
 
 .tertiary-header
@@ -1142,6 +1188,11 @@ p.sub-header
     color: #253b74;
 }
 
+p.tertiary-header
+{
+    font-size: 30px;
+}
+
 .fourth-header
 {
     font-size: 2em;
@@ -1160,6 +1211,11 @@ p.sub-header
     font-weight: bold; 
 
     letter-spacing: 0;
+}
+
+p.fourth-header
+{
+    font-size: 24px;
 }
 
 /*****************
