@@ -1,3 +1,106 @@
+
+@media (max-width:992px){
+
+  .apply-btn{
+    font-size:14px;
+  }
+  .checklist{
+    li{
+      font-size:14px;
+      padding-bottom:13px;
+    }
+
+  }
+
+  .footer-list{
+
+    li{
+      padding:5px 0;
+    }
+
+    a{
+      font-size:12px;
+    }
+  }
+
+  .fourth-header{
+    font-size:17px;
+
+    h1,h2,h3,h4,h5,h6{
+      font-size:17px;
+    }
+
+  }
+
+  p.fourth-header{
+    font-size:17px;
+
+  }
+
+  .invoice-header{
+    font-size: 32px;
+
+    .w-iconbox-title{
+      font-size: 32px;
+
+    }
+
+    h1,h2,h3,h4,h5,h6{
+      font-size: 32px;
+    }
+
+  }
+
+  .secondary-header{
+    font-size:26px;
+    h1,h2,h3,h4,h5,h6{
+      font-size:26px;
+    }
+  }
+
+  p.secondary-header{
+
+    font-size:26px;
+  }
+
+  .solutions-heading{
+    font-size:26px;
+    h1,h2,h3,h4,h5,h6{
+      font-size:26px;
+    }
+  }
+
+  .third-block{
+
+    p{
+      margin-bottom:0;
+      font-size:14px;
+    }
+
+    h4{
+      padding-top:0;
+      font-size:24px;
+    }
+
+
+  }
+
+  .w-iconbox-title{
+    font-weight:bold;
+    font-size:17px;
+    letter-spacing: 0;
+  }
+
+
+
+
+}//992px
+
+
+
+
+
+
 @media (max-width:767px){
 
   .img-container{

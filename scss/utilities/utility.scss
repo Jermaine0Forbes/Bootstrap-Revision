@@ -1,6 +1,6 @@
 /*
-  version: 0.1.0
-  date:8/29/18
+  version: 0.1.1
+  date:8/30/18
 
 */
 
@@ -11,7 +11,12 @@ $blue4:#2569e3;
 $blue5:#7F8BA4;
 $blue6:#253b74;
 
+$red:#e4504e;
+$red2:#df2a27;
+
 $grey:#F0F0F0;
+$grey2:#F4F3F4;
+$grey3:#F3F2F3;
 
 $header-col:$blue6;
 $bg-col:$blue;
@@ -27,9 +32,30 @@ $size-num:(992px,767px,567px,480px);
 /*****************
   OTHER
 *****************/
+
+.above-footer{
+  background-color:$grey3;
+}
+
 .apply-btn.signup-btn{
     padding:7px 39px;
     border-radius:36px;
+}
+
+.checklist{
+  list-style:none;
+  text-align:left;
+  margin-left:0;
+  padding-bottom:2em;
+  li{
+    display:flex;
+    padding:5px 0;
+  }
+  .aio-icon,.fa{
+    font-size:16px;
+    color:$blue3;
+    margin-top:4px;
+  }
 }
 
 
@@ -48,11 +74,9 @@ $size-num:(992px,767px,567px,480px);
 
 
 .getting-started{
-  background:#F9FAFB;
+  background:$grey3;
 
-  .fa{
-    color:#FB6E55;
-  }
+
 
   h3,h4{
     font-weight:600;
@@ -125,6 +149,15 @@ $size-num:(992px,767px,567px,480px);
   margin-top:0;
 }
 
+.summary-block{
+  max-height:150px;
+  overflow: hidden;
+}
+
+.third-block-container{
+  background-color:$grey3;
+}
+
 .w-iconbox-text{
   font-size:1.3em;
   line-height:30px;
@@ -173,7 +206,7 @@ $size-num:(992px,767px,567px,480px);
 .bg-{
 
   &grey{
-    background-color:$grey;
+    background-color:$grey3;
   }
 }
 

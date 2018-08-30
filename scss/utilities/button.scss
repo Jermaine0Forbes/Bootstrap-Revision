@@ -4,7 +4,7 @@
 
 .apply-btn{
     color:white;
-    background:$blue3;
+    background:$red;
     padding:0.75em 1.5em;
     text-transform:capitalize;
     font-size:1.5em;
@@ -14,5 +14,19 @@
 
 a.apply-btn:hover{
     color:white !important;
-    background:$blue4;
+    background:$red2;
 }
+// .apply-btn{
+//     color:white;
+//     background:$blue3;
+//     padding:0.75em 1.5em;
+//     text-transform:capitalize;
+//     font-size:1.5em;
+//     border-radius:30px;
+//     display:inline-block;
+// }
+//
+// a.apply-btn:hover{
+//     color:white !important;
+//     background:$blue4;
+// }

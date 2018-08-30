@@ -1,16 +1,46 @@
 /*
-  version: 0.1.0
-  date:8/29/18
+  version: 0.1.1
+  date:8/30/18
 
 */
 /*****************
   OTHER
 *****************/
+.above-footer
+{
+    background-color: #f3f2f3;
+}
+
 .apply-btn.signup-btn
 {
     padding: 7px 39px;
 
     border-radius: 36px;
+}
+
+.checklist
+{
+    margin-left: 0;
+    padding-bottom: 2em; 
+
+    list-style: none;
+
+    text-align: left;
+}
+.checklist li
+{
+    display: flex;
+
+    padding: 5px 0;
+}
+.checklist .aio-icon,
+.checklist .fa
+{
+    font-size: 16px;
+
+    margin-top: 4px; 
+
+    color: #377ef9;
 }
 
 .email-link
@@ -30,11 +60,7 @@
 
 .getting-started
 {
-    background: #f9fafb;
-}
-.getting-started .fa
-{
-    color: #fb6e55;
+    background: #f3f2f3;
 }
 .getting-started h3,
 .getting-started h4
@@ -100,6 +126,18 @@
     margin-top: 0;
 }
 
+.summary-block
+{
+    overflow: hidden; 
+
+    max-height: 150px;
+}
+
+.third-block-container
+{
+    background-color: #f3f2f3;
+}
+
 .w-iconbox-text,
 .l-main p
 {
@@ -157,7 +195,7 @@
 *****************/
 .bg-grey
 {
-    background-color: #f0f0f0;
+    background-color: #f3f2f3;
 }
 
 .cf7mls_progress_bar
@@ -819,13 +857,13 @@
 
     color: white;
     border-radius: 30px;
-    background: #377ef9;
+    background: #e4504e;
 }
 
 a.apply-btn:hover
 {
     color: white !important;
-    background: #2569e3;
+    background: #df2a27;
 }
 
 /*****************
@@ -1450,6 +1488,38 @@ h6
 {
     max-width: 1200px;
     margin: auto;
+}
+
+@media (max-width: 992px)
+{
+    .full-lg
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .full-md
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px)
+{
+    .full-sm
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .full-xs
+    {
+        width: 100%;
+    }
 }
 
 /*****************
@@ -2235,6 +2305,111 @@ h6
     .d-xs-block
     {
         display: block;
+    }
+}
+
+@media (max-width: 992px)
+{
+    .apply-btn
+    {
+        font-size: 14px;
+    }
+    .checklist li
+    {
+        font-size: 14px;
+
+        padding-bottom: 13px;
+    }
+    .footer-list li
+    {
+        padding: 5px 0;
+    }
+    .footer-list a
+    {
+        font-size: 12px;
+    }
+    .fourth-header
+    {
+        font-size: 17px;
+    }
+    .fourth-header h1,
+    .fourth-header h2,
+    .fourth-header h3,
+    .fourth-header h4,
+    .fourth-header h5,
+    .fourth-header h6
+    {
+        font-size: 17px;
+    }
+    p.fourth-header
+    {
+        font-size: 17px;
+    }
+    .invoice-header
+    {
+        font-size: 32px;
+    }
+    .invoice-header .w-iconbox-title
+    {
+        font-size: 32px;
+    }
+    .invoice-header h1,
+    .invoice-header h2,
+    .invoice-header h3,
+    .invoice-header h4,
+    .invoice-header h5,
+    .invoice-header h6
+    {
+        font-size: 32px;
+    }
+    .secondary-header
+    {
+        font-size: 26px;
+    }
+    .secondary-header h1,
+    .secondary-header h2,
+    .secondary-header h3,
+    .secondary-header h4,
+    .secondary-header h5,
+    .secondary-header h6
+    {
+        font-size: 26px;
+    }
+    p.secondary-header
+    {
+        font-size: 26px;
+    }
+    .solutions-heading
+    {
+        font-size: 26px;
+    }
+    .solutions-heading h1,
+    .solutions-heading h2,
+    .solutions-heading h3,
+    .solutions-heading h4,
+    .solutions-heading h5,
+    .solutions-heading h6
+    {
+        font-size: 26px;
+    }
+    .third-block p
+    {
+        font-size: 14px; 
+
+        margin-bottom: 0;
+    }
+    .third-block h4
+    {
+        font-size: 24px; 
+
+        padding-top: 0;
+    }
+    .w-iconbox-title
+    {
+        font-size: 17px;
+        font-weight: bold;
+
+        letter-spacing: 0;
     }
 }
 
