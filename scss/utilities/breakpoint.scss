@@ -37,6 +37,20 @@
 
   }
 
+  .getting-started{
+    background:$grey3;
+
+
+
+    h3,h4{
+      font-size:14px;
+    }
+
+
+
+
+  }
+
   .invoice-header{
     font-size: 32px;
 
@@ -130,6 +144,18 @@
       }
     }
   }
+
+  .social-list{
+
+    li{
+      padding-bottom:15px;
+    }
+
+    .social-icon{
+      font-size:32px !important;
+    }
+  }
+
 
 
 }//767px

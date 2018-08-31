@@ -1,6 +1,6 @@
 /*
-  version: 0.1.1
-  date:8/30/18
+  version: 0.1.2
+  date:8/31/18
 
 */
 
@@ -71,6 +71,13 @@ $size-num:(992px,767px,567px,480px);
 }
 
 
+.funding-program-block{
+   .w-iconbox-text{
+     max-height:120px;
+     overflow:hidden;
+   }
+}
+
 
 
 .getting-started{
@@ -78,7 +85,7 @@ $size-num:(992px,767px,567px,480px);
 
 
 
-  h3,h4{
+  h3{
     font-weight:600;
     font-size:1.8em;
   }
@@ -95,6 +102,20 @@ $size-num:(992px,767px,567px,480px);
 .img-container{
   img{
 
+  }
+}
+
+.learn-link{
+  font-size:16px;
+  font-weight:bold;
+  background-color:$red;
+  color:white;
+  padding:5px 10px;
+  margin-top:1em;
+  display:inline-block;
+  &:hover{
+    background:$red2;
+    color:white !important;
   }
 }
 
@@ -127,7 +148,7 @@ $size-num:(992px,767px,567px,480px);
 
 
 .partner-line{
-    margin:0 15em !important;
+    margin:15px 15em !important;
 
 }
 
@@ -168,6 +189,13 @@ $size-num:(992px,767px,567px,480px);
   font-weight:bold;
   font-size:20px;
   letter-spacing: 0;
+}
+
+.wpb_wrapper{
+
+  ul{
+    font-size:15.6px;
+  }
 }
 
 .w-tabs-section-title{

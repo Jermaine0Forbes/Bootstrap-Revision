@@ -1,6 +1,6 @@
 /*
-  version: 0.1.1
-  date:8/30/18
+  version: 0.1.2
+  date:8/31/18
 
 */
 /*****************
@@ -58,12 +58,20 @@
     letter-spacing: 0;
 }
 
+.funding-program-block .w-iconbox-text,
+.funding-program-block .l-main p,
+.l-main .funding-program-block p
+{
+    overflow: hidden; 
+
+    max-height: 120px;
+}
+
 .getting-started
 {
     background: #f3f2f3;
 }
-.getting-started h3,
-.getting-started h4
+.getting-started h3
 {
     font-size: 1.8em; 
     font-weight: 600;
@@ -73,6 +81,25 @@
     font-size: 1.3em; 
 
     color: #7f8ba4;
+}
+
+.learn-link
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    display: inline-block; 
+
+    margin-top: 1em;
+    padding: 5px 10px;
+
+    color: white;
+    background-color: #e4504e;
+}
+.learn-link:hover
+{
+    color: white !important; 
+    background: #df2a27;
 }
 
 .l-main .day-label
@@ -106,7 +133,7 @@
 
 .partner-line
 {
-    margin: 0 15em !important;
+    margin: 15px 15em !important;
 }
 
 .single-form-control
@@ -153,6 +180,11 @@
     font-weight: bold;
 
     letter-spacing: 0;
+}
+
+.wpb_wrapper ul
+{
+    font-size: 15.6px;
 }
 
 .w-tabs-section-title
@@ -245,7 +277,7 @@
 
     color: #fff;
     border-radius: 3px;
-    background: #377ef9;
+    background: #e4504e;
 }
 
 .cf7mls_progress_bar li:after
@@ -263,7 +295,7 @@
        -moz-transition: .8s ease all;
             transition: .8s ease all;
 
-    background: #377ef9;
+    background: #e4504e;
 }
 
 .cf7mls_progress_bar li:first-child:after
@@ -276,7 +308,7 @@
 .cf7mls_progress_bar li.active:after
 {
     color: #fff; 
-    background: #377ef9;
+    background: #e4504e;
 }
 
 .cf7mls_next.action-button,
@@ -1174,6 +1206,8 @@ p.solutions-heading
 
 .start-header
 {
+    font-weight: bold; 
+
     letter-spacing: 0;
 }
 
@@ -2345,6 +2379,15 @@ h6
     {
         font-size: 17px;
     }
+    .getting-started
+    {
+        background: #f3f2f3;
+    }
+    .getting-started h3,
+    .getting-started h4
+    {
+        font-size: 14px;
+    }
     .invoice-header
     {
         font-size: 32px;
@@ -2433,6 +2476,14 @@ h6
     .quote-form .wpcf7-form-control.wpcf7-select
     {
         max-width: 100%;
+    }
+    .social-list li
+    {
+        padding-bottom: 15px;
+    }
+    .social-list .social-icon
+    {
+        font-size: 32px !important;
     }
 }
 
