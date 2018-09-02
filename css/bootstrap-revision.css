@@ -1,6 +1,6 @@
 /*
-	version: 0.03.0
-	date:	8/16/17
+	version: 0.03.1
+	date:	9/4/17
 */
 /*======Base======*/
 /*___body___ */
@@ -469,6 +469,21 @@ ul.remove-bullets {
 
 /*=============================
 
+	.navbar
+
+==============================*/
+.navbar.x-center {
+  align-items: center; }
+
+.navbar.y-center {
+  justify-content: center; }
+
+.navbar.center {
+  align-items: center;
+  justify-content: center; }
+
+/*=============================
+
 	.navbar-nav
 
 ==============================*/
@@ -493,6 +508,16 @@ ul.remove-bullets {
 .navbar-nav.evenly {
   align-items: center;
   justify-content: space-evenly; }
+
+.navbar-nav.x-center {
+  align-items: center; }
+
+.navbar-nav.y-center {
+  justify-content: center; }
+
+.navbar-nav.center {
+  align-items: center;
+  justify-content: center; }
 
 /*=============================
 
