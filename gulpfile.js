@@ -1,17 +1,29 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
+var csscomb = require('gulp-csscomb');
 
 gulp.task('default',['sass']);
 
 
 gulp.task('sass', function(){
 
-  gulp.src('./scss/bootstrap-revision.scss')
+  gulp.src('./scss/revision/bootstrap-revision.scss')
   .pipe(sass())
   .pipe(gulp.dest('./css'));
 })
 
-gulp.task('watch',['sass'],function(){
+gulp.task('utility', function(){
 
-gulp.watch('./scss/*.scss',['sass']);
+  gulp.src('./scss/utilities/utility.scss')
+  .pipe(sass())
+  .pipe(csscomb())
+  .pipe(gulp.dest('./css'));
+})
+
+
+gulp.task('watch',['sass', 'utility'],function(){
+
+gulp.watch('./scss/revision/*.scss',['sass']);
+gulp.watch('./scss/utilities/*.scss',['utility']);
+
 })

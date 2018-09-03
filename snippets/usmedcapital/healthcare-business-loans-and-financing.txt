@@ -1,0 +1,27 @@
+
+** text-block **
+<h2 style="color: #0081b1; text-align: center;">US MED Capital Provides Flexible Financing Solutions
+ Tailored to Your Healthcare Business. Offers funding solutions to healthcare professionals that need funding today,
+ with no red tape and bureaucracy associated with institutional lenders.</h2>
+
+
+** text-block **
+ <h3 style="color: #0081b1; text-align: center;">We fund any medical provider in the U.S. that bills
+ third party insurance carriers.</h3>
+
+<h3 style="color: #0081b1; text-align: center;">To find out more about US MED’s alternative financing
+product contact us today</h3>
+
+<h2 style="color: #0081b1; text-align: center;"><i class="fa fa-headphones"></i> (305) 363-3141</h2>
+
+
+** text-block **
+<h2 style="color: #ffffff; text-align: center;">QUICK APPLICATION</h2>
+
+<h3 style="color: #ffffff; text-align: center;">If you'd like to know if a Healthcare Business Advance
+is right for your business, lets get started by completing our online application. Your information is
+ confidential and there's no obligation.</h3>
+
+
+** text-block **
+ <h1 style="color: #0081b1; text-align: center;">Let us help you take your business to the next level</h1>

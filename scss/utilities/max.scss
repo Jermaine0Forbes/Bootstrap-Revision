@@ -1,0 +1,30 @@
+/*****************
+  MAX
+*****************/
+
+.max-960{
+  max-width:960px;
+  margin:auto;
+}
+
+@for $max from 1 through 3{
+
+  .max-#{$max*400}{
+    max-width:$max*400px;
+    margin:auto;
+  }
+}
+
+@for $x from 1 through length($size-num){
+
+    $name : nth($size-name,$x);
+    $size : nth($size-num,$x);
+
+      @media (max-width:$size){
+
+          .full-#{$name}{
+            width:100%;
+          }
+      }
+
+}

@@ -1,0 +1,115 @@
+.cf7mls_progress_bar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    counter-reset: step;
+    position: relative;
+    z-index: 1;
+}
+.cf7mls_progress_bar li {
+    color: #000;
+    text-align: center;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 9px;
+    float: left;
+    position: relative;
+        margin: 0 !important;
+    padding: 0 !important;
+}
+.cf7mls_progress_bar li:before {
+    content: counter(step);
+    counter-increment: step;
+    width: 40px;
+    line-height: 40px;
+    display: block;
+    font-size: 25px;
+    color: #FFF;
+    background: $red;
+    border-radius: 3px;
+    margin: 0 auto 5px auto;
+    text-align: center;
+}
+.cf7mls_progress_bar li:after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background: $red;
+    position: absolute;
+    left: -50%;
+    top: 18px;
+    z-index: -1;
+    transition: 0.8s ease all;
+    -moz-transition: 0.8s ease all;
+    -webkit-transition: 0.8s ease all;
+}
+.cf7mls_progress_bar  li:first-child:after {
+	/*connector not needed before the first step*/
+	content: none;
+}
+.cf7mls_progress_bar li.active:before,
+.cf7mls_progress_bar li.active:after {
+    background: $red;
+    color: #FFF;
+}
+
+.cf7mls_next.action-button,
+.cf7mls_back.action-button,
+.fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step{
+  background-color:$blue3;
+  border-radius:0.3em;
+  margin-top:0;
+  font-size:1.2em;
+  font-weight:normal;
+}
+
+// div[id^="wpcf7-f6-p"] button.cf7mls_next{
+//   background-color:$blue3;
+//   border-radius:0.3em;
+// }
+//
+// div[id^="wpcf7-f6-p"] button.cf7mls_back{
+//   background-color:$blue3;
+//   border-radius:0.3em;
+//
+// }
+
+.triangle-type-1 {
+	width: 45px;
+	height: 112px;
+	position: relative;
+	left: 100px;
+	}
+.triangle-type-1 .line-1, .triangle-type-1 .line-2 {
+	height: 1px;
+	background: #ffffff;
+	width: 50px;
+	display: block;
+	}
+.triangle-type-1 .line-1 {
+	-webkit-transform: rotate(60deg);
+	-ms-transform: rotate(60deg);
+	transform: rotate(60deg);
+	position: absolute;
+	top: 5px;
+	}
+.triangle-type-1 .line-2 {
+	-webkit-transform: rotate(-60deg);
+	-ms-transform: rotate(-60deg);
+	transform: rotate(-60deg);
+	position: absolute;
+	top: 48px;
+	}
+.lead-form-wrapper {
+    background-color: #f0f8fc;
+    padding: 32px;
+    border-top: 1px solid #e4e5e6
+}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea,
+.wpcf7 select
+{
+    background-color: #fff;
+    color: #000;
+    width: 90%;
+}

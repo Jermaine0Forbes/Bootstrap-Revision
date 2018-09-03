@@ -1,0 +1,172 @@
+
+@media (max-width:992px){
+
+  .apply-btn{
+    font-size:14px;
+  }
+  .checklist{
+    li{
+      font-size:14px;
+      padding-bottom:13px;
+    }
+
+  }
+
+  .footer-list{
+
+    li{
+      padding:5px 0;
+    }
+
+    a{
+      font-size:12px;
+    }
+  }
+
+  .fourth-header{
+    font-size:17px;
+
+    h1,h2,h3,h4,h5,h6{
+      font-size:17px;
+    }
+
+  }
+
+  p.fourth-header{
+    font-size:17px;
+
+  }
+
+  .getting-started{
+    background:$grey3;
+
+
+
+    h3,h4{
+      font-size:14px;
+    }
+
+
+
+
+  }
+
+  .invoice-header{
+    font-size: 32px;
+
+    .w-iconbox-title{
+      font-size: 32px;
+
+    }
+
+    h1,h2,h3,h4,h5,h6{
+      font-size: 32px;
+    }
+
+  }
+
+  .secondary-header{
+    font-size:26px;
+    h1,h2,h3,h4,h5,h6{
+      font-size:26px;
+    }
+  }
+
+  p.secondary-header{
+
+    font-size:26px;
+  }
+
+  .solutions-heading{
+    font-size:26px;
+    h1,h2,h3,h4,h5,h6{
+      font-size:26px;
+    }
+  }
+
+  .third-block{
+
+    p{
+      margin-bottom:0;
+      font-size:14px;
+    }
+
+    h4{
+      padding-top:0;
+      font-size:24px;
+    }
+
+
+  }
+
+  .w-iconbox-title{
+    font-weight:bold;
+    font-size:17px;
+    letter-spacing: 0;
+  }
+
+
+
+
+}//992px
+
+
+
+
+
+
+@media (max-width:767px){
+
+  .img-container{
+    img{
+       display:block;
+       margin:auto;
+    }
+  }
+
+  .home-header-content-section{
+    max-width:100%;
+    margin:auto;
+  }
+
+  .home-form {
+
+    .single-form-control{
+      width:100%;
+    }
+  }
+
+  .quote-form{
+
+    .wpcf7-form-control{
+      &.wpcf7-select{
+        max-width:100%;
+      }
+    }
+  }
+
+  .social-list{
+
+    li{
+      padding-bottom:15px;
+    }
+
+    .social-icon{
+      font-size:32px !important;
+    }
+  }
+
+
+
+}//767px
+
+
+@media (max-width:568px){
+
+
+
+  .home-form .wpcf7-form-control.wpcf7-submit{
+    width:95%;
+  }
+
+}//568px

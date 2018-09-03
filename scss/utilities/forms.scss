@@ -1,0 +1,162 @@
+
+/*****************
+  FORMS
+*****************/
+
+.alternate-form{
+  span.wpcf7-form-control-wrap{
+      font-size:1.4em;
+      width:100%;
+      margin:0.3em;
+  }
+
+  .lead-form-wrapper{
+    padding:0;
+    background-color:transparent;
+  }
+
+  .wpcf7-form-control.wpcf7-submit{
+      margin: auto;
+      display: block;
+      font-size: 1.4em;
+      border-radius: 27px;
+      padding: 0.3em 3em;
+      margin-top: 0.3em;
+
+  }
+
+   .wpcf7 input[type='text'],
+   .wpcf7 input[type='email'],
+  .wpcf7 textarea,
+  .wpcf7 select {
+      padding:1.5em 0.5em;
+      border: 1px solid #7F8BA4;
+      width:100%;
+  }
+
+
+}
+
+
+.form-2{
+
+  .wpcf7-form{
+      background:#162D5A;
+      padding:1em;
+      padding-top:3em;
+  }
+
+  .wpcf7-form-control-wrap {
+      text-align:center;
+      padding:0.25em 0;
+  }
+
+  .wpcf7-form-control-wrap input,
+   .wpcf7-form-control
+  {
+      font-size:1.2em;
+      height:40px;
+  }
+
+  .wpcf7-form-control.wpcf7-textarea{
+      height:8em;
+      margin-bottom:1em;
+  }
+
+  .wpcf7-form-control.wpcf7-submit{
+      display:block;
+      margin:auto;
+      border-radius:17px;
+      padding:0 2em;
+  }
+
+
+}
+
+
+.home-form {
+
+  .single-form-control{
+    width:98.5%;
+  }
+
+    span.wpcf7-form-control-wrap{
+      font-size:1.4em;
+      width:100%;
+      margin:0.3em;
+
+      input::placeholder{
+        opacity:1;
+      }
+
+      select{
+          height:50px;
+      }
+  }
+
+  .wpcf7-form-control.wpcf7-submit{
+      margin: auto;
+      display: block;
+      font-size: 1.4em;
+      border-radius: 27px;
+      padding: 0.3em 3em;
+      margin-top: 0.3em;
+
+  }
+
+   .wpcf7 input[type='text'],
+  .wpcf7 input[type='email'],
+  .wpcf7-select,
+  .wpcf7 textarea,
+  .wpcf7 select {
+      padding:1.5em 0.5em;
+      /*border: 1px solid #7F8BA4;*/
+      width:100%;
+      background-color: rgba(255,255,255,.3);
+      color:white;
+  }
+
+
+}
+
+.quote-form{
+
+ span.wpcf7-form-control-wrap{
+      font-size:1.4em;
+      width:100%;
+      margin:0.3em;
+  }
+
+  .lead-form-wrapper{
+    padding:0;
+    background-color:transparent;
+  }
+
+
+
+   .wpcf7 input[type='text'],
+  .wpcf7 input[type='email'],
+   .wpcf7 textarea,
+  .wpcf7 select {
+      padding:1em 0.5em;
+      border: 1px solid #7F8BA4;
+      width:100%;
+  }
+
+  .wpcf7-form-control{
+    &.wpcf7-select{
+      height:36px;
+      max-width:98.5%;
+    }
+    &.wpcf7-submit{
+        margin: auto;
+        display: block;
+        font-size: 1.4em;
+        border-radius: 27px;
+        padding: 0.3em 3em;
+        margin-top: 0.3em;
+
+    }
+  }
+
+}

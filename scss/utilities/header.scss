@@ -1,0 +1,172 @@
+/*****************
+  HEADER
+*****************/
+
+.primary-header{
+  font-size: 3.5em;
+    // font-weight: 600;
+    letter-spacing: -1px;
+    text-transform:capitalize;
+    .w-iconbox-title{
+      font-size: 3.5em;
+        // font-weight: 600;
+        letter-spacing: -1px;
+        text-transform:capitalize;
+    }
+
+    h1,h2,h3,h4,h5,h6{
+      font-size: 3.5em;
+        // font-weight: 600;
+        letter-spacing: -1px;
+        text-transform:capitalize;
+    }
+}
+
+p.primary-header{
+  font-size: 3.5em;
+
+}
+
+.contact-header{
+  letter-spacing:0;
+  text-transform:capitalize;
+  .w-iconbox-title{
+    letter-spacing:0;
+    text-transform:capitalize;
+  }
+
+}
+
+.invoice-header{
+
+  color: $blue6;
+  font-size: 4em;
+  margin-top: 0em;
+  font-weight: bold;
+  .w-iconbox-title{
+    color: $blue6;
+    font-size: 4em;
+    margin-top: 0em;
+    font-weight: bold;
+  }
+
+  h1,h2,h3,h4,h5,h6{
+    color: $blue6;
+    font-size: 48px;
+    margin-top: 0em;
+    font-weight: bold;
+  }
+
+}
+
+p.invoice-header{
+  font-size: 48px;
+
+}
+
+
+.secondary-header{
+  letter-spacing:0;
+  font-weight:bold;
+  font-size:3em;
+  text-transform:capitalize;
+
+  h1,h2,h3,h4,h5,h6{
+    letter-spacing:0;
+    font-weight:bold;
+    font-size:36px;
+    text-transform:capitalize;
+  }
+
+}
+
+p.secondary-header{
+
+  font-size:36px;
+}
+
+.solutions-heading{
+  font-weight:bold;
+  font-size:3em;
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    font-size:36px;
+  }
+
+}
+
+p.solutions-heading{
+  font-size:36px;
+}
+
+.start-header{
+  letter-spacing: 0;
+  font-weight:bold;
+}
+
+.sub-header{
+  font-weight:bold;
+  font-size:1.5em;
+  letter-spacing: 0;
+
+  h1,h2,h3,h4,h5,h6{
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing: 0;
+  }
+
+}
+
+
+p.sub-header{
+  font-size:20px;
+}
+
+.tertiary-header{
+  font-size:2.5em;
+  color:$blue6;
+  letter-spacing: 0;
+  font-weight:bold;
+
+  h1,h2,h3,h4,h5,h6{
+    font-size:30px;
+    color:$blue6;
+    letter-spacing: 0;
+    font-weight:bold;
+  }
+
+}
+
+p.tertiary-header{
+  font-size:30px;
+
+}
+
+.fourth-header{
+
+  font-size:2em;
+  letter-spacing: 0;
+  font-weight:bold;
+
+  h1,h2,h3,h4,h5,h6{
+    font-size:24px;
+    letter-spacing: 0;
+    font-weight:bold;
+  }
+
+}
+
+p.fourth-header{
+  font-size:24px;
+
+}
+
+// @media (max-width:568px){
+//
+//   .secondary-header{
+//
+//     font-weight: normal;
+//   }
+//
+// }
