@@ -34,3 +34,40 @@
   }
 
 }
+
+@for $i from 1 through length($size-num){
+
+   $width : nth($size-num,$i);
+   $size : nth($size-name,$i);
+
+   @media (max-width:$width){
+
+     .mar-#{$size}-0{
+        margin:0;
+     }
+     .mar-#{$size}-v-0{
+        margin-top:0;
+        margin-bottom:0;
+     }
+     .mar-#{$size}-h-0{
+        margin-left:0;
+        margin-right:0;
+     }
+     .mar-#{$size}-t-0{
+        margin-top:0;
+     }
+
+     .mar-#{$size}-b-0{
+        margin-bottom:0;
+     }
+
+     .mar-#{$size}-r-0{
+        margin-right:0;
+     }
+
+     .mar-#{$size}-l-0{
+        margin-left:0;
+     }
+
+   }
+}

@@ -65,6 +65,51 @@
 
   }
 
+  .medical-practice-financing{
+
+    .feature-{
+
+      // &block{
+      //
+      //  margin:1em auto !important;
+      //
+      //  .uvc-heading h3{
+      //    font-size:28px !important;
+      //  }
+      // }
+
+      &list{
+        padding:3em 0;
+
+        li{
+          font-size:1.2em;
+        }
+      }
+
+    }
+
+    &#section-{
+
+      // &6{
+      //   .block{
+      //     max-width:345px;
+      //     min-height:195px;
+      //     margin:auto;
+      //     margin-bottom:1em;
+      //   }
+      // }
+
+      &10{
+         .nav-h{
+           margin-top:0;
+           a{
+              font-size:1.1em;
+           }
+         }
+      }
+    }
+  }
+
   .secondary-header{
     font-size:26px;
     h1,h2,h3,h4,h5,h6{
@@ -156,7 +201,50 @@
     }
   }
 
+  .medical-practice-financing{
 
+    .feature-{
+
+      &block{
+
+       margin:1em auto !important;
+
+       .uvc-heading h3{
+         font-size:28px !important;
+       }
+      }
+
+      &list{
+        padding:1em 1em;
+
+        li{
+          font-size:1em;
+        }
+      }
+
+    }
+
+    &#section-{
+
+      // &6{
+      //   .block{
+      //     max-width:345px;
+      //     min-height:195px;
+      //     margin:auto;
+      //     margin-bottom:1em;
+      //   }
+      // }
+
+      &10{
+         .nav-h{
+
+           a{
+              font-size:1em;
+           }
+         }
+      }
+    }
+  }
 
 }//767px
 
@@ -168,5 +256,51 @@
   .home-form .wpcf7-form-control.wpcf7-submit{
     width:95%;
   }
+
+  .medical-practice-financing{
+
+    // .feature-{
+    //
+    //   &block{
+    //
+    //    margin:1em auto !important;
+    //
+    //    .uvc-heading h3{
+    //      font-size:28px !important;
+    //    }
+    //   }
+    //
+    //   &list{
+    //     padding:1em 1em;
+    //
+    //     li{
+    //       font-size:1em;
+    //     }
+    //   }
+    //
+    // }
+
+    &#section-{
+
+      &6{
+        .block{
+          max-width:345px;
+          min-height:195px;
+          margin:auto;
+          margin-bottom:1em;
+        }
+      }
+
+      &10{
+         .nav-h{
+
+           a{
+              font-size:1em;
+           }
+         }
+      }
+    }
+  }
+
 
 }//568px
