@@ -111,73 +111,6 @@
     color: #253b74;
 }
 
-.medical-practice-financing .block
-{
-    margin-bottom: 1em;
-}
-
-.medical-practice-financing .event-listing
-{
-    margin: 2em 0;
-    padding: 1em 0;
-}
-
-.medical-practice-financing .feature-block
-{
-    max-width: 355px;
-    margin: auto;
-}
-.medical-practice-financing .feature-block .uvc-heading h3
-{
-    margin: .5em 0;
-}
-
-.medical-practice-financing .feature-list
-{
-    padding: 3em 1em;
-}
-.medical-practice-financing .feature-list li
-{
-    font-size: 1.3em;
-}
-
-.medical-practice-financing #feature-section .vc_column-inner
-{
-    padding: 0;
-}
-
-.medical-practice-financing .middle-header-img
-{
-    position: absolute;
-    top: -25px;
-}
-
-.medical-practice-financing#overlay-section
-{
-    margin-top: -286px;
-}
-
-.medical-practice-financing#section-6 .block
-{
-    max-width: 345px;
-    min-height: 195px;
-}
-
-.medical-practice-financing#section-10 .nav-h
-{
-    font-size: 1.3em;
-}
-.medical-practice-financing#section-10 .nav-h a
-{
-    margin-top: 2em;
-
-    color: #253b74;
-}
-.medical-practice-financing#section-10 .nav-h a:hover
-{
-    color: #377ef9;
-}
-
 .phone-link
 {
     font-size: 1.4em;
@@ -2350,6 +2283,10 @@ h6
 
 @media (max-width: 992px)
 {
+    .mar-lg-auto
+    {
+        margin: auto;
+    }
     .mar-lg-0
     {
         margin: 0;
@@ -2384,6 +2321,10 @@ h6
 
 @media (max-width: 767px)
 {
+    .mar-md-auto
+    {
+        margin: auto;
+    }
     .mar-md-0
     {
         margin: 0;
@@ -2418,6 +2359,10 @@ h6
 
 @media (max-width: 567px)
 {
+    .mar-sm-auto
+    {
+        margin: auto;
+    }
     .mar-sm-0
     {
         margin: 0;
@@ -2452,6 +2397,10 @@ h6
 
 @media (max-width: 480px)
 {
+    .mar-xs-auto
+    {
+        margin: auto;
+    }
     .mar-xs-0
     {
         margin: 0;
@@ -2485,64 +2434,120 @@ h6
 }
 
 /*****************
-  DISPLAY
+  LANDING PAGE
 *****************/
-.d-none
+.medical-practice-financing .block
 {
-    display: none !important;
+    margin-bottom: 1em;
 }
 
-.d-block
+.medical-practice-financing .event-listing
 {
-    display: block;
+    margin: 2em 0;
+    padding: 1em 0;
 }
 
-@media (max-width: 992px)
+.medical-practice-financing .feature-block
 {
-    .d-lg-none
-    {
-        display: none !important;
-    }
-    .d-lg-block
-    {
-        display: block;
-    }
+    max-width: 355px;
+    margin: auto;
+}
+.medical-practice-financing .feature-block .uvc-heading h3
+{
+    margin: .5em 0;
 }
 
-@media (max-width: 767px)
+.medical-practice-financing .feature-list
 {
-    .d-md-none
-    {
-        display: none !important;
-    }
-    .d-md-block
-    {
-        display: block;
-    }
+    padding: 3em 1em;
+}
+.medical-practice-financing .feature-list li
+{
+    font-size: 1.3em;
 }
 
-@media (max-width: 567px)
+.medical-practice-financing #feature-section .vc_column-inner
 {
-    .d-sm-none
-    {
-        display: none !important;
-    }
-    .d-sm-block
-    {
-        display: block;
-    }
+    padding: 0;
 }
 
-@media (max-width: 480px)
+.medical-practice-financing .middle-header-img
 {
-    .d-xs-none
-    {
-        display: none !important;
-    }
-    .d-xs-block
-    {
-        display: block;
-    }
+    position: absolute;
+    top: -25px;
+}
+
+.medical-practice-financing#header-section
+{
+    padding: 0;
+}
+.medical-practice-financing#header-section .l-section-h
+{
+    max-width: 100%;
+    margin: 0;
+    padding-bottom: 0;
+}
+.medical-practice-financing#header-section .secondary-section
+{
+    margin-bottom: -95px;
+}
+.medical-practice-financing#header-section .text-section
+{
+    padding-top: 1em; 
+
+    text-align: center;
+}
+.medical-practice-financing#header-section .text-section h3,
+.medical-practice-financing#header-section .text-section .fourth-header
+{
+    margin-bottom: 0; 
+
+    color: white;
+}
+.medical-practice-financing#header-section .text-section h4,
+.medical-practice-financing#header-section .text-section .tertiary-header
+{
+    font-weight: 300;
+}
+.medical-practice-financing#header-section #title
+{
+    margin-bottom: 1em;
+}
+
+.medical-practice-financing #overlay-block
+{
+    position: absolute;
+    bottom: 0;
+
+    width: 100%; 
+
+    background-color: rgba(37, 59, 116, .7);
+}
+
+.medical-practice-financing#overlay-section
+{
+    margin-top: -286px;
+}
+
+.medical-practice-financing#section-6 .block
+{
+    max-width: 345px;
+    min-height: 228px;
+}
+
+.medical-practice-financing#section-10 .nav-h
+{
+    font-size: 1.3em;
+}
+.medical-practice-financing#section-10 .nav-h a
+{
+    margin-top: 2em;
+
+    color: #253b74;
+}
+.medical-practice-financing#section-10 .nav-h a:hover
+{
+    color: #377ef9;
 }
 
 @media (max-width: 992px)
@@ -2615,6 +2620,15 @@ h6
     .medical-practice-financing .feature-list li
     {
         font-size: 1.2em;
+    }
+    .medical-practice-financing#header-section .text-section h3,
+    .medical-practice-financing#header-section .text-section .fourth-header
+    {
+        font-size: 21px;
+    }
+    .medical-practice-financing#header-section #title
+    {
+        font-weight: normal;
     }
     .medical-practice-financing#section-10 .nav-h
     {
@@ -2731,6 +2745,16 @@ h6
     .home-form .wpcf7-form-control.wpcf7-submit
     {
         width: 95%;
+    }
+    .medical-practice-financing#header-section .center-img img
+    {
+        max-width: 220px;
+    }
+    .medical-practice-financing#header-section #title
+    {
+        font-size: 22px !important;
+
+        margin-bottom: .5em;
     }
     .medical-practice-financing#section-6 .block
     {

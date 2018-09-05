@@ -132,83 +132,7 @@ $size-num:(992px,767px,567px,480px);
   font-size:1.4em;
 }
 
-.medical-practice-financing{
 
-  .block{
-    margin-bottom:1em;
-
-  }
-
-    .event-listing{
-      margin:2em 0;
-      padding:1em 0;
-  }
-
-
-  .feature-{
-
-    &block{
-      max-width:355px;
-     margin:auto;
-
-     .uvc-heading h3{
-       margin:0.5em 0;
-     }
-    }
-
-    &list{
-      padding:3em 1em;
-
-      li{
-        font-size:1.3em;
-      }
-    }
-
-  }
-    #feature-section{
-     .vc_column-inner{
-      padding:0;}
-  }
-
-  .middle-header-img{
-      position:absolute;
-      top:-25px;
-  }
-
-
-    &#overlay-section{
-      margin-top:-286px;
-  }
-
-  &#section-{
-
-    &6{
-      .block{
-        max-width:345px;
-        min-height:195px;
-        // margin:auto;
-
-      }
-    }
-
-    &10{
-       .nav-h{
-         font-size:1.3em;
-         a{
-            margin-top:2em;
-            color:$blue6;
-            &:hover{
-              color:$blue3;
-            }
-         }
-       }
-    }
-  }
-
-
-
-
-}
 
 .phone-link{
   font-size:1.4em;
@@ -329,5 +253,6 @@ $size-num:(992px,767px,567px,480px);
 @import "nav";
 @import "padding";
 @import "margin";
-@import "display";
+// @import "display";
+@import "landing-page";
 @import "breakpoint";

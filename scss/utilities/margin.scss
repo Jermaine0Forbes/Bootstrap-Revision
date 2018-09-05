@@ -42,6 +42,10 @@
 
    @media (max-width:$width){
 
+     .mar-#{$size}-auto{
+       margin:auto;
+     }
+
      .mar-#{$size}-0{
         margin:0;
      }

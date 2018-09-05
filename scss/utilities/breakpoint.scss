@@ -88,6 +88,38 @@
 
     }
 
+    &#header-section{
+
+      // .l-section-h{
+      //   // max-width:100%;
+      //   // margin:0;
+      //   // padding-bottom:0;
+      // }
+
+      // .secondary-section{
+      //   // margin-bottom:-95px;
+      // }
+
+      .text-section{
+        // text-align:center;
+        // padding-top:1em;
+
+        h3,.fourth-header{
+          // color:white;
+          // margin-bottom:0;
+          font-size:21px;
+        }
+        // h4,.tertiary-header{
+        //   font-weight:300;
+        //
+        // }
+      }
+
+      #title{
+        font-weight:normal;
+      }
+    }
+
     &#section-{
 
       // &6{
@@ -279,6 +311,20 @@
     //   }
     //
     // }
+
+    &#header-section{
+
+      .center-img{
+        img{
+          max-width:220px;
+        }
+      }
+
+      #title{
+        font-size: 22px !important;
+        margin-bottom:0.5em;
+      }
+    }
 
     &#section-{
 
