@@ -40,6 +40,14 @@
     &blue-4{
       color:$blue5 !important;
     }
+
+    &red{
+      color:$red !important;
+    }
+
+    &red-2{
+      color:$red2 !important;
+    }
 }
 
   .text-{
@@ -68,21 +76,21 @@
     }
   }
 
-@for $s from 1 through length($size-num){
-  $width: nth($size-num, $s);
-  $size: nth($size-name,$s);
-  @media (max-width:$width){
-    .text-#{$size}-{
-       &center{
-         text-align: center;
-       }
-       &left{
-         text-align: left;
-       }
-       &right{
-         text-align: right;
-       }
-    }
-  }
-
-}
+// @for $s from 1 through length($size-num){
+//   $width: nth($size-num, $s);
+//   $size: nth($size-name,$s);
+//   @media (max-width:$width){
+//     .text-#{$size}-{
+//        &center{
+//          text-align: center;
+//        }
+//        &left{
+//          text-align: left;
+//        }
+//        &right{
+//          text-align: right;
+//        }
+//     }
+//   }
+//
+// }

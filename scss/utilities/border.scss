@@ -3,53 +3,53 @@
 *****************/
 .border-{
   &top{
-    border-top:1px solid $blue5;
+    border-top:1px solid $blue5 !important;
   }
 
   &bottom{
-    border-bottom:1px solid $blue5;
+    border-bottom:1px solid $blue5 !important;
   }
 
 
   &left{
-    border-left:1px solid $blue5;
+    border-left:1px solid $blue5 !important;
   }
 
 
   &right{
-    border-right:1px solid $blue5;
+    border-right:1px solid $blue5 !important;
   }
 
   &v{
 
-    border-top:1px solid $blue5;
-    border-bottom:1px solid $blue5;
+    border-top:1px solid $blue5 !important;
+    border-bottom:1px solid $blue5 !important;
   }
 
   &h{
-    border-left:1px solid $blue5;
-    border-right:1px solid $blue5;
+    border-left:1px solid $blue5 !important;
+    border-right:1px solid $blue5 !important;
   }
 
   &color-{
 
     &1{
-      border-color:$blue3;
+      border-color:$blue3 !important;
     }
     &2{
-      border-color:$blue4;
+      border-color:$blue4 !important;
     }
     &3{
-      border-color:$blue;
+      border-color:$blue !important;
     }
     &4{
-      border-color:rgba(255, 255, 255, 0.05);
+      border-color:rgba(255, 255, 255, 0.05) !important;
     }
     &5{
-      border-color:white;
+      border-color:white !important;
     }
     &6{
-      border-color:transparent;
+      border-color:transparent !important;
     }
   }
 }
@@ -64,37 +64,37 @@
 
         .border-#{$name}-{
           &top{
-            border-top:1px solid $blue5;
+            border-top:1px solid $blue5 !important;
           }
 
           &bottom{
-            border-bottom:1px solid $blue5;
+            border-bottom:1px solid $blue5 !important;
           }
 
 
           &left{
-            border-left:1px solid $blue5;
+            border-left:1px solid $blue5 !important;
           }
 
 
           &right{
-            border-right:1px solid $blue5;
+            border-right:1px solid $blue5 !important;
           }
 
           &v{
 
-            border-top:1px solid $blue5;
-            border-bottom:1px solid $blue5;
+            border-top:1px solid $blue5 !important;
+            border-bottom:1px solid $blue5 !important;
           }
 
           &h{
-            border-left:1px solid $blue5;
-            border-right:1px solid $blue5;
+            border-left:1px solid $blue5 !important;
+            border-right:1px solid $blue5 !important;
 
           }
 
           &none{
-            border-style:none;
+            border-style:none !important;
 
 
           }
@@ -102,24 +102,24 @@
           &none-{
 
             &top{
-              border-top-style:none;
+              border-top-style:none !important;
             }
             &bottom{
-              border-bottom-style:none;
+              border-bottom-style:none !important;
             }
             &left{
-              border-left-style:none;
+              border-left-style:none !important;
             }
             &right{
-              border-right-style:none;
+              border-right-style:none !important;
             }
             &v{
-              border-bottom-style:none;
-              border-top-style:none;
+              border-bottom-style:none !important;
+              border-top-style:none !important;
             }
             &h{
-              border-right-style:none;
-              border-left-style:none;
+              border-right-style:none !important;
+              border-left-style:none !important;
             }
           }
 

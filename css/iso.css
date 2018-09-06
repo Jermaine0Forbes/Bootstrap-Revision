@@ -1,0 +1,137 @@
+/*
+  version: 0.0.1
+  date:9/6/18
+
+*/
+/*****************
+  CURRENT
+*****************/
+.industry-block
+{
+    width: 100%;
+    padding-bottom: .5em; 
+
+    border: 1px solid #3b3d40;
+}
+
+.industry-title
+{
+    font-size: 18px; 
+    font-weight: bold;
+
+    margin-bottom: 1em;
+    padding: .5em;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: white;
+    background-color: #277cea;
+}
+
+.industry-summary
+{
+    padding: 0 1em;
+}
+
+/*****************
+  OLD
+*****************/
+.lead-form-wrapper
+{
+    padding: 32px;
+
+    border-top: 1px solid #3b3d40; 
+    background-color: #3b3d40;
+}
+
+.wpcf7 input[type='text'],
+.wpcf7 input[type='email'],
+.wpcf7 textarea,
+.wpcf7 select
+{
+    width: 90%; 
+
+    color: #000;
+    background-color: #fff;
+}
+
+/*****************
+  TABLE
+*****************/
+.table thead th
+{
+    font-size: 24px; 
+
+    text-transform: capitalize;
+
+    color: white;
+    background-color: #277cea;
+}
+
+.table td,
+.table th
+{
+    text-align: center;
+
+    border-right: 1px solid white;
+}
+
+.table tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+.table tr td:first-of-type
+{
+    background-color: #ddd;
+}
+
+.table tr td.alt-row
+{
+    color: white;
+    background-color: #3b3d40;
+}
+
+.table thead th.bg-blue
+{
+    background-color: #277cea;
+}
+
+.table thead th.bg-grey
+{
+    background-color: #ddd;
+}
+
+.table thead th.bg-dark-grey
+{
+    background-color: #3b3d40;
+}
+
+/*****************
+  BACKGROUND
+*****************/
+.bg-blue
+{
+    background-color: #277cea;
+}
+
+.bg-grey
+{
+    background-color: #ddd;
+}
+
+.bg-dark-grey
+{
+    background-color: #3b3d40;
+}
+
+/*****************
+  NAVIGATION
+*****************/
+.nav-h
+{
+    margin: 0; 
+
+    list-style: none;
+}
