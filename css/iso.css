@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:9/6/18
+  version: 0.0.2
+  date:9/7/18
 
 */
 /*****************
@@ -82,15 +82,9 @@
     background-color: #eee;
 }
 
-.table tr td:first-of-type
-{
-    background-color: #ddd;
-}
-
 .table tr td.alt-row
 {
-    color: white;
-    background-color: #3b3d40;
+    color: #277cea;
 }
 
 .table thead th.bg-blue
@@ -108,6 +102,11 @@
     background-color: #3b3d40;
 }
 
+.table thead th.bg-white
+{
+    background-color: white;
+}
+
 /*****************
   BACKGROUND
 *****************/
@@ -119,6 +118,11 @@
 .bg-grey
 {
     background-color: #ddd;
+}
+
+.bg-white
+{
+    background-color: white;
 }
 
 .bg-dark-grey

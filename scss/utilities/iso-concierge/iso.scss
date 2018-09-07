@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:9/6/18
+  version: 0.0.2
+  date:9/7/18
 
 */
 
@@ -92,13 +92,14 @@ $d-grey5: #666d70;
     background-color:$grey2;
 }
 
-.table tr td:first-of-type{
-    background-color:$grey;
-}
+// .table tr td:first-of-type{
+//     background-color:$grey;
+// }
 
 .table tr td.alt-row{
-    color:white;
-    background-color:$d-grey;
+    color:$blue;
+    // background-color:$d-grey;
+
 }
 
 .table thead th{
@@ -115,6 +116,10 @@ $d-grey5: #666d70;
       background-color:#3b3d40;
   }
 
+  &.bg-white{
+      background-color:white;
+  }
+
 }
 
 
@@ -128,6 +133,10 @@ $d-grey5: #666d70;
 
 .bg-grey{
     background-color:#dddddd;
+}
+
+.bg-white{
+    background-color:white;
 }
 
 .bg-dark-grey{

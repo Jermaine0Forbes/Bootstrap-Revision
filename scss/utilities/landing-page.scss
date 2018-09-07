@@ -153,6 +153,48 @@
       }
     }
 
+    &4{
+      margin:2em 0;
+    }
+
+    &5{
+      padding:2em 0;
+
+      .w-btn{
+        font-weight:bold;
+      }
+    }
+
+    &7{
+      padding:2em 0;
+      .w-btn{
+        font-weight:bold;
+        font-size:21px;
+      }
+    }
+
+    &8{
+
+      .capital-product .vc_column-inner{
+        border:1px solid $grey;
+        min-height:397px;
+        padding-right:0;
+        padding-left:0;
+        margin-bottom:2em;
+        max-width:355px;
+        margin-left:auto;
+        margin-right:auto;
+      }
+
+      .uvc-heading{
+        padding:0 1em;
+      }
+
+      .wpb_text_column{
+        padding:0 1em;
+      }
+    }
+
   }
 
   .w-iconbox-title{

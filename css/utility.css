@@ -1,6 +1,6 @@
 /*
-  version: 0.1.6
-  date:9/6/18
+  version: 0.1.7
+  date:9/7/18
 
 */
 /*****************
@@ -60,11 +60,18 @@
 
 .funding-program-block .w-iconbox-text,
 .funding-program-block .l-main p,
-.l-main .funding-program-block p
+.l-main .funding-program-block p,
+.funding-program-block .l-main li,
+.l-main .funding-program-block li
 {
     overflow: hidden; 
 
     max-height: 120px;
+}
+
+ol.g-breadcrumbs li
+{
+    font-size: 12px;
 }
 
 .getting-started
@@ -126,7 +133,9 @@
 
 .partner-block .w-iconbox-text,
 .partner-block .l-main p,
-.l-main .partner-block p
+.l-main .partner-block p,
+.partner-block .l-main li,
+.l-main .partner-block li
 {
     font-size: 1.3em;
 }
@@ -143,7 +152,9 @@
 
 .small .w-iconbox-text,
 .small .l-main p,
-.l-main .small p
+.l-main .small p,
+.small .l-main li,
+.l-main .small li
 {
     font-size: 1.3em;
 }
@@ -166,9 +177,10 @@
 }
 
 .w-iconbox-text,
-.l-main p
+.l-main p,
+.l-main li
 {
-    font-size: 1.3em;
+    font-size: 16px;
     line-height: 30px;
 
     letter-spacing: 0;
@@ -2518,6 +2530,53 @@ h6
 .healthcare-business-financing#section-3 .w-btn
 {
     font-weight: bold;
+}
+
+.healthcare-business-financing#section-4
+{
+    margin: 2em 0;
+}
+
+.healthcare-business-financing#section-5
+{
+    padding: 2em 0;
+}
+.healthcare-business-financing#section-5 .w-btn
+{
+    font-weight: bold;
+}
+
+.healthcare-business-financing#section-7
+{
+    padding: 2em 0;
+}
+.healthcare-business-financing#section-7 .w-btn
+{
+    font-size: 21px; 
+    font-weight: bold;
+}
+
+.healthcare-business-financing#section-8 .capital-product .vc_column-inner
+{
+    max-width: 355px;
+    min-height: 397px;
+    margin-right: auto; 
+    margin-bottom: 2em;
+    margin-left: auto;
+    padding-right: 0;
+    padding-left: 0;
+
+    border: 1px solid #f0f0f0;
+}
+
+.healthcare-business-financing#section-8 .uvc-heading
+{
+    padding: 0 1em;
+}
+
+.healthcare-business-financing#section-8 .wpb_text_column
+{
+    padding: 0 1em;
 }
 
 .healthcare-business-financing .w-iconbox-title
