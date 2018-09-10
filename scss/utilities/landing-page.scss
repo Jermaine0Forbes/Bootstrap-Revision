@@ -136,11 +136,13 @@
           .wpb_wrapper{
             border:2px dashed $grey;
             padding:1em;
-            min-height:188px;
-            min-width:210px;
+            min-height:196px;
+            max-width:210px;
           }
 
         }
+
+
 
     }
 
@@ -187,7 +189,7 @@
       }
 
       .uvc-heading{
-        padding:0 1em;
+        padding:0 15px;
       }
 
       .wpb_text_column{
@@ -201,4 +203,97 @@
     font-weight:normal;
   }
 
+}
+
+.healthcare-business-funding{
+
+    &#section-{
+
+      &1{
+
+        .bottom-section{
+          background-color:$grey;
+          padding:2em;
+          margin:auto;
+          width:100%;
+          border-radius:0 0 10px 10px;
+        }
+
+        h5{
+          font-size:22px;
+          font-weight:300;
+          margin-bottom:3em;
+        }
+
+        .top-section{
+            background-color:$blue6;
+            padding:2em 0;
+            border-radius: 7px 7px 0 0;
+        }
+
+
+         .wpcf7{
+            h4{
+              color:white;
+              font-size:17px;
+              margin-bottom:0;
+            }
+
+         }
+
+         .wpcf7-select{
+           height:48px;
+           font-size:16px;
+           margin-top:0;
+           border:1px solid black;
+
+         }
+
+         .wpcf7-submit{
+           width:100%;
+           font-size:1.5em;
+           font-weight:bold;
+           max-width:280px;
+         }
+
+      }
+
+      &2{
+
+        background-color:$grey;
+
+        .logo-block{
+          background-color:$blue6;
+          color:white;
+          padding:1em 0;
+        }
+
+        .star-icons{
+          margin:2em 0;
+          padding:0 1em;
+          .aio-icon, .vc_row .aio-icon{
+            width:23px;
+
+          }
+        }
+
+        .customer-block{
+          .wpb_wrapper{
+            background-color:white;
+            padding-bottom:2em;
+            .wpb_text_column{
+              padding:0 1em;
+            }
+          }
+
+        }
+
+
+
+      }
+
+      &5{
+        height:330px
+      }
+    }
 }

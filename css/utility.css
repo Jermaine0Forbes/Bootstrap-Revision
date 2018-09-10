@@ -1,6 +1,6 @@
 /*
-  version: 0.1.7
-  date:9/7/18
+  version: 0.1.8
+  date:9/10/18
 
 */
 /*****************
@@ -2514,8 +2514,8 @@ h6
 }
 .healthcare-business-financing#section-2 .icon-block .wpb_wrapper
 {
-    min-width: 210px; 
-    min-height: 188px;
+    max-width: 210px; 
+    min-height: 196px;
     padding: 1em;
 
     border: 2px dashed #f0f0f0;
@@ -2571,7 +2571,7 @@ h6
 
 .healthcare-business-financing#section-8 .uvc-heading
 {
-    padding: 0 1em;
+    padding: 0 15px;
 }
 
 .healthcare-business-financing#section-8 .wpb_text_column
@@ -2582,6 +2582,97 @@ h6
 .healthcare-business-financing .w-iconbox-title
 {
     font-weight: normal;
+}
+
+.healthcare-business-funding#section-1 .bottom-section
+{
+    width: 100%;
+    margin: auto;
+    padding: 2em;
+
+    border-radius: 0 0 10px 10px; 
+    background-color: #f0f0f0;
+}
+
+.healthcare-business-funding#section-1 h5
+{
+    font-size: 22px;
+    font-weight: 300;
+
+    margin-bottom: 3em;
+}
+
+.healthcare-business-funding#section-1 .top-section
+{
+    padding: 2em 0;
+
+    border-radius: 7px 7px 0 0; 
+    background-color: #253b74;
+}
+
+.healthcare-business-funding#section-1 .wpcf7 h4
+{
+    font-size: 17px;
+
+    margin-bottom: 0; 
+
+    color: white;
+}
+
+.healthcare-business-funding#section-1 .wpcf7-select
+{
+    font-size: 16px;
+
+    height: 48px;
+    margin-top: 0;
+
+    border: 1px solid black;
+}
+
+.healthcare-business-funding#section-1 .wpcf7-submit
+{
+    font-size: 1.5em;
+    font-weight: bold;
+
+    width: 100%;
+    max-width: 280px;
+}
+
+.healthcare-business-funding#section-2
+{
+    background-color: #f0f0f0;
+}
+.healthcare-business-funding#section-2 .logo-block
+{
+    padding: 1em 0; 
+
+    color: white;
+    background-color: #253b74;
+}
+.healthcare-business-funding#section-2 .star-icons
+{
+    margin: 2em 0;
+    padding: 0 1em;
+}
+.healthcare-business-funding#section-2 .star-icons .aio-icon,
+.healthcare-business-funding#section-2 .star-icons .vc_row .aio-icon
+{
+    width: 23px;
+}
+.healthcare-business-funding#section-2 .customer-block .wpb_wrapper
+{
+    padding-bottom: 2em; 
+
+    background-color: white;
+}
+.healthcare-business-funding#section-2 .customer-block .wpb_wrapper .wpb_text_column
+{
+    padding: 0 1em;
+}
+
+.healthcare-business-funding#section-5
+{
+    height: 330px;
 }
 
 @media (max-width: 992px)
@@ -2646,6 +2737,10 @@ h6
     .invoice-header h6
     {
         font-size: 32px;
+    }
+    .healthcare-business-financing#section-2 .w-iconbox-icon
+    {
+        font-size: 20px !important;
     }
     .medical-practice-financing .feature-list
     {
@@ -2731,6 +2826,10 @@ h6
 
         margin: auto;
     }
+    .healthcare-business-financing#section-2 .icon-block .wpb_wrapper
+    {
+        margin: auto;
+    }
     .home-header-content-section
     {
         max-width: 100%;
@@ -2779,6 +2878,18 @@ h6
     .home-form .wpcf7-form-control.wpcf7-submit
     {
         width: 95%;
+    }
+    .healthcare-business-financing .uvc-heading.title h2
+    {
+        font-size: 34px !important;
+
+        text-align: center;
+    }
+    .healthcare-business-financing .uvc-sub-heading p
+    {
+        font-size: 14px !important; 
+
+        text-align: center;
     }
     .medical-practice-financing#header-section .center-img img
     {

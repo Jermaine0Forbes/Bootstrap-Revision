@@ -65,6 +65,22 @@
 
   }
 
+  .healthcare-business-financing{
+
+
+    &#section-{
+
+      &2{
+
+          .w-iconbox-icon{
+            font-size:20px !important;
+          }
+      }
+
+    }
+  }
+
+
   .medical-practice-financing{
 
     .feature-{
@@ -200,6 +216,23 @@
        margin:auto;
     }
   }
+  .healthcare-business-financing{
+
+
+    &#section-{
+
+      &2{
+
+        .icon-block{
+          .wpb_wrapper{
+            margin:auto;
+          }
+
+        }
+      }
+
+    }
+  }
 
   .home-header-content-section{
     max-width:100%;
@@ -287,6 +320,26 @@
 
   .home-form .wpcf7-form-control.wpcf7-submit{
     width:95%;
+  }
+
+  .healthcare-business-financing{
+
+
+    .uvc-heading.title{
+
+      h2{
+        font-size:34px !important;
+        text-align:center;
+      }
+
+    }
+
+    .uvc-sub-heading{
+      p{
+        text-align:center;
+        font-size:14px !important;
+      }
+    }
   }
 
   .medical-practice-financing{
