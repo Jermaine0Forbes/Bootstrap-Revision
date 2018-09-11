@@ -64,6 +64,13 @@ $size-num:(992px,767px,567px,480px);
   color:$blue;
 }
 
+.font-block{
+
+    font-size:16px;
+    line-height:30px;
+    letter-spacing: 0;
+}
+
 .fourth-header .w-iconbox-title{
   font-size:1em;
   letter-spacing:0;
@@ -125,7 +132,7 @@ ol.g-breadcrumbs li{
 
 .l-main {
   p,li{
-@extend .w-iconbox-text;
+@extend .font-block;
 }
 
 }
@@ -193,9 +200,7 @@ ol.g-breadcrumbs li{
 //   letter-spacing: 0;
 // }
 .w-iconbox-text{
-  font-size:16px;
-  line-height:30px;
-  letter-spacing: 0;
+  @extend .font-block;
 }
 
 .w-iconbox-title{

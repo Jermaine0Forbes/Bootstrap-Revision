@@ -233,6 +233,34 @@
 
     }
   }
+  .healthcare-business-funding{
+
+      &#section-{
+
+        &1{
+
+          .bottom-section{
+            padding:1em;
+
+          }
+          .col-md-6{
+            margin-bottom:1em;
+          }
+
+          .top-section{
+            padding:2em 1em;
+          }
+          .wpcf7-select{
+            width:100%;
+          }
+
+          .wpcf7-submit{
+            max-width:100%;
+          }
+        }
+
+      }
+    }
 
   .home-header-content-section{
     max-width:100%;
@@ -341,6 +369,31 @@
       }
     }
   }
+
+  .healthcare-business-funding{
+
+      &#section-{
+
+        &1{
+
+          h2{
+            font-size:28px !important;
+          }
+
+          h5{
+            font-size:20px;
+          }
+        }
+
+        &3{
+          h2{
+            margin-top:2em;
+            text-align:center;
+          }
+        }
+
+      }
+    }
 
   .medical-practice-financing{
 

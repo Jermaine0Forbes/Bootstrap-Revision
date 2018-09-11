@@ -50,6 +50,17 @@
     color: #162850;
 }
 
+.font-block,
+.l-main p,
+.l-main li,
+.w-iconbox-text
+{
+    font-size: 16px;
+    line-height: 30px;
+
+    letter-spacing: 0;
+}
+
 .fourth-header .w-iconbox-title
 {
     font-size: 1em;
@@ -58,11 +69,7 @@
     letter-spacing: 0;
 }
 
-.funding-program-block .w-iconbox-text,
-.funding-program-block .l-main p,
-.l-main .funding-program-block p,
-.funding-program-block .l-main li,
-.l-main .funding-program-block li
+.funding-program-block .w-iconbox-text
 {
     overflow: hidden; 
 
@@ -131,11 +138,7 @@ ol.g-breadcrumbs li
     font-weight: bold;
 }
 
-.partner-block .w-iconbox-text,
-.partner-block .l-main p,
-.l-main .partner-block p,
-.partner-block .l-main li,
-.l-main .partner-block li
+.partner-block .w-iconbox-text
 {
     font-size: 1.3em;
 }
@@ -150,11 +153,7 @@ ol.g-breadcrumbs li
     width: 99%;
 }
 
-.small .w-iconbox-text,
-.small .l-main p,
-.l-main .small p,
-.small .l-main li,
-.l-main .small li
+.small .w-iconbox-text
 {
     font-size: 1.3em;
 }
@@ -174,16 +173,6 @@ ol.g-breadcrumbs li
 .third-block-container
 {
     background-color: #f3f2f3;
-}
-
-.w-iconbox-text,
-.l-main p,
-.l-main li
-{
-    font-size: 16px;
-    line-height: 30px;
-
-    letter-spacing: 0;
 }
 
 .w-iconbox-title
@@ -2652,7 +2641,6 @@ h6
 .healthcare-business-funding#section-2 .star-icons
 {
     margin: 2em 0;
-    padding: 0 1em;
 }
 .healthcare-business-funding#section-2 .star-icons .aio-icon,
 .healthcare-business-funding#section-2 .star-icons .vc_row .aio-icon
@@ -2673,6 +2661,137 @@ h6
 .healthcare-business-funding#section-5
 {
     height: 330px;
+}
+.healthcare-business-funding#section-5 .w-btn
+{
+    font-weight: bold;
+}
+
+.healthcare-business-funding .underline
+{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 2em;
+}
+
+.medical-practice-funding#section-1 .bottom-form
+{
+    padding-top: 1em;
+    padding-bottom: 3em;
+
+    border-radius: 0 0 5px 5px; 
+    background-color: white;
+}
+
+.medical-practice-funding#section-1 .bottom-section
+{
+    margin-bottom: 10px;
+}
+
+.medical-practice-funding#section-1 .secondary-header
+{
+    font-size: 46px;
+    line-height: initial; 
+
+    border-bottom: 1px solid white;
+}
+
+.medical-practice-funding#section-1 .summary
+{
+    font-size: 24px;
+
+    color: white;
+}
+
+.medical-practice-funding#section-1 .top-form
+{
+    padding: 0 15px;
+    padding-top: 15px;
+
+    border-radius: 5px 5px 0 0; 
+    background-color: #f0f0f0;
+}
+
+.medical-practice-funding#section-1 .w-iconbox
+{
+    color: white;
+}
+
+.medical-practice-funding#section-1 .w-iconbox-title
+{
+    font-size: 13px;
+
+    color: white;
+}
+
+.medical-practice-funding#section-1 .w-iconbox-text
+{
+    font-size: 30px;
+}
+
+.medical-practice-funding#section-1 .wpcf7-text
+{
+    font-size: 16px; 
+
+    width: 100%;
+    height: 47px;
+}
+
+.medical-practice-funding#section-1 .wpcf7-select
+{
+    font-size: 16px; 
+
+    width: 100%;
+    height: 47px;
+}
+
+.medical-practice-funding#section-1 .wpcf7-submit
+{
+    width: 100%; 
+
+    text-transform: uppercase;
+
+    border-bottom: 3px solid #df2a27;
+}
+
+.medical-practice-funding#section-3
+{
+    height: 595px;
+
+    color: white;
+}
+.medical-practice-funding#section-3 h2
+{
+    color: white;
+}
+
+.medical-practice-funding#section-4
+{
+    color: white; 
+    background-color: #377ef9;
+}
+.medical-practice-funding#section-4 .w-iconbox-icon
+{
+    margin-bottom: -35px;
+}
+.medical-practice-funding#section-4 .w-iconbox-title
+{
+    font-size: 48px;
+
+    position: relative;
+    z-index: 3;
+
+    padding: 0;
+
+    color: white;
+}
+.medical-practice-funding#section-4 .w-iconbox-text
+{
+    font-size: 16px;
+
+    margin-top: -17px; 
+
+    text-transform: uppercase;
 }
 
 @media (max-width: 992px)
@@ -2830,6 +2949,26 @@ h6
     {
         margin: auto;
     }
+    .healthcare-business-funding#section-1 .bottom-section
+    {
+        padding: 1em;
+    }
+    .healthcare-business-funding#section-1 .col-md-6
+    {
+        margin-bottom: 1em;
+    }
+    .healthcare-business-funding#section-1 .top-section
+    {
+        padding: 2em 1em;
+    }
+    .healthcare-business-funding#section-1 .wpcf7-select
+    {
+        width: 100%;
+    }
+    .healthcare-business-funding#section-1 .wpcf7-submit
+    {
+        max-width: 100%;
+    }
     .home-header-content-section
     {
         max-width: 100%;
@@ -2888,6 +3027,20 @@ h6
     .healthcare-business-financing .uvc-sub-heading p
     {
         font-size: 14px !important; 
+
+        text-align: center;
+    }
+    .healthcare-business-funding#section-1 h2
+    {
+        font-size: 28px !important;
+    }
+    .healthcare-business-funding#section-1 h5
+    {
+        font-size: 20px;
+    }
+    .healthcare-business-funding#section-3 h2
+    {
+        margin-top: 2em;
 
         text-align: center;
     }
