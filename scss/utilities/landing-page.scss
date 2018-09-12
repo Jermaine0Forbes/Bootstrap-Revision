@@ -315,6 +315,7 @@
   &#section-{
 
     &1{
+      min-height:600px;
 
       .bottom-form{
         background-color:white;
@@ -324,6 +325,12 @@
       }
       .bottom-section{
         margin-bottom:10px;
+      }
+
+      .contact-phone{
+        &:hover{
+          text-decoration:none;
+        }
       }
       .secondary-header{
         font-size:46px;
@@ -345,6 +352,16 @@
 
         .w-iconbox{
           color:white;
+          margin-bottom:1em;
+
+          &-title,&-text{
+            color:white;
+            transition:all 0.3s;
+            &:hover{
+              text-decoration:none;
+              color:$red;
+            }
+          }
         }
         .w-iconbox-title{
           font-size:13px;
@@ -378,13 +395,23 @@
     &3{
       height:595px;
       color:white;
+      display:flex;
       h2{
         color:white;
+      }
+      .l-section-h.i-cf{
+        display:flex;
+
+      }
+
+      .vc_row{
+        align-items:center;
+        width:100%;
       }
     }
 
     &4{
-      background-color:#377ef9;
+      background-color:$blue6;
       color:white;
 
       .w-iconbox{
@@ -405,6 +432,45 @@
            margin-top:-17px;
          }
       }
+    }
+
+
+    &5{
+        height:675px;
+
+        h2{
+          border-bottom:1px solid white;
+          margin:auto;
+          width:400px;
+        }
+
+        .slick-slide{
+          max-width:660px;
+        }
+        .slick-slider{
+          max-height:300px;
+        }
+
+        .slide-container{
+          position:relative;
+          z-index:3;
+          max-width:660px;
+          margin:auto;
+          margin-top:-60px;
+
+          p{
+            color:white;
+            font-size:24px;
+            line-height:36px;
+            text-align:center;
+          }
+        }
+
+       .w-btn-wrapper{
+         text-align:center;
+         display:block;
+         margin-bottom:2em;
+       }
     }
   }
 }

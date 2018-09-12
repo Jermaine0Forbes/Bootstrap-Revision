@@ -1,6 +1,6 @@
 /*
-  version: 0.1.8
-  date:9/10/18
+  version: 0.1.9
+  date:9/12/18
 
 */
 /*****************
@@ -2674,6 +2674,10 @@ h6
     margin-bottom: 2em;
 }
 
+.medical-practice-funding#section-1
+{
+    min-height: 600px;
+}
 .medical-practice-funding#section-1 .bottom-form
 {
     padding-top: 1em;
@@ -2682,12 +2686,14 @@ h6
     border-radius: 0 0 5px 5px; 
     background-color: white;
 }
-
 .medical-practice-funding#section-1 .bottom-section
 {
     margin-bottom: 10px;
 }
-
+.medical-practice-funding#section-1 .contact-phone:hover
+{
+    text-decoration: none;
+}
 .medical-practice-funding#section-1 .secondary-header
 {
     font-size: 46px;
@@ -2695,14 +2701,12 @@ h6
 
     border-bottom: 1px solid white;
 }
-
 .medical-practice-funding#section-1 .summary
 {
     font-size: 24px;
 
     color: white;
 }
-
 .medical-practice-funding#section-1 .top-form
 {
     padding: 0 15px;
@@ -2711,24 +2715,36 @@ h6
     border-radius: 5px 5px 0 0; 
     background-color: #f0f0f0;
 }
-
 .medical-practice-funding#section-1 .w-iconbox
 {
+    margin-bottom: 1em; 
+
     color: white;
 }
+.medical-practice-funding#section-1 .w-iconbox-title,
+.medical-practice-funding#section-1 .w-iconbox-text
+{
+    transition: all .3s; 
 
+    color: white;
+}
+.medical-practice-funding#section-1 .w-iconbox-title:hover,
+.medical-practice-funding#section-1 .w-iconbox-text:hover
+{
+    text-decoration: none;
+
+    color: #e4504e;
+}
 .medical-practice-funding#section-1 .w-iconbox-title
 {
     font-size: 13px;
 
     color: white;
 }
-
 .medical-practice-funding#section-1 .w-iconbox-text
 {
     font-size: 30px;
 }
-
 .medical-practice-funding#section-1 .wpcf7-text
 {
     font-size: 16px; 
@@ -2736,7 +2752,6 @@ h6
     width: 100%;
     height: 47px;
 }
-
 .medical-practice-funding#section-1 .wpcf7-select
 {
     font-size: 16px; 
@@ -2744,7 +2759,6 @@ h6
     width: 100%;
     height: 47px;
 }
-
 .medical-practice-funding#section-1 .wpcf7-submit
 {
     width: 100%; 
@@ -2756,6 +2770,8 @@ h6
 
 .medical-practice-funding#section-3
 {
+    display: flex; 
+
     height: 595px;
 
     color: white;
@@ -2764,11 +2780,21 @@ h6
 {
     color: white;
 }
+.medical-practice-funding#section-3 .l-section-h.i-cf
+{
+    display: flex;
+}
+.medical-practice-funding#section-3 .vc_row
+{
+    width: 100%; 
+
+    align-items: center;
+}
 
 .medical-practice-funding#section-4
 {
     color: white; 
-    background-color: #377ef9;
+    background-color: #253b74;
 }
 .medical-practice-funding#section-4 .w-iconbox-icon
 {
@@ -2792,6 +2818,52 @@ h6
     margin-top: -17px; 
 
     text-transform: uppercase;
+}
+
+.medical-practice-funding#section-5
+{
+    height: 675px;
+}
+.medical-practice-funding#section-5 h2
+{
+    width: 400px; 
+    margin: auto;
+
+    border-bottom: 1px solid white;
+}
+.medical-practice-funding#section-5 .slick-slide
+{
+    max-width: 660px;
+}
+.medical-practice-funding#section-5 .slick-slider
+{
+    max-height: 300px;
+}
+.medical-practice-funding#section-5 .slide-container
+{
+    position: relative;
+    z-index: 3;
+
+    max-width: 660px;
+    margin: auto;
+    margin-top: -60px;
+}
+.medical-practice-funding#section-5 .slide-container p
+{
+    font-size: 24px;
+    line-height: 36px;
+
+    text-align: center; 
+
+    color: white;
+}
+.medical-practice-funding#section-5 .w-btn-wrapper
+{
+    display: block;
+
+    margin-bottom: 2em; 
+
+    text-align: center;
 }
 
 @media (max-width: 992px)
@@ -2885,6 +2957,10 @@ h6
     .medical-practice-financing#section-10 .nav-h a
     {
         font-size: 1.1em;
+    }
+    .medical-practice-funding#section-3
+    {
+        height: 300px;
     }
     .secondary-header
     {
@@ -3009,6 +3085,34 @@ h6
     .medical-practice-financing#section-10 .nav-h a
     {
         font-size: 1em;
+    }
+    .medical-practice-funding#section-1 h2
+    {
+        font-size: 25px !important;
+    }
+    .medical-practice-funding#section-1 .summary
+    {
+        font-size: 17px !important;
+    }
+    .medical-practice-funding#section-3
+    {
+        height: 300px;
+    }
+    .medical-practice-funding#section-4 .w-iconbox-title
+    {
+        font-size: 32px !important; 
+
+        margin-bottom: 5px;
+    }
+    .medical-practice-funding#section-5 h2
+    {
+        font-size: 24px !important;
+
+        width: 100%;
+    }
+    .medical-practice-funding#section-5 .uvc-sub-heading
+    {
+        font-size: 17px !important;
     }
 }
 
