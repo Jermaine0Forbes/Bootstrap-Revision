@@ -1,6 +1,6 @@
 /*
-  version: 0.2.0
-  date:9/13/18
+  version: 0.2.1
+  date:9/14/18
 
 */
 
@@ -114,7 +114,36 @@ ol.g-breadcrumbs li{
   }
 }
 
+#header-img{
+  min-height:445px;
+}
 
+.l-subheader.at_top .lang-link{
+  text-transform: capitalize;
+  padding:3px 9px;
+  transition:all 0.3s;
+  // border-radius:5px;
+  &.active{
+    background-color:$blue3;
+    color:white;
+    &:hover{
+      color:white;
+      background-color:$blue4;
+    }
+  }
+
+  &:hover{
+    color:$blue4;
+    text-decoration:none;
+  }
+}
+
+.language-block{
+  margin-left:0;
+  li{
+    margin-bottom:0;
+  }
+}
 
 .learn-link{
   font-size:16px;

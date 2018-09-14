@@ -39,15 +39,9 @@
 
   .getting-started{
     background:$grey3;
-
-
-
     h3,h4{
       font-size:14px;
     }
-
-
-
 
   }
 
@@ -65,6 +59,11 @@
 
   }
 
+#header-img{
+   h2{
+     font-size:45px;
+   }
+}
   .healthcare-business-financing{
 
 
@@ -222,12 +221,14 @@
 
 @media (max-width:767px){
 
-  .img-container{
-    img{
-       display:block;
-       margin:auto;
-    }
+
+
+  #header-img{
+     h2{
+       font-size:35px !important;
+     }
   }
+
   .healthcare-business-financing{
 
 
@@ -283,6 +284,12 @@
 
     .single-form-control{
       width:100%;
+    }
+  }
+  .img-container{
+    img{
+       display:block;
+       margin:auto;
     }
   }
 

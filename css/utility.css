@@ -1,6 +1,6 @@
 /*
-  version: 0.2.0
-  date:9/13/18
+  version: 0.2.1
+  date:9/14/18
 
 */
 /*****************
@@ -95,6 +95,44 @@ ol.g-breadcrumbs li
     font-size: 1.3em; 
 
     color: #7f8ba4;
+}
+
+#header-img
+{
+    min-height: 445px;
+}
+
+.l-subheader.at_top .lang-link
+{
+    padding: 3px 9px;
+
+    transition: all .3s; 
+    text-transform: capitalize;
+}
+.l-subheader.at_top .lang-link.active
+{
+    color: white; 
+    background-color: #377ef9;
+}
+.l-subheader.at_top .lang-link.active:hover
+{
+    color: white;
+    background-color: #2569e3;
+}
+.l-subheader.at_top .lang-link:hover
+{
+    text-decoration: none; 
+
+    color: #2569e3;
+}
+
+.language-block
+{
+    margin-left: 0;
+}
+.language-block li
+{
+    margin-bottom: 0;
 }
 
 .learn-link
@@ -2929,6 +2967,10 @@ h6
     {
         font-size: 32px;
     }
+    #header-img h2
+    {
+        font-size: 45px;
+    }
     .healthcare-business-financing#section-2 .w-iconbox-icon
     {
         font-size: 20px !important;
@@ -3015,11 +3057,9 @@ h6
 
 @media (max-width: 767px)
 {
-    .img-container img
+    #header-img h2
     {
-        display: block;
-
-        margin: auto;
+        font-size: 35px !important;
     }
     .healthcare-business-financing#section-2 .icon-block .wpb_wrapper
     {
@@ -3053,6 +3093,12 @@ h6
     .home-form .single-form-control
     {
         width: 100%;
+    }
+    .img-container img
+    {
+        display: block;
+
+        margin: auto;
     }
     .quote-form .wpcf7-form-control.wpcf7-select
     {
