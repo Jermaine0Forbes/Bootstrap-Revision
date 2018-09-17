@@ -1,6 +1,6 @@
 /*
-  version: 0.2.1
-  date:9/14/18
+  version: 0.2.2
+  date:9/17/18
 
 */
 
@@ -56,6 +56,25 @@ $size-num:(992px,767px,567px,480px);
     color:$blue3;
     margin-top:4px;
   }
+}
+
+.contact-number{
+
+  a{
+    font-size:40px;
+    color:$blue6;
+  }
+
+  h4{
+    font-size:15px;
+    margin:5px 0;
+  }
+
+  p{
+    margin-bottom:3px;
+  }
+
+
 }
 
 
@@ -116,6 +135,35 @@ ol.g-breadcrumbs li{
 
 #header-img{
   min-height:445px;
+ h2{
+   text-transform:capitalize;
+ }
+
+
+.contact-number{
+
+  a{
+    font-size:40px;
+    color:$blue6;
+  }
+
+  h4{
+    font-size:15px;
+    margin:5px 0;
+  }
+
+  p{
+    margin-bottom:3px;
+  }
+
+
+}
+
+ .uvc-sub-heading{
+   margin:2em 0;
+ }
+
+
 }
 
 .l-subheader.at_top .lang-link{

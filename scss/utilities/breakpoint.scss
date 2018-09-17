@@ -224,8 +224,33 @@
 
 
   #header-img{
+
+    .contact-number{
+      text-align:center;
+    }
+
+    .uvc-heading{
+      text-align:center;
+    }
      h2{
        font-size:35px !important;
+     }
+
+     ul.uavc-list{
+       text-align:center;
+
+       .uavc-list-icon{
+         display:none;
+       }
+     }
+
+     .uvc-sub-heading{
+       margin:1em 0;
+     }
+
+     .w-btn-wrapper{
+       display:block;
+       text-align:center;
      }
   }
 
@@ -410,6 +435,19 @@
 
   .home-form .wpcf7-form-control.wpcf7-submit{
     width:95%;
+  }
+
+  #header-img{
+
+    .contact-number{
+      h4{
+        font-size:14px !important;
+      }
+    }
+
+     h2{
+       font-size:32px !important;
+     }
   }
 
   .healthcare-business-financing{

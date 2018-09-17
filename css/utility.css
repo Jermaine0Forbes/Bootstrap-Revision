@@ -1,6 +1,6 @@
 /*
-  version: 0.2.1
-  date:9/14/18
+  version: 0.2.2
+  date:9/17/18
 
 */
 /*****************
@@ -41,6 +41,25 @@
     margin-top: 4px; 
 
     color: #377ef9;
+}
+
+.contact-number a
+{
+    font-size: 40px;
+
+    color: #253b74;
+}
+
+.contact-number h4
+{
+    font-size: 15px;
+
+    margin: 5px 0;
+}
+
+.contact-number p
+{
+    margin-bottom: 3px;
 }
 
 .email-link
@@ -100,6 +119,30 @@ ol.g-breadcrumbs li
 #header-img
 {
     min-height: 445px;
+}
+#header-img h2
+{
+    text-transform: capitalize;
+}
+#header-img .contact-number a
+{
+    font-size: 40px;
+
+    color: #253b74;
+}
+#header-img .contact-number h4
+{
+    font-size: 15px;
+
+    margin: 5px 0;
+}
+#header-img .contact-number p
+{
+    margin-bottom: 3px;
+}
+#header-img .uvc-sub-heading
+{
+    margin: 2em 0;
 }
 
 .l-subheader.at_top .lang-link
@@ -1415,6 +1458,11 @@ p.fourth-header
 /*****************
   GENERAL
 *****************/
+a:hover
+{
+    text-decoration: none;
+}
+
 h1,
 h2,
 h3,
@@ -3057,9 +3105,35 @@ h6
 
 @media (max-width: 767px)
 {
+    #header-img .contact-number
+    {
+        text-align: center;
+    }
+    #header-img .uvc-heading
+    {
+        text-align: center;
+    }
     #header-img h2
     {
         font-size: 35px !important;
+    }
+    #header-img ul.uavc-list
+    {
+        text-align: center;
+    }
+    #header-img ul.uavc-list .uavc-list-icon
+    {
+        display: none;
+    }
+    #header-img .uvc-sub-heading
+    {
+        margin: 1em 0;
+    }
+    #header-img .w-btn-wrapper
+    {
+        display: block;
+
+        text-align: center;
     }
     .healthcare-business-financing#section-2 .icon-block .wpb_wrapper
     {
@@ -3167,6 +3241,14 @@ h6
     .home-form .wpcf7-form-control.wpcf7-submit
     {
         width: 95%;
+    }
+    #header-img .contact-number h4
+    {
+        font-size: 14px !important;
+    }
+    #header-img h2
+    {
+        font-size: 32px !important;
     }
     .healthcare-business-financing .uvc-heading.title h2
     {
