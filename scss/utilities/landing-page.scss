@@ -2,6 +2,26 @@
   LANDING PAGE
 *****************/
 
+.contact-number{
+
+  &.landing-page{
+
+    a{
+      color:$red;
+      font-size:37px;
+      font-weight:300;
+    }
+    h4{
+      font-size:13px;
+      text-align:right;
+      margin-bottom:-14px;
+      margin-top:7px;
+    }
+
+  }
+}
+
+
 .medical-practice-financing{
 
   .block{
@@ -129,6 +149,8 @@
 
   &#section-{
 
+
+
     &2{
       margin:2em 0;
 
@@ -137,7 +159,7 @@
             border:2px dashed $grey;
             padding:1em;
             min-height:196px;
-            max-width:210px;
+            // max-width:210px;
           }
 
         }
@@ -200,7 +222,11 @@
   }
 
   .w-iconbox-title{
-    font-weight:normal;
+    font-weight:bold;
+  }
+  .w-iconbox-text{
+    font-size:14px;
+    line-height:23px;
   }
 
 }

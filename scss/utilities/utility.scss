@@ -1,6 +1,6 @@
 /*
-  version: 0.2.2
-  date:9/17/18
+  version: 0.2.3
+  date:9/18/18
 
 */
 
@@ -33,9 +33,7 @@ $size-num:(992px,767px,567px,480px);
   OTHER
 *****************/
 
-.above-footer{
-  background-color:$grey3;
-}
+
 
 .apply-btn.signup-btn{
     padding:7px 39px;
@@ -72,6 +70,22 @@ $size-num:(992px,767px,567px,480px);
 
   p{
     margin-bottom:3px;
+  }
+
+  &.landing-page{
+
+    a{
+      color:$red;
+      font-size:39px;
+      font-weight:300;
+    }
+    h4{
+      font-size:13px;
+      text-align:right;
+      margin-bottom:-14px;
+      margin-top:7px;
+    }
+
   }
 
 
@@ -155,6 +169,8 @@ ol.g-breadcrumbs li{
   p{
     margin-bottom:3px;
   }
+
+
 
 
 }
@@ -345,6 +361,6 @@ ol.g-breadcrumbs li{
 @import "nav";
 @import "padding";
 @import "margin";
-// @import "display";
+@import "footer";
 @import "landing-page";
 @import "breakpoint";

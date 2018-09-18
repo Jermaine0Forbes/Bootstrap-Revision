@@ -1,16 +1,11 @@
 /*
-  version: 0.2.2
-  date:9/17/18
+  version: 0.2.3
+  date:9/18/18
 
 */
 /*****************
   OTHER
 *****************/
-.above-footer
-{
-    background-color: #f3f2f3;
-}
-
 .apply-btn.signup-btn
 {
     padding: 7px 39px;
@@ -60,6 +55,24 @@
 .contact-number p
 {
     margin-bottom: 3px;
+}
+
+.contact-number.landing-page a
+{
+    font-size: 39px;
+    font-weight: 300; 
+
+    color: #e4504e;
+}
+
+.contact-number.landing-page h4
+{
+    font-size: 13px;
+
+    margin-top: 7px; 
+    margin-bottom: -14px;
+
+    text-align: right;
 }
 
 .email-link
@@ -1592,6 +1605,39 @@ h6
 /*****************
   NAVIGATION
 *****************/
+.horizontal-nav
+{
+    /*font-weight:bold;*/
+    font-size: 1.2em;
+
+    display: flex;
+
+    margin: 0;
+    padding: 1em 0;
+
+    list-style: none;
+
+    text-transform: capitalize;
+}
+.horizontal-nav a
+{
+    color: white;
+}
+.horizontal-nav li
+{
+    margin: 0 1em;
+}
+.horizontal-nav li:nth-of-type(1)
+{
+    margin-left: 0;
+}
+.horizontal-nav .social-icon
+{
+    font-size: 1.4em; 
+
+    color: white;
+}
+
 .nav-h
 {
     margin: 0; 
@@ -2467,8 +2513,83 @@ h6
 }
 
 /*****************
+  FOOTER
+*****************/
+.above-footer
+{
+    background-color: #f3f2f3;
+}
+.above-footer-img
+{
+    max-width: 90px;
+}
+.above-footer .apply-btn
+{
+    font-size: 1.2em;
+    font-weight: normal;
+
+    height: min-content;
+    margin: 0 1em;
+    padding: .3em 1em; 
+
+    text-transform: none;
+}
+.above-footer p
+{
+    font-size: 1.3em;
+}
+
+.footer-header
+{
+    font-size: 1.3em;
+    font-weight: bold;
+
+    color: white;
+}
+
+.footer-list
+{
+    font-size: 1.3em;
+
+    margin: 0;
+
+    list-style: none;
+
+    text-transform: capitalize;
+}
+
+.footer-ol
+{
+    font-size: .9em;
+
+    margin: 0;
+}
+.footer-ol li
+{
+    font-size: 1.2em;
+}
+
+/*****************
   LANDING PAGE
 *****************/
+.contact-number.landing-page a
+{
+    font-size: 37px;
+    font-weight: 300; 
+
+    color: #e4504e;
+}
+
+.contact-number.landing-page h4
+{
+    font-size: 13px;
+
+    margin-top: 7px; 
+    margin-bottom: -14px;
+
+    text-align: right;
+}
+
 .medical-practice-financing .block
 {
     margin-bottom: 1em;
@@ -2589,8 +2710,7 @@ h6
 }
 .healthcare-business-financing#section-2 .icon-block .wpb_wrapper
 {
-    max-width: 210px; 
-    min-height: 196px;
+    min-height: 196px; 
     padding: 1em;
 
     border: 2px dashed #f0f0f0;
@@ -2656,7 +2776,13 @@ h6
 
 .healthcare-business-financing .w-iconbox-title
 {
-    font-weight: normal;
+    font-weight: bold;
+}
+
+.healthcare-business-financing .w-iconbox-text
+{
+    font-size: 14px;
+    line-height: 23px;
 }
 
 .healthcare-business-funding#section-1 .bottom-section
@@ -2952,6 +3078,9 @@ h6
     text-align: center;
 }
 
+/*****************
+  BREAKPOINT
+*****************/
 @media (max-width: 992px)
 {
     .apply-btn
@@ -3105,6 +3234,14 @@ h6
 
 @media (max-width: 767px)
 {
+    .contact-number.landing-page a
+    {
+        font-size: 35px;
+    }
+    .contact-number.landing-page h4
+    {
+        font-size: 13px !important;
+    }
     #header-img .contact-number
     {
         text-align: center;
@@ -3238,6 +3375,14 @@ h6
 
 @media (max-width: 568px)
 {
+    .contact-number h4
+    {
+        font-size: 15px !important;
+    }
+    .contact-number.landing-page
+    {
+        display: none;
+    }
     .home-form .wpcf7-form-control.wpcf7-submit
     {
         width: 95%;
@@ -3249,6 +3394,18 @@ h6
     #header-img h2
     {
         font-size: 32px !important;
+    }
+    .healthcare-business-financing#section-1 .uavc-list
+    {
+        text-align: center;
+    }
+    .healthcare-business-financing#section-1 .uavc-list .uavc-list-desc
+    {
+        font-size: 13px;
+    }
+    .healthcare-business-financing#section-1 .uavc-list .ult-just-icon-wrapper
+    {
+        display: none;
     }
     .healthcare-business-financing .uvc-heading.title h2
     {
