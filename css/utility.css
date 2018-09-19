@@ -1,6 +1,6 @@
 /*
-  version: 0.2.3
-  date:9/18/18
+  version: 0.2.4
+  date:9/19/18
 
 */
 /*****************
@@ -75,6 +75,19 @@
     text-align: right;
 }
 
+.download-button
+{
+    border: none; 
+    background-color: #e4504e;
+    background-image: none;
+}
+.download-button:hover
+{
+    color: white !important;
+    background-color: #df2a27;
+    background-image: none;
+}
+
 .email-link
 {
     font-size: 1.3em;
@@ -108,11 +121,6 @@
     max-height: 120px;
 }
 
-ol.g-breadcrumbs li
-{
-    font-size: 12px;
-}
-
 .getting-started
 {
     background: #f3f2f3;
@@ -136,26 +144,6 @@ ol.g-breadcrumbs li
 #header-img h2
 {
     text-transform: capitalize;
-}
-#header-img .contact-number a
-{
-    font-size: 40px;
-
-    color: #253b74;
-}
-#header-img .contact-number h4
-{
-    font-size: 15px;
-
-    margin: 5px 0;
-}
-#header-img .contact-number p
-{
-    margin-bottom: 3px;
-}
-#header-img .uvc-sub-heading
-{
-    margin: 2em 0;
 }
 
 .l-subheader.at_top .lang-link
@@ -219,6 +207,11 @@ ol.g-breadcrumbs li
     color: #253b74;
 }
 
+ol.g-breadcrumbs li
+{
+    font-size: 12px;
+}
+
 .phone-link
 {
     font-size: 1.4em;
@@ -267,6 +260,11 @@ ol.g-breadcrumbs li
 .third-block-container
 {
     background-color: #f3f2f3;
+}
+
+.uvc-sub-heading
+{
+    margin: 2em 0;
 }
 
 .w-iconbox-title
@@ -1074,6 +1072,57 @@ a.apply-btn:hover
     border-radius: 17px;
 }
 
+.fund-form .cf7mls_next.action-button,
+.fund-form .cf7mls_back.action-button,
+.fund-form .fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step
+{
+    font-size: 14px;
+
+    margin-top: 1.5em;
+}
+.fund-form .cf7mls_next.action-button:hover,
+.fund-form .cf7mls_back.action-button:hover,
+.fund-form .fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step:hover
+{
+    background-color: #2569e3;
+}
+
+.fund-form h2,
+.fund-form h3
+{
+    font-size: 36px; 
+    font-weight: bold;
+
+    margin-bottom: 2em;
+}
+
+.fund-form label
+{
+    font-size: 16px;
+}
+
+.fund-form .wpcf7 input
+{
+    margin-bottom: 1em;
+
+    border: 1px solid #f0f0f0;
+}
+.fund-form .wpcf7 input[type='submit']
+{
+    margin-top: 1.5em; 
+    margin-bottom: 0;
+}
+
+.fund-form .wpcf7-form-control-signature-wrap
+{
+    background-color: #f0f0f0;
+}
+
+.fund-form .wpcf7-form .fieldset-cf7mls
+{
+    background-color: white;
+}
+
 .home-form .single-form-control
 {
     width: 98.5%;
@@ -1249,6 +1298,11 @@ p.primary-header
 p.invoice-header
 {
     font-size: 48px;
+}
+
+header i
+{
+    color: #e4504e;
 }
 
 .secondary-header
@@ -2541,10 +2595,10 @@ h6
 
 .footer-header
 {
-    font-size: 1.3em;
+    font-size: 21px;
     font-weight: bold;
 
-    color: white;
+    color: white !important;
 }
 
 .footer-list
@@ -2956,6 +3010,10 @@ h6
 .medical-practice-funding#section-1 .w-iconbox-text
 {
     font-size: 30px;
+}
+.medical-practice-funding#section-1 .wpcf7 input::placeholder
+{
+    opacity: 1;
 }
 .medical-practice-funding#section-1 .wpcf7-text
 {

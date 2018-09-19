@@ -1,6 +1,6 @@
 /*
-  version: 0.0.2
-  date:9/7/18
+  version: 0.0.3
+  date:9/19/18
 
 */
 
@@ -144,3 +144,18 @@ $d-grey5: #666d70;
 }
 
 @import "../nav";
+
+/*****************
+  BREAKPOINT
+*****************/
+
+
+@media (max-width:568px){
+
+  .table {
+
+    td, thead th{
+        font-size:13px;
+    }
+  }
+}

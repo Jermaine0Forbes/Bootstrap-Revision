@@ -1,6 +1,6 @@
 /*
-  version: 0.0.2
-  date:9/7/18
+  version: 0.0.3
+  date:9/19/18
 
 */
 /*****************
@@ -171,4 +171,16 @@
     margin: 0; 
 
     list-style: none;
+}
+
+/*****************
+  BREAKPOINT
+*****************/
+@media (max-width: 568px)
+{
+    .table td,
+    .table thead th
+    {
+        font-size: 13px;
+    }
 }

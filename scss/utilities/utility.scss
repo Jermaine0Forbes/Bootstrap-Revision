@@ -1,6 +1,6 @@
 /*
-  version: 0.2.3
-  date:9/18/18
+  version: 0.2.4
+  date:9/19/18
 
 */
 
@@ -91,6 +91,16 @@ $size-num:(992px,767px,567px,480px);
 
 }
 
+.download-button{
+  background-color: $red;
+  background-image:none;
+  border:none;
+  &:hover{
+    color:white !important;
+    background-color:$red2;
+    background-image:none;
+  }
+}
 
 .email-link{
   font-size:1.3em;
@@ -118,9 +128,7 @@ $size-num:(992px,767px,567px,480px);
    }
 }
 
-ol.g-breadcrumbs li{
-  font-size:12px;
-}
+
 
 .getting-started{
   background:$grey3;
@@ -141,45 +149,17 @@ ol.g-breadcrumbs li{
 }
 
 
-.img-container{
-  img{
-
-  }
-}
+// .img-container{
+//   img{
+//
+//   }
+// }
 
 #header-img{
   min-height:445px;
  h2{
    text-transform:capitalize;
  }
-
-
-.contact-number{
-
-  a{
-    font-size:40px;
-    color:$blue6;
-  }
-
-  h4{
-    font-size:15px;
-    margin:5px 0;
-  }
-
-  p{
-    margin-bottom:3px;
-  }
-
-
-
-
-}
-
- .uvc-sub-heading{
-   margin:2em 0;
- }
-
-
 }
 
 .l-subheader.at_top .lang-link{
@@ -224,9 +204,9 @@ ol.g-breadcrumbs li{
 }
 
 .l-main {
-  p,li{
-@extend .font-block;
-}
+    p,li{
+  @extend .font-block;
+  }
 
 }
 
@@ -237,6 +217,10 @@ ol.g-breadcrumbs li{
   font-size:1.4em;
 }
 
+
+ol.g-breadcrumbs li{
+  font-size:12px;
+}
 
 
 .phone-link{
@@ -292,6 +276,11 @@ ol.g-breadcrumbs li{
 //   line-height:30px;
 //   letter-spacing: 0;
 // }
+
+.uvc-sub-heading{
+  margin:2em 0;
+}
+
 .w-iconbox-text{
   @extend .font-block;
 }
