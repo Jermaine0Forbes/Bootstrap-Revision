@@ -1,6 +1,6 @@
 /*
-  version: 0.2.4
-  date:9/19/18
+  version: 0.2.5
+  date:9/20/18
 
 */
 /*****************
@@ -210,6 +210,34 @@
 ol.g-breadcrumbs li
 {
     font-size: 12px;
+}
+
+.or-block
+{
+    display: flex;
+
+    max-width: 350px;
+    margin: 2em auto;
+    margin-bottom: 6em; 
+
+    text-align: center;
+
+    align-items: center;
+}
+.or-block h3
+{
+    font-size: 36px; 
+
+    margin: 0 12px;
+}
+.or-block #underline
+{
+    width: 100%;
+    max-width: 200px;
+    height: 3px;
+    margin-bottom: 0; 
+
+    background-color: #253b74;
 }
 
 .phone-link
