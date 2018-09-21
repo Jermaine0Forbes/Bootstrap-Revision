@@ -1,6 +1,6 @@
 /*
-  version: 0.2.5
-  date:9/20/18
+  version: 0.2.6
+  date:9/21/18
 
 */
 /*****************
@@ -1199,12 +1199,12 @@ a.apply-btn:hover
     background-color: rgba(255, 255, 255, .3);
 }
 
-.quote-form span.wpcf7-form-control-wrap
+.quote-form span.wpcf7-form-control-wrap,
+.quote-form .row
 {
     font-size: 1.4em;
 
     width: 100%;
-    margin: .3em;
 }
 
 .quote-form .lead-form-wrapper
@@ -1217,15 +1217,41 @@ a.apply-btn:hover
 .quote-form .wpcf7 input[type='text'],
 .quote-form .wpcf7 input[type='email'],
 .quote-form .wpcf7 textarea,
-.quote-form .wpcf7 select
+.quote-form .wpcf7 select,
+.quote-form input[type='text'],
+.quote-form input[type='email'],
+.quote-form textarea,
+.quote-form select
 {
-    width: 100%; 
+    width: 100%;
+    margin-bottom: 9px; 
     padding: 1em .5em;
 
     border: 1px solid #7f8ba4;
+    background-color: white;
 }
 
-.quote-form .wpcf7-form-control.wpcf7-select
+.quote-form select
+{
+    height: 36px;
+}
+
+.quote-form input[type='submit'],
+.quote-form input[type='reset']
+{
+    font-size: 20px;
+
+    display: block;
+
+    margin: auto;
+    margin-top: 1.5em;
+
+    color: white; 
+    border-radius: 27px;
+}
+
+.quote-form .wpcf7-form-control.wpcf7-select,
+.quote-form .wpcf7-form-control select
 {
     max-width: 98.5%; 
     height: 36px;
@@ -1242,6 +1268,14 @@ a.apply-btn:hover
     padding: .3em 3em;
 
     border-radius: 27px;
+}
+
+@media (max-width: 767px)
+{
+    .quote-form .row
+    {
+        margin: auto;
+    }
 }
 
 /*****************

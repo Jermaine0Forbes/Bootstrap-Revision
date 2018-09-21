@@ -73,6 +73,8 @@
 
 }
 
+
+
 .fund-form{
 
 
@@ -168,12 +170,15 @@
 
 }
 
+
+
 .quote-form{
 
- span.wpcf7-form-control-wrap{
+ span.wpcf7-form-control-wrap,.row{
       font-size:1.4em;
       width:100%;
-      margin:0.3em;
+      // margin:0.3em;
+
   }
 
   .lead-form-wrapper{
@@ -186,14 +191,35 @@
    .wpcf7 input[type='text'],
   .wpcf7 input[type='email'],
    .wpcf7 textarea,
-  .wpcf7 select {
+  .wpcf7 select,
+  input[type='text'],
+  input[type='email'],
+  textarea,
+  select {
       padding:1em 0.5em;
       border: 1px solid #7F8BA4;
       width:100%;
+      background-color:white;
+      margin-bottom:9px;
+  }
+
+  select{
+    height:36px;
+  }
+  input[type="submit"],
+  input[type="reset"]{
+      margin: auto;
+      display: block;
+      font-size: 20px;
+      border-radius: 27px;
+      // padding: 0.3em 3em;
+      margin-top: 1.5em;
+      color:white;
+
   }
 
   .wpcf7-form-control{
-    &.wpcf7-select{
+    &.wpcf7-select,select{
       height:36px;
       max-width:98.5%;
     }
@@ -208,4 +234,14 @@
     }
   }
 
+}
+
+@media (max-width:767px){
+
+  .quote-form{
+
+    .row{
+      margin:auto;
+    }
+  }
 }
