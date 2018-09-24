@@ -1,6 +1,6 @@
 /*
-  version: 0.2.6
-  date:9/21/18
+  version: 0.2.7
+  date:9/24/18
 
 */
 /*****************
@@ -1100,28 +1100,42 @@ a.apply-btn:hover
     border-radius: 17px;
 }
 
-.fund-form .cf7mls_next.action-button,
-.fund-form .cf7mls_back.action-button,
-.fund-form .fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step
+.fund-form h2
 {
-    font-size: 14px;
-
-    margin-top: 1.5em;
+    font-size: 36px;
 }
-.fund-form .cf7mls_next.action-button:hover,
-.fund-form .cf7mls_back.action-button:hover,
-.fund-form .fieldset-cf7mls .wpcf7-form-control.wpcf7-cf7mls_preview_step:hover
+
+.fund-form h3
 {
-    background-color: #2569e3;
+    font-size: 30px;
 }
 
 .fund-form h2,
 .fund-form h3
 {
-    font-size: 36px; 
-    font-weight: bold;
+    font-weight: bold; 
 
-    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.fund-form input
+{
+    margin-bottom: 1em;
+
+    border: 1px solid #f0f0f0;
+}
+.fund-form input[type='submit']
+{
+    font-size: 21px;
+
+    display: block;
+
+    margin: auto; 
+    margin-top: 1.5em;
+    margin-bottom: 0;
+
+    border-radius: 30px;
 }
 
 .fund-form label
@@ -1129,26 +1143,11 @@ a.apply-btn:hover
     font-size: 16px;
 }
 
-.fund-form .wpcf7 input
+.fund-form .required
 {
-    margin-bottom: 1em;
+    font-weight: bold;
 
-    border: 1px solid #f0f0f0;
-}
-.fund-form .wpcf7 input[type='submit']
-{
-    margin-top: 1.5em; 
-    margin-bottom: 0;
-}
-
-.fund-form .wpcf7-form-control-signature-wrap
-{
-    background-color: #f0f0f0;
-}
-
-.fund-form .wpcf7-form .fieldset-cf7mls
-{
-    background-color: white;
+    color: red;
 }
 
 .home-form .single-form-control
@@ -1170,33 +1169,6 @@ a.apply-btn:hover
 .home-form span.wpcf7-form-control-wrap select
 {
     height: 50px;
-}
-
-.home-form .wpcf7-form-control.wpcf7-submit
-{
-    font-size: 1.4em;
-
-    display: block;
-
-    margin: auto;
-    margin-top: .3em; 
-    padding: .3em 3em;
-
-    border-radius: 27px;
-}
-
-.home-form .wpcf7 input[type='text'],
-.home-form .wpcf7 input[type='email'],
-.home-form .wpcf7-select,
-.home-form .wpcf7 textarea,
-.home-form .wpcf7 select
-{
-    /*border: 1px solid #7F8BA4;*/
-    width: 100%;
-    padding: 1.5em .5em;
-
-    color: white; 
-    background-color: rgba(255, 255, 255, .3);
 }
 
 .quote-form span.wpcf7-form-control-wrap,
