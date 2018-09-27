@@ -1,4 +1,214 @@
 
+<!-- PARTNER PROGRAM -->
+
+<!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+<div id='crmWebToEntityForm' style='width:600px;margin:auto;'>
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <form action='https://crm.zoho.com/crm/WebForm'  name=WebForm3087473000000743007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+
+	 <!-- Do not remove this code. -->
+	<input type='text' style='display:none;' name='xnQsjsdp' value='5602b9d8719b78fbb475f5a8193bab75b8c8757c5f42146da4befd350b2f6f28'/>
+	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+	<input type='text' style='display:none;' name='xmIwtLD' value='e332699a03ac9f009b3d6f64eb620b3711340cc9858b54262693ff9a7e7eee0b'/>
+	<input type='text' style='display:none;'  name='actionType' value='Q3VzdG9tTW9kdWxlMQ=='/>
+
+	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;usmedcapital.com&#x2f;thank-you' />
+	 <!-- Do not remove this code. -->
+	<style>
+		tr , td {
+			padding:6px;
+			border-spacing:0px;
+			border-width:0px;
+			}
+	</style>
+	<table style='width:600px;background-color:white;color:black'>
+
+	<tr><td colspan='2' style='text-align:left;color:black;font-family:Arial;font-size:14px;'><strong>Partner Program</strong></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>First Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='255' name='COBJ1CF6' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Last Name<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='255' name='COBJ1CF7' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Company<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='120' name='NAME' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Phone<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='30' name='COBJ1CF8' /></td></tr>
+
+	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Email<span style='color:red;'>*</span></td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='100' name='Email' /></td></tr>
+
+	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Partner Type</td><td style='width:250px;'>
+		<select style='width:250px;' name='COBJ1CF5'>
+			<option value='-None-'>-None-</option>
+		<option selected value='Affiliate'>Affiliate</option>
+			<option value='Referral'>Referral</option>
+			<option value='ISO'>ISO</option>
+		</select></td></tr>
+
+	<tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
+		<input style='font-size:12px;color:black'  type='submit' value='Submit' />
+		<input  type='reset' style='font-size:12px;color:black' value='Reset' />
+	    </td>
+	</tr>
+   </table>
+	<script>
+ 	  var mndFileds=new Array('NAME','COBJ1CF6','COBJ1CF7','COBJ1CF8','Email');
+ 	  var fldLangVal=new Array('Company','First Name','Last Name','Phone','Email');
+		var name='';
+		var email='';
+
+ 	  function checkMandatory() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebForm3087473000000743007'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{
+				 alert('Please select a file to upload.');
+				 fieldObj.focus();
+				 return false;
+				}
+			alert(fldLangVal[i] +' cannot be empty.');
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' cannot be none.');
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   }
+			 }
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+	     }
+
+</script>
+	</form>
+</div>
+
+<!-- PARTNER PROGRAM BOOTSTRAP -->
+
+
+<!-- Note :
+   - You can modify the font style and form style to suit your website.
+   - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
+   - The Mandatory check script can modified as to suit your business needs.
+   - It is important that you test the modified form before going live.-->
+   <div id='crmWebToEntityForm' class="affiliate-form">
+     <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+     <form action='https://crm.zoho.com/crm/WebForm'  name=WebForm3087473000000743007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()' accept-charset='UTF-8'>
+       <p class="d-none">
+         <!-- Do not remove this code. -->
+      	<input type='text' style='display:none;' name='xnQsjsdp' value='5602b9d8719b78fbb475f5a8193bab75b8c8757c5f42146da4befd350b2f6f28'/>
+      	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+      	<input type='text' style='display:none;' name='xmIwtLD' value='e332699a03ac9f009b3d6f64eb620b3711340cc9858b54262693ff9a7e7eee0b'/>
+      	<input type='text' style='display:none;'  name='actionType' value='Q3VzdG9tTW9kdWxlMQ=='/>
+      	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;usmedcapital.com&#x2f;thank-you' />
+      	 <!-- Do not remove this code. -->
+       </p>
+
+
+       <div class="row">
+         <div class="col-md-6">
+           <input type='text' placeholder="*First Name" maxlength='255' name='COBJ1CF6' />
+         </div>
+         <div class="col-md-6">
+           <input type='text' placeholder="*Last Name"  maxlength='255' name='COBJ1CF7' />
+         </div>
+       </div><!-- row -->
+
+       <div class="row">
+         <div class="col-md-12">
+           <input type='text' placeholder="*Company"  maxlength='120' name='NAME' />
+         </div>
+       </div><!-- row -->
+
+
+         <div class="row">
+           <div class="col-md-6">
+              <input type='text' placeholder="*Phone" maxlength='30' name='COBJ1CF8' />
+           </div>
+           <div class="col-md-6">
+             <input type='text' placeholder="*Email" maxlength='100' name='Email' />
+           </div>
+         </div><!-- row -->
+
+
+
+
+       <select class="d-none" name='COBJ1CF5'>
+        <option value='-None-'>-None-</option>
+        <option value='Affiliate' >Affiliate</option>
+        <option value='Referral' selected>Referral</option>
+        <option value='ISO'>ISO</option>
+      </select>
+
+       <input class="apply-btn" type='submit' value='Submit' />
+
+       <script>
+      	  var mndFileds=new Array('COBJ1CF9','NAME','COBJ1CF5','COBJ1CF6','COBJ1CF7','COBJ1CF8','Email','COBJ1CF3');
+      	  var fldLangVal=new Array('Lead Partner','Company','Partner Type','First Name','Last Name','Phone','Email','Partner Status');
+     		var name='';
+     		var email='';
+
+      	  function checkMandatory() {
+     		for(i=0;i<mndFileds.length;i++) {
+     		  var fieldObj=document.forms['WebForm3087473000000743007'][mndFileds[i]];
+     		  if(fieldObj) {
+     			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+     			 if(fieldObj.type =='file')
+     				{
+     				 alert('Please select a file to upload.');
+     				 fieldObj.focus();
+     				 return false;
+     				}
+     			alert(fldLangVal[i] +' cannot be empty.');
+        	   	  	  fieldObj.focus();
+        	   	  	  return false;
+     			}  else if(fieldObj.nodeName=='SELECT') {
+       	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+     				alert(fldLangVal[i] +' cannot be none.');
+     				fieldObj.focus();
+     				return false;
+     			   }
+     			} else if(fieldObj.type =='checkbox'){
+      	 	 	 if(fieldObj.checked == false){
+     				alert('Please accept  '+fldLangVal[i]);
+     				fieldObj.focus();
+     				return false;
+     			   }
+     			 }
+     			 try {
+     			     if(fieldObj.name == 'Last Name') {
+     				name = fieldObj.value;
+      	 	 	    }
+     			} catch (e) {}
+     		    }
+     		}
+     	     }
+
+     </script>
+
+     </form>
+   </div>
+
+
+
+<!-- QUICK APPLICATION -->
+
 <!-- Note :
    - You can modify the font style and form style to suit your website.
    - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
@@ -353,7 +563,7 @@
 	</form>
 </div>
 
-<!-- QUICK APPLICATION WEB FORM -->
+<!-- QUICK APPLICATION BOOTSTRAP -->
 <!-- Note :
    - You can modify the font style and form style to suit your website.
    - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
@@ -738,7 +948,7 @@
 </div>
 
 
-<!-- GET A FREE QUOTE WEB FORM -->
+<!-- GET A FREE QUOTE  -->
 
 <!-- Note :
    - You can modify the font style and form style to suit your website.
@@ -855,7 +1065,7 @@
 </div>
 
 
-<!-- GET A FREE QUOTE  -->
+<!-- GET A FREE QUOTE BOOTSTRAP -->
 
 <!-- Note :
    - You can modify the font style and form style to suit your website.
@@ -987,7 +1197,7 @@
 </div>
 
 
-<!-- FUNDING APPLICATION WEB FORM  -->
+<!-- FUNDING APPLICATION -->
 
 <!-- Note :
    - You can modify the font style and form style to suit your website.
@@ -1426,6 +1636,18 @@
 
 	<tr><td  style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:200px;'>Zip Code</td><td style='width:250px;' ><input type='text' style='width:250px;'  maxlength='30' name='Zip Code' /></td></tr>
 
+	<tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:50%'>Lead Source</td><td style='width:250px;'>
+		<select style='width:250px;' name='Lead Source'>
+			<option value='-None-'>-None-</option>
+			<option value='Cold&#x20;Call'>Cold Call</option>
+			<option value='Call&#x20;In'>Call In</option>
+			<option value='Email&#x20;Campaign'>Email Campaign</option>
+			<option value='External&#x20;Referral'>External Referral</option>
+			<option value='Referral'>Referral</option>
+		<option selected value='Website&#x20;Submission'>Website Submission</option>
+			<option value='Website&#x20;Submission&#x20;-&#x20;Espa&ntilde;ol'>Website Submission - Espa&ntilde;ol</option>
+		</select></td></tr>
+
 	<tr><td colspan='2' style='text-align:center; padding-top:15px;font-size:12px;'>
 		<input style='font-size:12px;color:black'  type='submit' value='Submit' />
 		<input  type='reset' style='font-size:12px;color:black' value='Reset' />
@@ -1480,6 +1702,7 @@
 
 
 
+<!-- FUNDING APPLICATION BOOTSTRAP-->
 <!-- Note :
    - You can modify the font style and form style to suit your website.
    - Code lines with comments ���Do not remove this code���  are required for the form to work properly, make sure that you do not remove these lines of code.
@@ -2020,6 +2243,17 @@
           <input type='text'   maxlength='30' name='Zip Code' />
         </div>
       </div><!-- row -->
+
+      <select class="d-none" name='Lead Source'>
+  			<option value='-None-'>-None-</option>
+  			<option value='Cold&#x20;Call'>Cold Call</option>
+  			<option value='Call&#x20;In'>Call In</option>
+  			<option value='Email&#x20;Campaign'>Email Campaign</option>
+  			<option value='External&#x20;Referral'>External Referral</option>
+  			<option value='Referral'>Referral</option>
+  		<option selected value='Website&#x20;Submission'>Website Submission</option>
+  			<option value='Website&#x20;Submission&#x20;-&#x20;Espa&ntilde;ol'>Website Submission - Espa&ntilde;ol</option>
+  		</select>
 
     </div><!-- max-960 -->
 

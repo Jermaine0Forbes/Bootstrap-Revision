@@ -3,6 +3,40 @@
   FORMS
 *****************/
 
+
+.affiliate-form{
+
+  .field-style{
+    background-color:white;
+    font-size:1.4em;
+    margin:0.3em;
+    border:1px solid $blue5;
+    height:52px
+  }
+
+  input{
+    &[type="text"],
+    &[type="email"]{
+      @extend .field-style;
+    }
+
+    &[type="submit"]{
+      // @extend apply-btn;
+      display:block;
+      margin:auto;
+      margin-top:1em;
+      border-radius:28px;
+      font-size:20px;
+    }
+
+  }
+
+  select{
+    @extend .field-style;
+  }
+
+}
+
 .alternate-form{
   span.wpcf7-form-control-wrap{
       font-size:1.4em;
