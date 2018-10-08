@@ -1,6 +1,6 @@
 /*
-  version: 0.0.3
-  date:9/19/18
+  version: 0.0.4
+  date:10/8/18
 
 */
 
@@ -122,6 +122,26 @@ $d-grey5: #666d70;
 
 }
 
+/*****************
+  FORM
+*****************/
+
+
+.home-form{
+
+  input.wpcf7-form-control{
+
+    &.wpcf7-submit{
+      color:$d-grey;
+      border:3px solid white;
+      &:hover{
+        border-color:white;
+        color:white;
+      }
+    }
+  }
+
+}
 
 /*****************
   BACKGROUND

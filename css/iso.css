@@ -1,6 +1,6 @@
 /*
-  version: 0.0.3
-  date:9/19/18
+  version: 0.0.4
+  date:10/8/18
 
 */
 /*****************
@@ -105,6 +105,20 @@
 .table thead th.bg-white
 {
     background-color: white;
+}
+
+/*****************
+  FORM
+*****************/
+.home-form input.wpcf7-form-control.wpcf7-submit
+{
+    color: #3b3d40;
+    border: 3px solid white;
+}
+.home-form input.wpcf7-form-control.wpcf7-submit:hover
+{
+    color: white; 
+    border-color: white;
 }
 
 /*****************
