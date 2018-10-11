@@ -1,6 +1,6 @@
 /*
-  version: 0.3.0
-  date:9/28/18
+  version: 0.3.1
+  date:10/11/18
 
 */
 /*****************
@@ -1197,6 +1197,42 @@ a.apply-btn:hover
     height: 50px;
 }
 
+.hbfund-form select
+{
+    font-size: 18px; 
+
+    height: 50px;
+
+    border: 1px solid #253b74;
+}
+
+.hbfund-form .btn
+{
+    font-size: 20px;
+    font-weight: bold;
+
+    width: 100%;
+    padding: 8px 0; 
+
+    color: white;
+    border-radius: 7px;
+    background-color: #e4504e;
+}
+.hbfund-form .btn:hover
+{
+    color: white; 
+    background-color: #df2a27;
+}
+
+.hbfund-form .top-section
+{
+    font-size: 19px;
+
+    text-align: center;
+
+    color: white;
+}
+
 .quick-form input
 {
     margin-bottom: 1em;
@@ -1278,6 +1314,52 @@ a.apply-btn:hover
     border-radius: 27px;
 }
 
+.mpfund-form .top-section
+{
+    padding-top: 1.5em; 
+    padding-bottom: 1em;
+
+    text-align: center;
+
+    color: #253b74;
+    background-color: white;
+}
+
+.mpfund-form .bottom-section
+{
+    padding: 15px 1em; 
+
+    background-color: #f4f3f4;
+}
+
+.mpfund-form .btn
+{
+    font-size: 18px;
+
+    width: 100%;
+    padding: 8px 0; 
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    border-bottom: 3px solid #df2a27;
+    border-radius: 7px;
+    background-color: #e4504e;
+}
+.mpfund-form .btn:hover
+{
+    color: white;
+    border-bottom-color: #e4504e;
+    background-color: #df2a27;
+}
+
+.mpfund-form h4
+{
+    font-size: 25px; 
+    font-weight: 500;
+}
+
 @media (max-width: 992px)
 {
     .quick-form label
@@ -1288,6 +1370,10 @@ a.apply-btn:hover
 
 @media (max-width: 767px)
 {
+    .hbfund-form .btn
+    {
+        margin-top: 1em;
+    }
     .quick-form label
     {
         font-size: 14px;
