@@ -1,6 +1,6 @@
 /*
-  version: 0.3.1
-  date:10/11/18
+  version: 0.3.2
+  date:10/15/18
 
 */
 
@@ -105,6 +105,20 @@ $size-num:(992px,767px,567px,480px);
 .email-link{
   font-size:1.3em;
   color:$blue;
+}
+
+.finance-types{
+  .w-iconbox{
+
+    &-title{
+      text-transform:capitalize;
+    }
+
+    &-icon{
+      max-height:68px;
+
+    }
+  }
 }
 
 .font-block{

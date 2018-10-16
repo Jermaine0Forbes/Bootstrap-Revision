@@ -1,6 +1,6 @@
 /*
-  version: 0.3.1
-  date:10/11/18
+  version: 0.3.2
+  date:10/15/18
 
 */
 /*****************
@@ -93,6 +93,16 @@
     font-size: 1.3em;
 
     color: #162850;
+}
+
+.finance-types .w-iconbox-title
+{
+    text-transform: capitalize;
+}
+
+.finance-types .w-iconbox-icon
+{
+    max-height: 68px;
 }
 
 .font-block,
