@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:10/30/18
+  version: 0.0.2
+  date:10/31/18
 
 */
 /*****************
@@ -21,6 +21,59 @@ nav.w-nav a.w-nav-anchor:hover
     padding-bottom: 10px !important;
 
     border-bottom: 1px solid #69c !important;
+}
+
+/*****************
+  COLOR
+*****************/
+.txt-blu
+{
+    color: #69c;
+}
+
+.txt-dg
+{
+    color: #333133;
+}
+
+.txt-grey
+{
+    color: #999;
+}
+
+.txt-lg
+{
+    color: #eee;
+}
+
+.txt-wht
+{
+    color: white;
+}
+
+.bg-blu
+{
+    background-color: #69c;
+}
+
+.bg-dg
+{
+    background-color: #333133;
+}
+
+.bg-grey
+{
+    background-color: #999;
+}
+
+.bg-lg
+{
+    background-color: #eee;
+}
+
+.bg-wht
+{
+    color: white;
 }
 
 /*****************

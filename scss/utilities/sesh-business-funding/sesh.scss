@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:10/30/18
+  version: 0.0.2
+  date:10/31/18
 
 */
 
@@ -27,6 +27,52 @@ nav.w-nav{
     }
   }
 
+}
+
+/*****************
+  COLOR
+*****************/
+
+.txt-{
+
+  &blu{
+    color:$blue;
+  }
+  &dg{
+    color:$d-grey;
+  }
+
+  &grey{
+    color:$grey;
+  }
+  &lg{
+    color:$l-grey;
+  }
+
+  &wht{
+    color:white;
+  }
+}
+
+
+.bg-{
+
+  &blu{
+    background-color:$blue;
+  }
+  &dg{
+    background-color:$d-grey;
+  }
+
+  &grey{
+    background-color:$grey;
+  }
+  &lg{
+    background-color:$l-grey;
+  }
+  &wht{
+    color:white;
+  }
 }
 
 
