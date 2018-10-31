@@ -1,6 +1,6 @@
 /*
-  version: 0.3.2
-  date:10/15/18
+  version: 0.3.3
+  date:10/29/18
 
 */
 
@@ -115,7 +115,7 @@ $size-num:(992px,767px,567px,480px);
     }
 
     &-icon{
-      max-height:68px;
+      // max-height:68px;
 
     }
   }
@@ -317,15 +317,24 @@ ol.g-breadcrumbs li{
   margin:2em 0;
 }
 
-.w-iconbox-text{
-  @extend .font-block;
+.w-iconbox-{
+
+  &icon{
+    margin-bottom:-35px;
+  }
+
+  &text{
+    @extend .font-block;
+  }
+
+  &title{
+    font-weight:bold;
+    font-size:20px;
+    letter-spacing: 0;
+  }
+
 }
 
-.w-iconbox-title{
-  font-weight:bold;
-  font-size:20px;
-  letter-spacing: 0;
-}
 
 .wpb_wrapper{
 

@@ -1,0 +1,31 @@
+/*
+  version: 0.0.1
+  date:10/30/18
+
+*/
+/*****************
+  NAVIGATION
+*****************/
+nav.w-nav a.w-nav-anchor
+{
+    font-size: 15px;
+    font-weight: bold;
+
+    height: 40px; 
+
+    transition: all .3s;
+    text-transform: uppercase;
+}
+nav.w-nav a.w-nav-anchor:hover
+{
+    padding-bottom: 10px !important;
+
+    border-bottom: 1px solid #69c !important;
+}
+
+/*****************
+  CONTENT
+*****************/
+/*****************
+  BREAKPOINT
+*****************/

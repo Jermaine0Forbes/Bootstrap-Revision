@@ -1,0 +1,42 @@
+/*
+  version: 0.0.1
+  date:10/30/18
+
+*/
+
+$blue: #6699cc;
+$d-grey:#333133;
+$grey: #999999;
+$l-grey:#eeeeee;
+
+/*****************
+  NAVIGATION
+*****************/
+nav.w-nav{
+
+  a.w-nav-anchor{
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:bold;
+    // border-bottom: 1px solid transparent;
+    transition: all 0.3s;
+    height:40px;
+    &:hover{
+      padding-bottom:10px !important;
+      border-bottom:1px solid $blue !important;
+    }
+  }
+
+}
+
+
+/*****************
+  CONTENT
+*****************/
+
+
+
+
+/*****************
+  BREAKPOINT
+*****************/

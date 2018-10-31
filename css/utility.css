@@ -1,6 +1,6 @@
 /*
-  version: 0.3.2
-  date:10/15/18
+  version: 0.3.3
+  date:10/29/18
 
 */
 /*****************
@@ -98,11 +98,6 @@
 .finance-types .w-iconbox-title
 {
     text-transform: capitalize;
-}
-
-.finance-types .w-iconbox-icon
-{
-    max-height: 68px;
 }
 
 .font-block,
@@ -303,6 +298,11 @@ ol.g-breadcrumbs li
 .uvc-sub-heading
 {
     margin: 2em 0;
+}
+
+.w-iconbox-icon
+{
+    margin-bottom: -35px;
 }
 
 .w-iconbox-title
