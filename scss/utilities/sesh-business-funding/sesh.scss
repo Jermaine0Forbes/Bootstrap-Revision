@@ -1,6 +1,6 @@
 /*
-  version: 0.0.3
-  date:11/1/18
+  version: 0.0.4
+  date:11/2/18
 
 */
 
@@ -86,13 +86,23 @@ nav.w-nav{
 
 
 .ult_pricing_table_wrap.price-table{
+  transition:all 0.3s;
+  &:hover{
+   h3{
+      background:$d-blue;
+    }
+    background-color:white;
+    transform:translateY(-30px);
+  }
 
   h3{
-    background-color:$grey;
+    background-color:#686868;
+    border-bottom:3px solid $d-grey;
     font-size:18px;
     color:white;
-    padding:0.5em 0;
+    padding:1em 0;
     text-transform:uppercase;
+    transition:all 0.3s;
   }
   h5{
     padding:0 15px;
@@ -106,22 +116,30 @@ nav.w-nav{
 
   .cta-btn{
     font-family: 'Helvetica Neue', sans-serif;
-    background: $orange;
+    background: $d-orange;
     color: white;
     text-transform: uppercase;
-    padding: 0.5em 2em;
+    padding: 0.75em 2em;
     font-weight: bold;
+    font-size:14px;
 
     &:hover{
-      background:$d-orange;
+      background:$orange;
     }
   }
 
-  .ult_pricing_table .ult_pricing_heading{
-    padding-top:0;
-    border-bottom: 1px solid $d-blue;
+  .ult_pricing_table {
+    border-top:none;
+    .ult_pricing_heading{
+      padding-top:0;
+      border-bottom: 1px solid $grey;
+    }
   }
 
+.ult_price_features{
+
+  padding-bottom:0;
+}
 
 
 

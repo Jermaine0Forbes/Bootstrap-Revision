@@ -1,6 +1,6 @@
 /*
-  version: 0.0.3
-  date:11/1/18
+  version: 0.0.4
+  date:11/2/18
 
 */
 /*****************
@@ -81,54 +81,75 @@ nav.w-nav a.w-nav-anchor:hover
 /*****************
   CONTENT
 *****************/
+.ult_pricing_table_wrap.price-table
+{
+    transition: all .3s;
+}
+.ult_pricing_table_wrap.price-table:hover
+{
+    transform: translateY(-30px); 
+
+    background-color: white;
+}
+.ult_pricing_table_wrap.price-table:hover h3
+{
+    background: #14578c;
+}
 .ult_pricing_table_wrap.price-table h3
 {
     font-size: 18px;
 
-    padding: .5em 0;
+    padding: 1em 0;
 
-    text-transform: uppercase; 
+    transition: all .3s; 
+    text-transform: uppercase;
 
     color: white;
-    background-color: #999;
+    border-bottom: 3px solid #333133;
+    background-color: #686868;
 }
-
 .ult_pricing_table_wrap.price-table h5
 {
     font-size: 17px; 
 
     padding: 0 15px;
 }
-
 .ult_pricing_table_wrap.price-table .btn-box
 {
     padding: 2em;
 
     border-top: 1px solid #69c;
 }
-
 .ult_pricing_table_wrap.price-table .cta-btn
 {
     font-family: 'Helvetica Neue', sans-serif;
-    font-weight: bold; 
+    font-size: 14px; 
+    font-weight: bold;
 
-    padding: .5em 2em;
+    padding: .75em 2em;
 
     text-transform: uppercase;
 
     color: white;
-    background: #f99c20;
+    background: #e08b45;
 }
 .ult_pricing_table_wrap.price-table .cta-btn:hover
 {
-    background: #e08b45;
+    background: #f99c20;
 }
-
+.ult_pricing_table_wrap.price-table .ult_pricing_table
+{
+    border-top: none;
+}
 .ult_pricing_table_wrap.price-table .ult_pricing_table .ult_pricing_heading
 {
     padding-top: 0;
 
-    border-bottom: 1px solid #14578c;
+    border-bottom: 1px solid #999;
+}
+.ult_pricing_table_wrap.price-table .ult_price_features
+{
+    padding-bottom: 0;
 }
 
 /*****************
