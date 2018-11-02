@@ -1,13 +1,16 @@
 /*
-  version: 0.0.2
-  date:10/31/18
+  version: 0.0.3
+  date:11/1/18
 
 */
 
 $blue: #6699cc;
+$d-blue:#14578C ;
 $d-grey:#333133;
 $grey: #999999;
 $l-grey:#eeeeee;
+$orange:#F99C20 ;
+$d-orange:#E08B45;
 
 /*****************
   NAVIGATION
@@ -24,6 +27,7 @@ nav.w-nav{
     &:hover{
       padding-bottom:10px !important;
       border-bottom:1px solid $blue !important;
+      text-decoration:none;
     }
   }
 
@@ -79,6 +83,50 @@ nav.w-nav{
 /*****************
   CONTENT
 *****************/
+
+
+.ult_pricing_table_wrap.price-table{
+
+  h3{
+    background-color:$grey;
+    font-size:18px;
+    color:white;
+    padding:0.5em 0;
+    text-transform:uppercase;
+  }
+  h5{
+    padding:0 15px;
+    font-size:17px;
+  }
+
+  .btn-box{
+    padding:2em;
+    border-top:1px solid $blue;
+  }
+
+  .cta-btn{
+    font-family: 'Helvetica Neue', sans-serif;
+    background: $orange;
+    color: white;
+    text-transform: uppercase;
+    padding: 0.5em 2em;
+    font-weight: bold;
+
+    &:hover{
+      background:$d-orange;
+    }
+  }
+
+  .ult_pricing_table .ult_pricing_heading{
+    padding-top:0;
+    border-bottom: 1px solid $d-blue;
+  }
+
+
+
+
+
+}
 
 
 
