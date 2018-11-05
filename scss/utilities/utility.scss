@@ -4,30 +4,8 @@
 
 */
 
-$blue:#162850;
-$blue2:#687792;
-$blue3:#377ef9;
-$blue4:#2569e3;
-$blue5:#7F8BA4;
-$blue6:#253b74;
 
-$red:#e4504e;
-$red2:#df2a27;
-
-$grey:#F0F0F0;
-$grey2:#F4F3F4;
-$grey3:#F3F2F3;
-
-$header-col:$blue6;
-$bg-col:$blue;
-$text-col: $blue2;
-$link-col:$blue3;
-$hover-col:$blue4;
-
-$d:("t","b", "l","r");
-$direction:( "top","bottom","left","right");
-$size-name:(lg,md,sm,xs);
-$size-num:(992px,767px,567px,480px);
+@import "variable.scss";
 
 /*****************
   OTHER

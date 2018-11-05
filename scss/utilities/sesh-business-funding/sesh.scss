@@ -1,8 +1,10 @@
 /*
-  version: 0.0.4
-  date:11/2/18
+  version: 0.0.5
+  date:11/5/18
 
 */
+
+@import "../variable";
 
 $blue: #6699cc;
 $d-blue:#14578C ;
@@ -11,6 +13,7 @@ $grey: #999999;
 $l-grey:#eeeeee;
 $orange:#F99C20 ;
 $d-orange:#E08B45;
+
 
 /*****************
   NAVIGATION
@@ -37,6 +40,27 @@ nav.w-nav{
   COLOR
 *****************/
 
+
+.color-{
+  &blue{
+    color:$blue;
+  }
+
+  &d-grey{
+  color:$d-grey;
+  }
+
+  &grey{
+    color:$grey;
+  }
+  &l-grey{
+    color:$l-grey;
+  }
+  &white{
+    color:white;
+  }
+}
+
 .txt-{
 
   &blu{
@@ -61,21 +85,21 @@ nav.w-nav{
 
 .bg-{
 
-  &blu{
+  &blue{
     background-color:$blue;
   }
-  &dg{
+  &d-grey{
     background-color:$d-grey;
   }
 
   &grey{
     background-color:$grey;
   }
-  &lg{
+  &l-grey{
     background-color:$l-grey;
   }
-  &wht{
-    color:white;
+  &white{
+    background-color:white;
   }
 }
 
@@ -146,7 +170,7 @@ nav.w-nav{
 
 }
 
-
+@import "../max.scss";
 
 
 /*****************

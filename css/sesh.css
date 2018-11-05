@@ -1,8 +1,11 @@
 /*
-  version: 0.0.4
-  date:11/2/18
+  version: 0.0.5
+  date:11/5/18
 
 */
+/*****************
+  VARIABLE
+*****************/
 /*****************
   NAVIGATION
 *****************/
@@ -28,6 +31,31 @@ nav.w-nav a.w-nav-anchor:hover
 /*****************
   COLOR
 *****************/
+.color-blue
+{
+    color: #69c;
+}
+
+.color-d-grey
+{
+    color: #333133;
+}
+
+.color-grey
+{
+    color: #999;
+}
+
+.color-l-grey
+{
+    color: #eee;
+}
+
+.color-white
+{
+    color: white;
+}
+
 .txt-blu
 {
     color: #69c;
@@ -53,12 +81,12 @@ nav.w-nav a.w-nav-anchor:hover
     color: white;
 }
 
-.bg-blu
+.bg-blue
 {
     background-color: #69c;
 }
 
-.bg-dg
+.bg-d-grey
 {
     background-color: #333133;
 }
@@ -68,14 +96,14 @@ nav.w-nav a.w-nav-anchor:hover
     background-color: #999;
 }
 
-.bg-lg
+.bg-l-grey
 {
     background-color: #eee;
 }
 
-.bg-wht
+.bg-white
 {
-    color: white;
+    background-color: white;
 }
 
 /*****************
@@ -150,6 +178,65 @@ nav.w-nav a.w-nav-anchor:hover
 .ult_pricing_table_wrap.price-table .ult_price_features
 {
     padding-bottom: 0;
+}
+
+/*****************
+  MAX
+*****************/
+.max-960
+{
+    max-width: 960px;
+    margin: auto;
+}
+
+.max-400
+{
+    max-width: 400px;
+    margin: auto;
+}
+
+.max-800
+{
+    max-width: 800px;
+    margin: auto;
+}
+
+.max-1200
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+@media (max-width: 992px)
+{
+    .full-lg
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .full-md
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 567px)
+{
+    .full-sm
+    {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px)
+{
+    .full-xs
+    {
+        width: 100%;
+    }
 }
 
 /*****************
