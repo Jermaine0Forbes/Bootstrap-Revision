@@ -1,6 +1,6 @@
 /*
-  version: 0.0.5
-  date:11/5/18
+  version: 0.0.6
+  date:11/7/18
 
 */
 
@@ -170,6 +170,54 @@ nav.w-nav{
 
 }
 
+/*****************
+  TABLE
+*****************/
+
+  .quick-app-form{
+
+
+    .wpcf7{
+      background-color:transparentize($grey, 0.5);
+      padding:0.5em 1em;
+      margin:2em auto;
+      width:960px;
+    }
+
+    .wpcf7-form {
+
+      input[type="text"],input[type="password"],input[type="email"], input[type="tel"],
+      input[type="url"],input[type="number"],input[type="date"], textarea, select{
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+        min-height:48px;
+      }
+
+    }
+
+
+
+    .wpcf7-{
+
+      &select{
+        height:48px;
+      }
+
+      &submit{
+        margin-top:0.5em;
+        display:block;
+        margin:auto;
+        width:100%;
+      }
+    }
+
+
+  }
+
+
+/*****************
+  MAX
+*****************/
 @import "../max.scss";
 
 

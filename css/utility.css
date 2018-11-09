@@ -1,6 +1,6 @@
 /*
-  version: 0.3.3
-  date:10/29/18
+  version: 0.3.4
+  date:11/8/18
 
 */
 /*****************
@@ -213,6 +213,35 @@
     margin-bottom: 0;
 
     color: #253b74;
+}
+
+.medical-practice-type
+{
+    padding-bottom: 3em; 
+
+    transition: all .3s;
+}
+.medical-practice-type a
+{
+    color: #687792;
+}
+.medical-practice-type h3,
+.medical-practice-type h4
+{
+    margin-bottom: 7px;
+}
+.medical-practice-type:hover
+{
+    box-shadow: 6px 6px 6px #f3f2f3;
+}
+.medical-practice-type:hover a
+{
+    color: #162850;
+}
+.medical-practice-type:hover h3,
+.medical-practice-type:hover h4
+{
+    color: #e4504e;
 }
 
 ol.g-breadcrumbs li
@@ -1017,7 +1046,7 @@ ol.g-breadcrumbs li
 
     display: inline-block; 
 
-    padding: .75em 1.5em;
+    padding: .4em 39px;
 
     text-transform: capitalize;
 

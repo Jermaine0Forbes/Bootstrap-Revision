@@ -1,6 +1,6 @@
 /*
-  version: 0.0.5
-  date:11/5/18
+  version: 0.0.6
+  date:11/7/18
 
 */
 /*****************
@@ -180,6 +180,50 @@ nav.w-nav a.w-nav-anchor:hover
     padding-bottom: 0;
 }
 
+/*****************
+  TABLE
+*****************/
+.quick-app-form .wpcf7
+{
+    width: 960px; 
+    margin: 2em auto;
+    padding: .5em 1em;
+
+    background-color: rgba(153, 153, 153, .5);
+}
+
+.quick-app-form .wpcf7-form input[type='text'],
+.quick-app-form .wpcf7-form input[type='password'],
+.quick-app-form .wpcf7-form input[type='email'],
+.quick-app-form .wpcf7-form input[type='tel'],
+.quick-app-form .wpcf7-form input[type='url'],
+.quick-app-form .wpcf7-form input[type='number'],
+.quick-app-form .wpcf7-form input[type='date'],
+.quick-app-form .wpcf7-form textarea,
+.quick-app-form .wpcf7-form select
+{
+    min-height: 48px; 
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+.quick-app-form .wpcf7-select
+{
+    height: 48px;
+}
+
+.quick-app-form .wpcf7-submit
+{
+    display: block;
+
+    width: 100%; 
+    margin: auto;
+    margin-top: .5em;
+}
+
+/*****************
+  MAX
+*****************/
 /*****************
   MAX
 *****************/

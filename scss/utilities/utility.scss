@@ -1,6 +1,6 @@
 /*
-  version: 0.3.3
-  date:10/29/18
+  version: 0.3.4
+  date:11/8/18
 
 */
 
@@ -207,6 +207,29 @@
   margin-bottom:0;
   color:#253b74;
   font-size:1.4em;
+}
+
+.medical-practice-type{
+  transition:all 0.3s;
+  padding-bottom:3em;
+
+  a{
+    color:$text-col;
+  }
+
+  h3,h4{
+    margin-bottom:7px;
+  }
+  &:hover{
+    box-shadow:6px 6px 6px $grey3;
+    a{
+      color:$blue;
+    }
+
+    h3,h4{
+      color:$red;
+    }
+  }
 }
 
 
