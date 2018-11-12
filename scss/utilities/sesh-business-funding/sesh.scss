@@ -1,6 +1,6 @@
 /*
-  version: 0.0.6
-  date:11/7/18
+  version: 0.0.7
+  date:11/12/18
 
 */
 
@@ -109,6 +109,69 @@ nav.w-nav{
 *****************/
 
 
+.fund-column{
+  padding:1em 0;
+  max-width:300px;
+  margin:0 8px;
+  border:1px solid $l-grey;
+
+}
+
+.home-fourth-column{
+  padding:1em;
+  margin:15px 0;
+  border: 1px solid $l-grey;
+  min-height:140px;
+}
+
+.program-column{
+
+  border:1px solid $l-grey;
+
+  h4{
+    color:$blue;
+
+  }
+
+.cta-btn{
+  display:block;
+  margin:auto;
+  background:$blue;
+  color:white;
+  text-transform:uppercase;
+  padding:0.5em 1em;
+  border-radius:3px;
+  text-align:center;
+  width:160px;
+  &:hover{
+    text-decoration:none;
+    color:white;
+    background:$d-blue;
+  }
+}
+
+  .fa{
+    color:green;
+  }
+
+  li{
+    font-size:13px;
+  }
+
+
+  ul,p{
+    text-align:left;
+  }
+
+  .text-section{
+    padding:1em;
+    text-align:center;
+  }
+
+
+}
+
+
 .ult_pricing_table_wrap.price-table{
   transition:all 0.3s;
   &:hover{
@@ -168,6 +231,42 @@ nav.w-nav{
 
 
 
+}
+
+/*****************
+  FORM
+*****************/
+
+.contact-form{
+
+
+  input{
+
+    &[type="text"],
+    &[type="email"]{
+      height:80px;
+      margin:0;
+      padding:2em;
+      margin-bottom:2px;
+    }
+
+    &[type="submit"]{
+      display:block;
+      max-width:196px;
+      margin:auto;
+      text-transform:capitalize;
+      margin-top:25px;
+    }
+
+  }
+
+  textarea{
+    height:245px;
+    margin:0;
+    margin-left:2px;
+    border-radius:0;
+    padding:2em;
+  }
 }
 
 /*****************

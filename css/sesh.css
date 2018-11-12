@@ -1,11 +1,8 @@
 /*
-  version: 0.0.6
-  date:11/7/18
+  version: 0.0.7
+  date:11/12/18
 
 */
-/*****************
-  VARIABLE
-*****************/
 /*****************
   NAVIGATION
 *****************/
@@ -109,6 +106,74 @@ nav.w-nav a.w-nav-anchor:hover
 /*****************
   CONTENT
 *****************/
+.fund-column
+{
+    max-width: 300px;
+    margin: 0 8px;
+    padding: 1em 0;
+
+    border: 1px solid #eee;
+}
+
+.home-fourth-column
+{
+    min-height: 140px; 
+    margin: 15px 0;
+    padding: 1em;
+
+    border: 1px solid #eee;
+}
+
+.program-column
+{
+    border: 1px solid #eee;
+}
+.program-column h4
+{
+    color: #69c;
+}
+.program-column .cta-btn
+{
+    display: block;
+
+    width: 160px; 
+    margin: auto;
+    padding: .5em 1em;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: white;
+    border-radius: 3px;
+    background: #69c;
+}
+.program-column .cta-btn:hover
+{
+    text-decoration: none;
+
+    color: white;
+    background: #14578c;
+}
+.program-column .fa
+{
+    color: green;
+}
+.program-column li
+{
+    font-size: 13px;
+}
+.program-column ul,
+.program-column p
+{
+    text-align: left;
+}
+.program-column .text-section
+{
+    padding: 1em;
+
+    text-align: center;
+}
+
 .ult_pricing_table_wrap.price-table
 {
     transition: all .3s;
@@ -178,6 +243,39 @@ nav.w-nav a.w-nav-anchor:hover
 .ult_pricing_table_wrap.price-table .ult_price_features
 {
     padding-bottom: 0;
+}
+
+/*****************
+  FORM
+*****************/
+.contact-form input[type='text'],
+.contact-form input[type='email']
+{
+    height: 80px;
+    margin: 0;
+    margin-bottom: 2px; 
+    padding: 2em;
+}
+
+.contact-form input[type='submit']
+{
+    display: block;
+
+    max-width: 196px;
+    margin: auto;
+    margin-top: 25px; 
+
+    text-transform: capitalize;
+}
+
+.contact-form textarea
+{
+    height: 245px;
+    margin: 0;
+    margin-left: 2px;
+    padding: 2em; 
+
+    border-radius: 0;
 }
 
 /*****************
