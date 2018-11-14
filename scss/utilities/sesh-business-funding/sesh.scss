@@ -1,6 +1,6 @@
 /*
-  version: 0.0.7
-  date:11/12/18
+  version: 0.0.8
+  date:11/13/18
 
 */
 
@@ -14,6 +14,15 @@ $l-grey:#eeeeee;
 $orange:#F99C20 ;
 $d-orange:#E08B45;
 
+/*****************
+  GENERAL
+*****************/
+
+a{
+  &:hover{
+    text-decoration:none !important;
+  }
+}
 
 /*****************
   NAVIGATION
@@ -35,6 +44,46 @@ nav.w-nav{
   }
 
 }
+
+header{
+
+
+  &.l-header,
+  &.bg_transparent:not(.sticky).l-header,
+  {
+    .l-subheader{
+
+      &.at_top{
+        background-color:$blue;
+        color:white;
+
+        a:hover{
+          color:$orange;
+          text-decoration:underline;
+        }
+      }
+
+    }
+
+  }
+
+
+
+}
+
+/*****************
+  CLIP
+*****************/
+
+.clip-{
+
+  &120{
+    max-height:120px;
+  }
+
+
+}
+
 
 /*****************
   COLOR
@@ -66,19 +115,27 @@ nav.w-nav{
   &blu{
     color:$blue;
   }
-  &dg{
+  &d-grey{
     color:$d-grey;
   }
 
   &grey{
     color:$grey;
   }
-  &lg{
+  &l-grey{
     color:$l-grey;
   }
 
-  &wht{
+  &white{
     color:white;
+  }
+
+  &orange{
+    color:$orange;
+  }
+
+  &d-orange{
+    color:$d-orange;
   }
 }
 
@@ -100,6 +157,13 @@ nav.w-nav{
   }
   &white{
     background-color:white;
+  }
+  &orange{
+    background-color:$orange;
+  }
+
+  &d-orange{
+    background-color:$d-orange;
   }
 }
 
@@ -136,7 +200,7 @@ nav.w-nav{
 .cta-btn{
   display:block;
   margin:auto;
-  background:$blue;
+  background:$d-orange;
   color:white;
   text-transform:uppercase;
   padding:0.5em 1em;
@@ -146,12 +210,12 @@ nav.w-nav{
   &:hover{
     text-decoration:none;
     color:white;
-    background:$d-blue;
+    background:$orange;
   }
 }
 
   .fa{
-    color:green;
+    color:$orange;
   }
 
   li{
@@ -233,6 +297,37 @@ nav.w-nav{
 
 }
 
+.w-iconbox{
+  line-height: 1;
+}
+
+/*****************
+  SIZE
+*****************/
+
+
+.x{
+
+  &-half{
+    font-size:0.5em;
+  }
+
+  &2{
+    font-size:2em;
+  }
+
+  &3{
+    font-size:3em;
+  }
+
+  &4{
+    font-size:4em;
+  }
+
+}
+
+
+
 /*****************
   FORM
 *****************/
@@ -256,6 +351,10 @@ nav.w-nav{
       margin:auto;
       text-transform:capitalize;
       margin-top:25px;
+      background-color:$d-orange;
+      &:hover{
+        background-color:$orange;
+      }
     }
 
   }

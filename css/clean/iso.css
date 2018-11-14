@@ -1,0 +1,200 @@
+/*
+  version: 0.0.4
+  date:10/8/18
+
+*/
+/*****************
+  CURRENT
+*****************/
+.industry-block
+{
+    width: 100%;
+    padding-bottom: .5em; 
+
+    border: 1px solid #3b3d40;
+}
+
+.industry-title
+{
+    font-size: 18px; 
+    font-weight: bold;
+
+    margin-bottom: 1em;
+    padding: .5em;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: white;
+    background-color: #277cea;
+}
+
+.industry-summary
+{
+    padding: 0 1em;
+}
+
+/*****************
+  OLD
+*****************/
+.lead-form-wrapper
+{
+    padding: 32px;
+
+    border-top: 1px solid #3b3d40; 
+    background-color: #3b3d40;
+}
+
+.wpcf7 input[type='text'],
+.wpcf7 input[type='email'],
+.wpcf7 textarea,
+.wpcf7 select
+{
+    width: 90%; 
+
+    color: #000;
+    background-color: #fff;
+}
+
+/*****************
+  TABLE
+*****************/
+.table thead th
+{
+    font-size: 24px; 
+
+    text-transform: capitalize;
+
+    color: white;
+    background-color: #277cea;
+}
+
+.table td,
+.table th
+{
+    text-align: center;
+
+    border-right: 1px solid white;
+}
+
+.table tr:nth-child(odd)
+{
+    background-color: #eee;
+}
+
+.table tr td.alt-row
+{
+    color: #277cea;
+}
+
+.table thead th.bg-blue
+{
+    background-color: #277cea;
+}
+
+.table thead th.bg-grey
+{
+    background-color: #ddd;
+}
+
+.table thead th.bg-dark-grey
+{
+    background-color: #3b3d40;
+}
+
+.table thead th.bg-white
+{
+    background-color: white;
+}
+
+/*****************
+  FORM
+*****************/
+.home-form input.wpcf7-form-control.wpcf7-submit
+{
+    color: #3b3d40;
+    border: 3px solid white;
+}
+.home-form input.wpcf7-form-control.wpcf7-submit:hover
+{
+    color: white; 
+    border-color: white;
+}
+
+/*****************
+  BACKGROUND
+*****************/
+.bg-blue
+{
+    background-color: #277cea;
+}
+
+.bg-grey
+{
+    background-color: #ddd;
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.bg-dark-grey
+{
+    background-color: #3b3d40;
+}
+
+/*****************
+  NAVIGATION
+*****************/
+.horizontal-nav
+{
+    /*font-weight:bold;*/
+    font-size: 1.2em;
+
+    display: flex;
+
+    margin: 0;
+    padding: 1em 0;
+
+    list-style: none;
+
+    text-transform: capitalize;
+}
+.horizontal-nav a
+{
+    color: white;
+}
+.horizontal-nav li
+{
+    margin: 0 1em;
+}
+.horizontal-nav li:nth-of-type(1)
+{
+    margin-left: 0;
+}
+.horizontal-nav .social-icon
+{
+    font-size: 1.4em; 
+
+    color: white;
+}
+
+.nav-h
+{
+    margin: 0; 
+
+    list-style: none;
+}
+
+/*****************
+  BREAKPOINT
+*****************/
+@media (max-width: 568px)
+{
+    .table td,
+    .table thead th
+    {
+        font-size: 13px;
+    }
+}
