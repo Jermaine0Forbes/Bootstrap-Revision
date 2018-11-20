@@ -23,6 +23,36 @@
 }
 
 /****************
+  NAVIGATION
+****************/
+
+
+.ush_menu_1.type_desktop{
+  .w-nav-list{
+    &>.menu-item.level_1{
+
+      font-size:16px;
+
+    }
+  }
+
+}
+
+/****************
+  FORM
+****************/
+
+.contact-us-form{
+  .wpcf7-list-item-label{
+    color:white;
+  }
+
+  .wpcf7-submit{
+    margin-top:15px;
+  }
+}
+
+/****************
   HOME
 ****************/
 
