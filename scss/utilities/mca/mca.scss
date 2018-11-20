@@ -1,6 +1,6 @@
 /*
-  version: 0.0.1
-  date:11/16/18
+  version: 0.0.2
+  date:11/19/18
 
 */
 
@@ -19,5 +19,40 @@
     background-size:cover;
     background-repeat: no-repeat;
   }
+
+}
+
+/****************
+  HOME
+****************/
+
+.home-section-{
+
+  &1{
+    padding-top:100px !important;
+    padding-bottom:100px !important;
+    // padding-left:100px !important;
+    // padding-right:100px !important;
+    margin-top:50px;
+  }
+
+  &5{
+    color:white;
+
+    .w-iconbox-{
+
+      &title{
+        color:white;
+      }
+    }
+  }
+}
+
+
+/****************
+  BREAKPOINT
+****************/
+
+@media (max-width:992px){
 
 }

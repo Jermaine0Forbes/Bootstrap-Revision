@@ -1,6 +1,6 @@
 /*
-  version: 0.0.8
-  date:11/13/18
+  version: 0.0.9
+  date:11/19/18
 
 */
 
@@ -339,7 +339,7 @@ header{
 
     &[type="text"],
     &[type="email"]{
-      height:80px;
+      height:70px;
       margin:0;
       padding:2em;
       margin-bottom:2px;
@@ -359,12 +359,25 @@ header{
 
   }
 
-  textarea{
-    height:245px;
+  textarea,
+  .wpcf7-textarea{
+    height:355px;
     margin:0;
     margin-left:2px;
     border-radius:0;
     padding:2em;
+  }
+}
+
+.partner-form{
+  input{
+    &[type="text"],[type="email"]{
+      margin-top:8px;
+    }
+
+    &[type="submit"]{
+      margin-top:15px;
+    }
   }
 }
 
