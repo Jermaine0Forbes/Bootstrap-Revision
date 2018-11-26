@@ -1,0 +1,141 @@
+/*
+  version: 0.0.2
+  date:11/19/18
+
+*/
+/****************
+  GENERAL
+****************/
+.img-cover .vc_column-inner
+{
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+}
+
+/****************
+  NAVIGATION
+****************/
+.ush_menu_1.type_desktop .w-nav-list > .menu-item.level_1
+{
+    font-size: 16px;
+}
+
+/****************
+  COLOR
+************COL****/
+.color-white
+{
+    color: white;
+}
+
+.color-blue
+{
+    color: #1b98e0;
+}
+
+.color-grey
+{
+    color: #777;
+}
+
+.color-l-blue
+{
+    color: #42baff;
+}
+
+.color-d-blue
+{
+    color: #004e7a;
+}
+
+.color-d-grey
+{
+    color: #333;
+}
+
+.color-l-grey
+{
+    color: #999;
+}
+
+.color-l-grey2
+{
+    color: #e5e5e5;
+}
+
+.bg-white
+{
+    background-color: white;
+}
+
+.bg-blue
+{
+    background-color: #1b98e0;
+}
+
+.bg-grey
+{
+    background-color: #777;
+}
+
+.bg-l-blue
+{
+    background-color: #42baff;
+}
+
+.bg-d-blue
+{
+    background-color: #004e7a;
+}
+
+.bg-d-grey
+{
+    background-color: #333;
+}
+
+.bg-l-grey
+{
+    background-color: #999;
+}
+
+.bg-l-grey2
+{
+    background-color: #e5e5e5;
+}
+
+/****************
+  FORM
+****************/
+.contact-us-form .wpcf7-list-item-label
+{
+    color: white;
+}
+
+.contact-us-form .wpcf7-submit
+{
+    margin-top: 15px;
+}
+
+/****************
+  HOME
+****************/
+.home-section-1
+{
+    margin-top: 50px; 
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.home-section-5
+{
+    color: white;
+}
+.home-section-5 .w-iconbox-title
+{
+    color: white;
+}
+
+/****************
+  BREAKPOINT
+****************/

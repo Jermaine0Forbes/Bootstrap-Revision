@@ -1,8 +1,16 @@
 /*
-  version: 0.0.8
-  date:11/13/18
+  version: 0.0.9
+  date:11/19/18
 
 */
+/*****************
+  GENERAL
+*****************/
+a:hover
+{
+    text-decoration: none !important;
+}
+
 /*****************
   NAVIGATION
 *****************/
@@ -23,6 +31,28 @@ nav.w-nav a.w-nav-anchor:hover
     text-decoration: none; 
 
     border-bottom: 1px solid #69c !important;
+}
+
+header.l-header .l-subheader.at_top,
+header.bg_transparent:not(.sticky).l-header .l-subheader.at_top
+{
+    color: white; 
+    background-color: #69c;
+}
+header.l-header .l-subheader.at_top a:hover,
+header.bg_transparent:not(.sticky).l-header .l-subheader.at_top a:hover
+{
+    text-decoration: underline; 
+
+    color: #f99c20;
+}
+
+/*****************
+  CLIP
+*****************/
+.clip-120
+{
+    max-height: 120px;
 }
 
 /*****************
@@ -265,6 +295,11 @@ nav.w-nav a.w-nav-anchor:hover
     padding-bottom: 0;
 }
 
+.w-iconbox
+{
+    line-height: 1;
+}
+
 /*****************
   SIZE
 *****************/
@@ -294,7 +329,7 @@ nav.w-nav a.w-nav-anchor:hover
 .contact-form input[type='text'],
 .contact-form input[type='email']
 {
-    height: 80px;
+    height: 70px;
     margin: 0;
     margin-bottom: 2px; 
     padding: 2em;
@@ -310,21 +345,33 @@ nav.w-nav a.w-nav-anchor:hover
 
     text-transform: capitalize;
 
-    background-color: #f99c20;
+    background-color: #e08b45;
 }
 .contact-form input[type='submit']:hover
 {
-    background-color: #e08b45;
+    background-color: #f99c20;
 }
 
-.contact-form textarea
+.contact-form textarea,
+.contact-form .wpcf7-textarea
 {
-    height: 245px;
+    height: 355px;
     margin: 0;
     margin-left: 2px;
     padding: 2em; 
 
     border-radius: 0;
+}
+
+.partner-form input[type='text'],
+.partner-form input [type='email']
+{
+    margin-top: 8px;
+}
+
+.partner-form input[type='submit']
+{
+    margin-top: 15px;
 }
 
 /*****************
