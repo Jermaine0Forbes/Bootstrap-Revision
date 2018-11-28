@@ -35,6 +35,13 @@ $colors: (white,white), (blue,$blue),(grey,$grey),(l-blue,$l-blue),(d-blue,$d-bl
   GENERAL
 ****************/
 
+
+a{
+  &:hover{
+    text-decoration:none;
+  }
+}
+
 .img-cover{
 
   .vc_column-inner{
