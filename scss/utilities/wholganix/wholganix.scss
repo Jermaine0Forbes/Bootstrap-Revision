@@ -1,0 +1,68 @@
+/*
+
+Version: 0.0.1
+Date: 12/6/18
+
+*/
+
+$d-green :#006837;
+$green:#26A63B;
+$l-green:#92C952;
+
+$l-grey:#E6E6E6;
+
+
+/*****************
+  GENERAL
+*****************/
+
+
+/*****************
+  NAVIGATION
+*****************/
+
+
+
+/*****************
+  CONTENT
+*****************/
+
+.home-{
+
+  &category{
+
+    div.vc_column-inner{
+      transition:background-color 0.3s;
+      background-color:$green;
+      &:hover{
+        background-color:$l-green;
+      }
+    }
+  }
+
+  &wrapper{
+    // background:$l-grey;
+
+    &> .i-cf{
+      background-color:white;
+    }
+  }
+
+  &image{
+    .w-image{
+      border-bottom:12px solid $green;
+    }
+  }
+
+}
+
+
+
+/*****************
+  FOOTER
+*****************/
+
+
+/*****************
+  BREAKPOINT
+*****************/

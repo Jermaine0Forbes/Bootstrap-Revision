@@ -1,11 +1,16 @@
 /*
-  version: 0.0.2
-  date:11/19/18
+  version: 0.0.4
+  date:11/26/18
 
 */
 /****************
   GENERAL
 ****************/
+a:hover
+{
+    text-decoration: none;
+}
+
 .img-cover .vc_column-inner
 {
     background-repeat: no-repeat; 
@@ -23,7 +28,7 @@
 
 /****************
   COLOR
-************COL****/
+****************/
 .color-white
 {
     color: white;
@@ -134,6 +139,14 @@
 .home-section-5 .w-iconbox-title
 {
     color: white;
+}
+
+/****************
+  CONTENT
+****************/
+.about-header
+{
+    padding: 120px 0;
 }
 
 /****************
