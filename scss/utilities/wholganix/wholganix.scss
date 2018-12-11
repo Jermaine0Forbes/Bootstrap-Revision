@@ -1,15 +1,29 @@
 /*
 
-Version: 0.0.2
-Date: 12/10/18
+Version: 0.0.3
+Date: 12/11/18
 
 */
+
+@import "../variable";
 
 $d-green :#006837;
 $green:#26A63B;
 $l-green:#92C952;
 
 $l-grey:#E6E6E6;
+
+@mixin pad-h($sz:1em){
+
+  padding-left:$sz;
+  padding-right:$sz;
+}
+
+@mixin pad-v($sz:1em){
+
+  padding-top:$sz;
+  padding-bottom:$sz;
+}
 
 
 /*****************
@@ -21,7 +35,12 @@ $l-grey:#E6E6E6;
   NAVIGATION
 *****************/
 
+.w-{
 
+  &nav-title{
+    text-transform:uppercase;
+  }
+}
 
 /*****************
   CONTENT
@@ -34,9 +53,31 @@ $l-grey:#E6E6E6;
     div.vc_column-inner{
       transition:background-color 0.3s;
       background-color:$green;
+      border-radius:20px;
+      @include pad-v(1.5em);
+
       &:hover{
         background-color:$l-green;
       }
+    }
+  }
+  &featured-labels{
+    position:relative;
+    z-index:3;
+
+    .right-section{
+
+      .vc_column-inner{
+        border-radius:0 15px 15px 0;
+      }
+
+    }
+
+    .left-section{
+      .vc_column-inner{
+        border-radius:15px 0 0 15px;
+      }
+
     }
   }
 
@@ -49,9 +90,10 @@ $l-grey:#E6E6E6;
   }
 
   &image{
-    .w-image{
-      border-bottom:12px solid $green;
-    }
+    // .w-image,
+    // .w-slider-h{
+    //   border-bottom:10px solid $d-green;
+    // }
   }
 
 }
@@ -62,6 +104,9 @@ $l-grey:#E6E6E6;
   FOOTER
 *****************/
 
+
+
+@import "../display";
 
 /*****************
   BREAKPOINT
