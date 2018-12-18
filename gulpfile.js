@@ -28,7 +28,9 @@ gulp.task('utility', function(){
   './scss/utilities/iso-concierge/iso.scss',
   './scss/utilities/sesh-business-funding/sesh.scss',
   './scss/utilities/mca/mca.scss',
-  './scss/utilities/wholganix/wholganix.scss'
+  './scss/utilities/wholganix/wholganix.scss',
+  './scss/utilities/david-glick-realtor/dgr.scss',
+  './scss/utilities/flamingo-condos/flamingo.scss'
 ])
   .pipe(sass())
   .pipe(cleanCSS())
@@ -42,7 +44,9 @@ gulp.task('clean', function(){
   './scss/utilities/iso-concierge/iso.scss',
   './scss/utilities/sesh-business-funding/sesh.scss',
   './scss/utilities/mca/mca.scss',
-  './scss/utilities/wholganix/wholganix.scss'
+  './scss/utilities/wholganix/wholganix.scss',
+  './scss/utilities/david-glick-realtor/dgr.scss',
+  './scss/utilities/flamingo-condos/flamingo.scss'
     ])
   .pipe(sass())
   .pipe(csscomb())
@@ -58,5 +62,7 @@ gulp.watch(['./scss/utilities/*.scss','./scss/utilities/iso-concierge/*.scss'],[
 gulp.watch(['./scss/utilities/*.scss','./scss/utilities/sesh-business-funding/*.scss'],['utility']);
 gulp.watch(['./scss/utilities/*.scss','./scss/utilities/mca/*.scss'],['utility']);
 gulp.watch(['./scss/utilities/*.scss','./scss/utilities/wholganix/*.scss'],['utility']);
+gulp.watch(['./scss/utilities/*.scss','./scss/utilities/david-glick-realtor/*.scss'],['utility']);
+gulp.watch(['./scss/utilities/*.scss','./scss/utilities/flamingo-condos/*.scss'],['utility']);
 
 })

@@ -1,0 +1,85 @@
+/*
+
+Version: 0.0.1
+Date: 12/17/18
+
+*/
+
+$pink:#CC3299;
+$pinka: rgba(204, 50, 153,0.7);
+$blue: #00AEEF;
+
+/*****************
+  GENERAL
+*****************/
+
+/*****************
+  HEADER
+*****************/
+
+#header-section{
+
+  .header-section{
+    background-color:#fff;
+
+
+    .navi  {
+        a{
+              color:$pink;
+            }
+         }
+  }
+}
+
+
+/*****************
+  HOME
+*****************/
+
+
+/*****************
+  CONTENT
+*****************/
+
+.btn-color-pink{
+  background-color:$pink;
+  border-color:$pink;
+}
+
+.btn-color-blue{
+  background-color:$blue;
+  border-color:$blue;
+}
+
+
+.advance-search-header{
+
+  button.houzez-theme-{
+
+    &button{
+      @extend .btn-color-pink;
+
+      &:hover{
+         @extend .btn-color-blue;
+      }
+    }
+  }
+
+
+
+}
+
+.advanced-search{
+
+  button.btn-secondary{
+  @extend .btn-color-pink;
+  &:hover{
+     @extend .btn-color-blue;
+  }
+  }
+}
+
+
+/*****************
+  FOOTER
+*****************/
