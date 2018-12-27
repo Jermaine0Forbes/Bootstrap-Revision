@@ -30,6 +30,71 @@ $l-grey:#E6E6E6;
   GENERAL
 *****************/
 
+main{
+
+  a{
+    color:$green;
+  }
+
+}
+
+
+
+/*****************
+  CLASSES
+*****************/
+.contact-column{
+  align-items: center;
+  padding:8px 0;
+
+}
+
+.required{
+  color:red;
+}
+
+/*****************
+  BACKGROUND
+*****************/
+
+.bg-{
+
+  &d-green{
+    background:$d-green;
+  }
+
+  &green{
+    background:$green;
+  }
+
+  &l-green{
+    background:$l-green;
+  }
+
+  &grey{
+    background:$l-grey;
+  }
+}
+
+.cl-{
+
+  &d-green{
+    color:$d-green;
+  }
+
+  &green{
+    color:$green;
+  }
+
+  &l-green{
+    color:$l-green;
+  }
+
+  &grey{
+    color:$l-grey;
+  }
+
+}
 
 /*****************
   NAVIGATION
@@ -98,6 +163,29 @@ $l-grey:#E6E6E6;
 
 }
 
+.g-breadcrumbs{
+  margin-bottom:1em;
+  a{
+    color:$green;
+  }
+}
+
+/*****************
+  FORM
+*****************/
+
+.wpcf7-form{
+
+  input[type="text"]{
+     margin-top:0;
+  }
+
+  .wpcf7-{
+    &submit{
+      margin-top:15px;
+    }
+  }
+}
 
 
 /*****************

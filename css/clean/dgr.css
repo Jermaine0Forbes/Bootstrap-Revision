@@ -1,7 +1,7 @@
 /*
 
-Version: 0.0.1
-Date: 12/17/18
+Version: 0.0.2
+Date: 12/26/18
 
 */
 /*****************
@@ -10,14 +10,19 @@ Date: 12/17/18
 /*****************
   HEADER
 *****************/
-.header-section .logo img
+#header-section .logo img
 {
     max-width: 140px;
 }
 
-.header-section-4 .logo img
+#header-section-4 .logo img
 {
     max-width: 140px;
+}
+
+div.sticky_nav.sticky-on
+{
+    background: rgba(255, 255, 255, .5);
 }
 
 /*****************
@@ -29,3 +34,15 @@ Date: 12/17/18
 /*****************
   FOOTER
 *****************/
+footer#footer-section
+{
+    margin-bottom: -2em; 
+    padding: 2em 0;
+
+    color: white;
+    background: #545454;
+}
+footer#footer-section a
+{
+    color: white;
+}
