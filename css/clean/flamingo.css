@@ -1,0 +1,46 @@
+/*
+
+Version: 0.0.1
+Date: 12/17/18
+
+*/
+/*****************
+  GENERAL
+*****************/
+/*****************
+  HEADER
+*****************/
+#header-section .header-section
+{
+    background-color: #fff;
+}
+#header-section .header-section .navi a
+{
+    color: #cc3299;
+}
+
+/*****************
+  HOME
+*****************/
+/*****************
+  CONTENT
+*****************/
+.btn-color-pink,
+.advance-search-header button.houzez-theme-button,
+.advanced-search button.btn-secondary
+{
+    border-color: #cc3299; 
+    background-color: #cc3299;
+}
+
+.btn-color-blue,
+.advance-search-header button.houzez-theme-button:hover,
+.advanced-search button.btn-secondary:hover
+{
+    border-color: #00aeef; 
+    background-color: #00aeef;
+}
+
+/*****************
+  FOOTER
+*****************/

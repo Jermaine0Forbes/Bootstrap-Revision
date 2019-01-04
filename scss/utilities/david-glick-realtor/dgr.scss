@@ -1,11 +1,11 @@
 /*
 
-Version: 0.0.2
-Date: 12/26/18
+Version: 0.0.3
+Date: 1/3/19
 
 */
 
-$l-blue:#419FF3;
+$blue:#419FF3;
 $grey: #545454;
 $orange:#E96604;
 
@@ -14,17 +14,32 @@ $orange:#E96604;
 *****************/
 
 /*****************
+  CLASSES
+*****************/
+.btn{
+  &.estate-btn{
+    border-radius:0;
+    margin-bottom:15px;
+    &:hover{
+      color:white;
+    }
+  }
+
+}
+/*****************
   HEADER
 *****************/
 
 #header-section{
 
-  background:transparentize(white, 0.3);
+  background:transparentize(white, 0.1);
 
 
 .main-nav{
 
   a{
+    font-size:15px;
+    font-weight:normal;
     &:hover{
       color:$orange;
     }
@@ -38,13 +53,27 @@ $orange:#E96604;
 
   }
 
-  &-4{
-    .logo{
-      img{
-        max-width:140px;
+  &.header-section{
+
+    &-4{
+      .logo{
+        img{
+          max-width:140px;
+        }
       }
     }
+
+    .header-left{
+      width:84%;
+    }
+
+    .header-right{
+      width:15%;
+    }
+
   }
+
+
 }
 
 
@@ -57,9 +86,65 @@ $orange:#E96604;
 }
 
 
+
+
+
+
 /*****************
   HOME
 *****************/
+
+.estate-{
+
+  &btn{
+    color:white;
+    background:$orange;
+    border-radius:0;
+    margin-bottom:15px;
+
+    &:hover,
+    &:focus{
+      background: transparentize($orange,0.5);
+      color:white;
+    }
+  }
+
+  &categories{
+
+    padding:35px 0;
+    // background:$blue;
+    // color:white;
+
+    p{
+      // font-size:0.9em;
+      max-height:93px;
+      overflow:hidden;
+    }
+  }
+
+  &title{
+    color:$blue;
+    font-size:1.3em;
+  }
+}
+
+.luxury-{
+
+  &section{
+    margin-top:2em;
+  }
+
+  &title{
+    font-size:1.8em;
+    color:$blue;
+  }
+
+  &summary{
+    font-size:1.3em;
+    line-height:30px;
+  }
+}
+
 
 
 /*****************
@@ -80,4 +165,26 @@ footer#footer-section{
   a{
     color:white;
   }
+}
+
+/*****************
+  BREAKPOINT
+*****************/
+
+@media(max-width:568px){
+
+  .luxury-{
+
+    &section{
+    }
+
+    &title{
+      font-size:24px;
+    }
+
+    &summary{
+      font-size:16px;
+    }
+  }
+
 }
